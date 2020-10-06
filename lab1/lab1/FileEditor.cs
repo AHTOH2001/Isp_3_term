@@ -16,7 +16,8 @@ namespace lab1
             Status,
             Help,
             Exit,
-            Delete
+            Delete,
+            Close
         }
         enum Attributes
         {
@@ -184,16 +185,12 @@ namespace lab1
         }
         static void ShowHelp(HashSet<Attributes> attributes)
         {
-
+            Console.Clear();
+            Console.WriteLine("Sorry help team sleep");
         }
         static void ShowStatus(HashSet<Attributes> attributes, FileInfo fileInf)
         {
             Console.Clear();
-            if (fileInf == null)
-            {
-                Console.WriteLine("File was not opened, use command \"InitializeFile\"");
-                return;
-            }
 
             Console.WriteLine("Full name: {0}", fileInf.FullName);
             Console.WriteLine("Size (Bytes): {0}", fileInf.Length);
@@ -212,11 +209,7 @@ namespace lab1
         static void DeleteFile(HashSet<Attributes> attributes, FileInfo fileInf)
         {
             Console.Clear();
-            if (fileInf == null)
-            {
-                Console.WriteLine("File was not opened, use command \"InitializeFile\"");
-                return;
-            }
+
         }
         static bool IsValidAttributes(Command command)
         {
@@ -228,41 +221,54 @@ namespace lab1
         }
         static void InitializeDict() //TODO 
         {
+            //Attributes[] emptyArray = { }; 
+
             Attributes[] temp1 = { Attributes.Create, Attributes.IgnorWarnings, Attributes.Open };
             AttributesOfCommand.Add(Commands.InitializeFile, new List<Attributes>(temp1));
 
             Attributes[] temp2 = { Attributes.All };
             AttributesOfCommand.Add(Commands.Status, new List<Attributes>(temp2));
 
-            Attributes[] temp3 = { };
-            AttributesOfCommand.Add(Commands.Delete, new List<Attributes>(temp3));            
-
-            Attributes[] temp4 = { };
-            AttributesOfCommand.Add(Commands.Exit, new List<Attributes>(temp4));
-
-            Attributes[] temp5 = { };
-            AttributesOfCommand.Add(Commands.Help, new List<Attributes>(temp5));
-        }
+            AttributesOfCommand.Add(Commands.Delete, new List<Attributes>());
+            AttributesOfCommand.Add(Commands.Exit, new List<Attributes>());
+            AttributesOfCommand.Add(Commands.Help, new List<Attributes>());
+            AttributesOfCommand.Add(Commands.Close, new List<Attributes>());
+        }        
         static public void Start()
         {
+            Console.SetWindowPosition(0, 0);
+            Console.SetWindowSize(Console.LargestWindowWidth - 24, Console.LargestWindowHeight - 16);
+            Console.CancelKeyPress += new ConsoleCancelEventHandler((sender, args) => Console.WriteLine("Successfull shutdown (using {0})", args.SpecialKey));
             FileStream myFile = null;
             FileInfo fileInf = null;
             bool flagExit = false;
             InitializeDict();
             while (!flagExit)
             {
-                Console.WriteLine("\nType \"Help\" to receive available command list");
+                Console.WriteLine("\nType Help to receive available command list");
+                Console.Write("> ");
                 var command = ParseUserCommand(Console.ReadLine()); //additional attributes will be skiped   
 
-                if (command.MainCommand == Commands.Exit)
+                if (command.MainCommand == Commands.Error)
                     continue;
+
+                if (myFile == null)
+                    if (command.MainCommand != Commands.InitializeFile && command.MainCommand != Commands.Help)
+                    {
+                        Console.Clear();
+                        Console.WriteLine("File was not opened, use command InitializeFile");
+                        continue;
+                    }
 
                 if (!IsValidAttributes(command))
                 {
                     Console.WriteLine("*WARNING* Some attributes are redundant");
                     Console.WriteLine("should we skip them?");
                     if (!UserAgree())
+                    {
+                        Console.Clear();
                         continue;
+                    }
                 }
 
                 switch (command.MainCommand)
@@ -283,8 +289,20 @@ namespace lab1
                         flagExit = true;
                         break;
                     case Commands.Delete:
-                        DeleteFile(command.CommandAttributes, fileInf);
+                        Console.Clear();
+                        fileInf.Delete();
+                        myFile = null;
+                        fileInf = null;
+                        Console.WriteLine("File deleted successfully");
                         break;
+                    case Commands.Close:
+                        Console.Clear();
+                        myFile.Close();
+                        myFile = null;
+                        fileInf = null;
+                        Console.WriteLine("File closed successfully");
+                        break;
+
 
 
                 }
