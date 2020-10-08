@@ -3,6 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
+using System.IO.Compression;
 
 namespace lab1
 {
@@ -17,7 +18,9 @@ namespace lab1
             Help,
             Exit,
             Delete,
-            Close
+            Close,
+            Compress,
+            DeCompress
         }
         enum Attributes
         {
@@ -27,7 +30,7 @@ namespace lab1
             O,
             Create,
             C,
-            IgnorWarnings,
+            IgnoreWarnings,
             Iw,
             All
         }
@@ -60,7 +63,7 @@ namespace lab1
                         attribute = Attributes.Open;
                         break;
                     case Attributes.Iw:
-                        attribute = Attributes.IgnorWarnings;
+                        attribute = Attributes.IgnoreWarnings;
                         break;
                 }
             }
@@ -129,7 +132,7 @@ namespace lab1
                     Console.WriteLine("Enter path, name and extension of your file in format \"Disk:\\path\\nameOfYourFile.extension\"");
                     path = Console.ReadLine();
                     FileInfo tempFile = new FileInfo(path);
-                    if (tempFile.Extension == "" && !attributes.Contains(Attributes.IgnorWarnings))
+                    if (tempFile.Extension == "" && !attributes.Contains(Attributes.IgnoreWarnings))
                     {
                         Console.WriteLine("*WARNING* File does not have an extension, do you want to define an extension?");
                         if (UserAgree())
@@ -189,8 +192,7 @@ namespace lab1
             Console.WriteLine("Sorry help team sleep");
         }
         static void ShowStatus(HashSet<Attributes> attributes, FileInfo fileInf)
-        {
-            Console.Clear();
+        {            
 
             Console.WriteLine("Full name: {0}", fileInf.FullName);
             Console.WriteLine("Size (Bytes): {0}", fileInf.Length);
@@ -206,11 +208,6 @@ namespace lab1
                 Console.WriteLine("Last write time: {0}", fileInf.LastWriteTime);
             }
         }
-        static void DeleteFile(HashSet<Attributes> attributes, FileInfo fileInf)
-        {
-            Console.Clear();
-
-        }
         static bool IsValidAttributes(Command command)
         {
             foreach (var attribute in command.CommandAttributes)
@@ -219,11 +216,40 @@ namespace lab1
 
             return true;
         }
+        static void CompressFile(HashSet<Attributes> attributes, ref FileStream file, ref FileInfo fileInf)
+        {
+            if (fileInf.Attributes == FileAttributes.Hidden && !attributes.Contains(Attributes.IgnoreWarnings))
+            {
+                Console.WriteLine("*WARNING* File is already compressed");
+                Console.WriteLine("Do you want to compress anyway?");
+                if (!UserAgree())
+                    return;
+            }
+            string hren = DateTime.Now.Ticks.ToString();
+            DirectoryInfo directoryInf = new DirectoryInfo(fileInf.DirectoryName + '\\' + hren);
+            directoryInf.Create();
+            file.Close();
+            fileInf.MoveTo(directoryInf.FullName + '\\' + fileInf.Name);
+            ZipFile.CreateFromDirectory(directoryInf.FullName, fileInf.DirectoryName + ".zip");
+            foreach (var oneFile in directoryInf.GetFiles())
+                oneFile.Delete();
+            directoryInf.Delete();
+            fileInf = new FileInfo(fileInf.DirectoryName + ".zip");
+            file = fileInf.Open(FileMode.Open);
+            fileInf.Attributes = FileAttributes.Hidden;
+            Console.WriteLine("File compressed successfully");
+            if (attributes.Contains(Attributes.Info))
+                ShowStatus(attributes, fileInf);
+        }
+        static void DeCompressFile(ref FileStream file, ref FileInfo fileInf)
+        {
+
+        }
         static void InitializeDict() //TODO 
         {
             //Attributes[] emptyArray = { }; 
 
-            Attributes[] temp1 = { Attributes.Create, Attributes.IgnorWarnings, Attributes.Open };
+            Attributes[] temp1 = { Attributes.Create, Attributes.IgnoreWarnings, Attributes.Open };
             AttributesOfCommand.Add(Commands.InitializeFile, new List<Attributes>(temp1));
 
             Attributes[] temp2 = { Attributes.All };
@@ -233,11 +259,14 @@ namespace lab1
             AttributesOfCommand.Add(Commands.Exit, new List<Attributes>());
             AttributesOfCommand.Add(Commands.Help, new List<Attributes>());
             AttributesOfCommand.Add(Commands.Close, new List<Attributes>());
-        }        
+
+            Attributes[] temp3 = { Attributes.Info, Attributes.IgnoreWarnings, Attributes.All };
+            AttributesOfCommand.Add(Commands.Compress, new List<Attributes>(temp3));
+        }
         static public void Start()
         {
+            Console.SetWindowSize(Console.LargestWindowWidth - 24, Console.LargestWindowHeight - 10);
             Console.SetWindowPosition(0, 0);
-            Console.SetWindowSize(Console.LargestWindowWidth - 24, Console.LargestWindowHeight - 16);
             Console.CancelKeyPress += new ConsoleCancelEventHandler((sender, args) => Console.WriteLine("Successfull shutdown (using {0})", args.SpecialKey));
             FileStream myFile = null;
             FileInfo fileInf = null;
@@ -282,6 +311,7 @@ namespace lab1
                             fileInf = new FileInfo(myFile.Name);
                         break;
                     case Commands.Status:
+                        Console.Clear();
                         ShowStatus(command.CommandAttributes, fileInf);
                         break;
                     case Commands.Exit:
@@ -290,6 +320,7 @@ namespace lab1
                         break;
                     case Commands.Delete:
                         Console.Clear();
+                        myFile.Close();
                         fileInf.Delete();
                         myFile = null;
                         fileInf = null;
@@ -302,6 +333,16 @@ namespace lab1
                         fileInf = null;
                         Console.WriteLine("File closed successfully");
                         break;
+                    case Commands.Compress:
+                        Console.Clear();
+                        CompressFile(command.CommandAttributes, ref myFile, ref fileInf);
+                        break;
+                    case Commands.DeCompress:
+                        Console.Clear();
+                        DeCompressFile(ref myFile, ref fileInf);
+                        break;
+
+
 
 
 
