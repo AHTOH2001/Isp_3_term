@@ -5,6 +5,7 @@ using System.IO;
 using System.Linq;
 using System.IO.Compression;
 using System.Text;
+using System.Diagnostics;
 
 namespace lab1
 {
@@ -21,7 +22,11 @@ namespace lab1
             Delete,
             Close,
             Compress,
-            DeCompress
+            DeCompress,
+            Edit,
+            Clear,
+            Write,
+            Read
         }
         enum Attributes
         {
@@ -242,11 +247,17 @@ namespace lab1
                     "\n" +
                     "command Exit will shutdown the programm with closing file\n" +
                     "\n" +
-                    "command ");
+                    "command Edit to enter file editor mode, possible commands in editor:\n" +
+                    "command Clear will delete all bytes of file\n" +
+                    "command Read will read string from file stream\n" +
+                    "command Write will write string from the console to the file\n" +
+                    "command Delete will remove some characters from the end of the file\n" +
+                    "command Exit will exit from the file editor");
             }
         }
         static void ShowStatus(HashSet<Attributes> attributes, FileInfo fileInf)
         {
+            fileInf = new FileInfo(fileInf.FullName);
             Console.WriteLine("The file successfully opened on the path:");
             Console.WriteLine(fileInf.FullName);
             Console.WriteLine("Size (Bytes): {0}", fileInf.Length);
@@ -328,7 +339,67 @@ namespace lab1
             }
             catch
             {
-                Console.WriteLine("File was not compressed");
+                Console.WriteLine("File was not compressed or compressed wrong");
+            }
+        }
+        static void EditFile(HashSet<Attributes> attributes, FileInfo fileInf)
+        {
+            bool flagExit = false;
+            //f.Close();
+            //var file = new FileStream(fileInf.FullName, FileMode.Open);
+            Console.Clear();
+            while (!flagExit)
+            {
+                try
+                {
+
+                    Console.WriteLine("Possible commands: Read, Write, Clear, Delete, Exit");
+                    Console.WriteLine("Enter command:");
+                    Console.Write("> ");
+                    var command = ParseUserCommand(Console.ReadLine());
+                    if (command.CommandAttributes.Count != 0)
+                        throw new Exception("Attributes are disallowed");
+                    switch (command.MainCommand)
+                    {
+                        case Commands.Clear:
+                            var file = new FileStream(fileInf.FullName, FileMode.Open);
+                            file.SetLength(0);
+                            file.Close();
+                            break;
+                        case Commands.Exit:
+                            Console.WriteLine("Successfull exit from editor");
+                            flagExit = true;
+                            break;
+                        case Commands.Write:
+                            var fileWriter = new StreamWriter(fileInf.FullName, true);
+                            Console.WriteLine("Enter text to append to the file:");
+                            fileWriter.Write(Console.ReadLine());
+                            fileWriter.Close();
+                            break;
+                        case Commands.Delete:
+                            file = new FileStream(fileInf.FullName, FileMode.Open);
+                            Console.WriteLine("Enter amount of symbols for delete from file:");
+                            var k = Convert.ToInt32(Console.ReadLine());
+                            file.SetLength(file.Length - k >= 0 ? file.Length - k : 0);
+                            file.Close();
+                            break;
+                        case Commands.Read:
+                            var fileReader = new StreamReader(fileInf.FullName);
+                            Console.WriteLine(fileReader.ReadToEnd());
+                            fileReader.Close();
+                            break;
+                        default: throw new Exception("Unknown command was called");
+                    }
+
+                }
+                catch (Exception e)
+                {
+                    Console.WriteLine(e.Message);
+                    Console.WriteLine("Try again?");
+                    if (!UserAgree())
+                        return;
+
+                }
             }
         }
         static void InitializeDict() //TODO 
@@ -352,6 +423,7 @@ namespace lab1
             AttributesOfCommand.Add(Commands.Delete, new List<Attributes>());
             AttributesOfCommand.Add(Commands.Exit, new List<Attributes>());
             AttributesOfCommand.Add(Commands.Close, new List<Attributes>());
+            AttributesOfCommand.Add(Commands.Edit, new List<Attributes>());
         }
         static public void Start()
         {
@@ -366,7 +438,7 @@ namespace lab1
             {
                 Console.WriteLine("\nType Help to receive available command list");
                 Console.Write("> ");
-                var command = ParseUserCommand(Console.ReadLine()); //additional attributes will be skiped   
+                var command = ParseUserCommand(Console.ReadLine());
 
                 if (command.MainCommand == Commands.Error)
                     continue;
@@ -433,6 +505,12 @@ namespace lab1
                             Console.Clear();
                             DeCompressFile(command.CommandAttributes, ref myFile, ref fileInf);
                             break;
+                        case Commands.Edit:
+                            Console.Clear();
+                            myFile.Close();
+                            EditFile(command.CommandAttributes, fileInf);
+                            break;
+                        default: throw new Exception("Type edit to use this command");
                     }
                 }
                 catch (Exception e)
