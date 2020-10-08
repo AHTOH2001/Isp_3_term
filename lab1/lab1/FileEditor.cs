@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.IO.Compression;
+using System.Text;
 
 namespace lab1
 {
@@ -192,8 +193,57 @@ namespace lab1
         }
         static void ShowHelp(HashSet<Attributes> attributes)
         {
+            string GetFormattedAttributes(List<Attributes> attributes)
+            {
+                var ans = new StringBuilder();
+                foreach (var attribute in attributes)
+                {
+                    ans.Append('-' + attribute.ToString() + ", ");
+                }
+                if (ans.Length == 0) return "";
+                else
+                    return '(' + ans.ToString().Substring(0, ans.Length - 2) + ')';
+            }
+
             Console.Clear();
-            Console.WriteLine("Sorry help team sleep");
+            if (!attributes.Contains(Attributes.All))
+            {
+                Console.WriteLine("Possible commands with their optional attributes:");
+                foreach (var e in AttributesOfCommand)
+                {
+                    Console.WriteLine("{0} {1}", e.Key.ToString(), GetFormattedAttributes(e.Value));
+                }
+                Console.WriteLine("\nFor more information use command Help -All");
+            }
+            else
+            {
+                Console.WriteLine(
+                    "command InitializeFile (shortly init) let you initialize file by entering path of the file\n" +
+                    "possible attributes are:\n" +
+                    "-Create (shortly -C) let you rewrite an existing file\n" +
+                    "-Open (shortly -O) let you skip question about opening file, also can be used with -Create attribute\n" +
+                    "-IgnoreWarnings (shortly -IW) let you skip some questions\n" +
+                    "\n" +
+                    "command Status let you find out path and size of your file and with\n" +
+                    "attribute -All a lot of additional information like time of creating file,\n" +
+                    "local directory files, extension of your file and etc.\n" +
+                    "\n" +
+                    "command Compress will compress your file in .zip archieve can be used with attributes\n" +
+                    "-IgnoreWarnings (-IW) to skip some questions\n" +
+                    "-Info (-I) to examine compressed file\n" +
+                    "-All to get more information by attribute -Info\n" +
+                    "\n" +
+                    "command DeCompress will deArchieve your file for .zip archieve if it was compressed by this programm\n" +
+                    "can be used with atrributes -Info and -All result same as Compress\n" +
+                    "\n" +
+                    "command Delete will delete the opened file from computer\n" +
+                    "\n" +
+                    "command Close will close the opened file (same goal can be achieved by using command Init)\n" +
+                    "\n" +
+                    "command Exit will shutdown the programm with closing file\n" +
+                    "\n" +
+                    "command ");
+            }
         }
         static void ShowStatus(HashSet<Attributes> attributes, FileInfo fileInf)
         {
@@ -267,7 +317,6 @@ namespace lab1
         {
             try
             {
-
                 file.Close();
                 ZipFile.ExtractToDirectory(fileInf.FullName, fileInf.DirectoryName, true);
                 fileInf.Delete();
@@ -297,9 +346,11 @@ namespace lab1
             Attributes[] temp4 = { Attributes.Info, Attributes.All };
             AttributesOfCommand.Add(Commands.DeCompress, new List<Attributes>(temp4));
 
+            Attributes[] temp5 = { Attributes.All };
+            AttributesOfCommand.Add(Commands.Help, new List<Attributes>(temp5));
+
             AttributesOfCommand.Add(Commands.Delete, new List<Attributes>());
             AttributesOfCommand.Add(Commands.Exit, new List<Attributes>());
-            AttributesOfCommand.Add(Commands.Help, new List<Attributes>());
             AttributesOfCommand.Add(Commands.Close, new List<Attributes>());
         }
         static public void Start()
