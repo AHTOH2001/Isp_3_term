@@ -147,6 +147,8 @@ namespace lab1
 
                     if (attributes.Contains(Attributes.Create))
                     {
+                        if (myFile != null)
+                            myFile.Close();
                         myFile = tempFile.Create();
                         Console.Clear();
                         Console.WriteLine("File succesfully created on path \n{0}", myFile.Name);
@@ -164,6 +166,8 @@ namespace lab1
                         Console.WriteLine("File does not exist, do you want create new file on path \n{0}?", tempFile.FullName);
                         if (UserAgree())
                         {
+                            if (myFile != null)
+                                myFile.Close();
                             myFile = tempFile.Create();
                             Console.Clear();
                             Console.WriteLine("File succesfully created on path \n{0}", myFile.Name);
@@ -192,11 +196,10 @@ namespace lab1
             Console.WriteLine("Sorry help team sleep");
         }
         static void ShowStatus(HashSet<Attributes> attributes, FileInfo fileInf)
-        {            
-
-            Console.WriteLine("Full name: {0}", fileInf.FullName);
+        {
+            Console.WriteLine("The file successfully opened on the path:");
+            Console.WriteLine(fileInf.FullName);
             Console.WriteLine("Size (Bytes): {0}", fileInf.Length);
-            Console.WriteLine("Creation time: {0}", fileInf.CreationTime);
 
             if (attributes.Contains(Attributes.All))
             {
@@ -204,8 +207,26 @@ namespace lab1
                 Console.WriteLine("Name: {0}", fileInf.Name);
                 Console.WriteLine("Extension: {0}", fileInf.Extension);
                 Console.WriteLine("Attributes: {0}", fileInf.Attributes);
+                Console.WriteLine("Creation time: {0}", fileInf.CreationTime);
                 Console.WriteLine("Last access time: {0}", fileInf.LastAccessTime);
                 Console.WriteLine("Last write time: {0}", fileInf.LastWriteTime);
+                int count = 0;
+                foreach (var e in fileInf.Directory.GetFiles())
+                    count++;
+                foreach (var e in fileInf.Directory.GetDirectories())
+                    count++;
+
+                if (count > 5)
+                    Console.WriteLine("The number of local files and directories is {0}, should we show them?", count);
+
+                if (count <= 5 || UserAgree())
+                {
+                    Console.WriteLine("The number of local directory files and directories is {0}:", count);
+                    foreach (var e in fileInf.Directory.GetFiles())
+                        Console.WriteLine(e.Name);
+                    foreach (var e in fileInf.Directory.GetDirectories())
+                        Console.WriteLine(e.Name);
+                }
             }
         }
         static bool IsValidAttributes(Command command)
@@ -218,13 +239,14 @@ namespace lab1
         }
         static void CompressFile(HashSet<Attributes> attributes, ref FileStream file, ref FileInfo fileInf)
         {
-            if (fileInf.Attributes == FileAttributes.Hidden && !attributes.Contains(Attributes.IgnoreWarnings))
+            if ((fileInf.Extension == ".zip" || fileInf.Extension == ".rar" || fileInf.Extension == ".gz") && !attributes.Contains(Attributes.IgnoreWarnings))
             {
-                Console.WriteLine("*WARNING* File is already compressed");
+                Console.WriteLine("*WARNING* It's look like file is already compressed");
                 Console.WriteLine("Do you want to compress anyway?");
                 if (!UserAgree())
                     return;
             }
+            string nameBeforeCompression = fileInf.Name;
             string hren = DateTime.Now.Ticks.ToString();
             DirectoryInfo directoryInf = new DirectoryInfo(fileInf.DirectoryName + '\\' + hren);
             directoryInf.Create();
@@ -235,19 +257,33 @@ namespace lab1
                 oneFile.Delete();
             directoryInf.Delete();
             fileInf = new FileInfo(fileInf.DirectoryName + ".zip");
+            fileInf.MoveTo(fileInf.DirectoryName + '\\' + nameBeforeCompression + ".zip", true);
             file = fileInf.Open(FileMode.Open);
-            fileInf.Attributes = FileAttributes.Hidden;
             Console.WriteLine("File compressed successfully");
             if (attributes.Contains(Attributes.Info))
                 ShowStatus(attributes, fileInf);
         }
-        static void DeCompressFile(ref FileStream file, ref FileInfo fileInf)
+        static void DeCompressFile(HashSet<Attributes> attributes, ref FileStream file, ref FileInfo fileInf)
         {
+            try
+            {
 
+                file.Close();
+                ZipFile.ExtractToDirectory(fileInf.FullName, fileInf.DirectoryName, true);
+                fileInf.Delete();
+                fileInf = new FileInfo(fileInf.DirectoryName + '\\' + fileInf.Name.Substring(0, fileInf.Name.Length - 4));
+                file = fileInf.Open(FileMode.Open);
+                Console.WriteLine("File decompressed successfully");
+                if (attributes.Contains(Attributes.Info))
+                    ShowStatus(attributes, fileInf);
+            }
+            catch
+            {
+                Console.WriteLine("File was not compressed");
+            }
         }
         static void InitializeDict() //TODO 
         {
-            //Attributes[] emptyArray = { }; 
 
             Attributes[] temp1 = { Attributes.Create, Attributes.IgnoreWarnings, Attributes.Open };
             AttributesOfCommand.Add(Commands.InitializeFile, new List<Attributes>(temp1));
@@ -255,13 +291,16 @@ namespace lab1
             Attributes[] temp2 = { Attributes.All };
             AttributesOfCommand.Add(Commands.Status, new List<Attributes>(temp2));
 
+            Attributes[] temp3 = { Attributes.Info, Attributes.IgnoreWarnings, Attributes.All };
+            AttributesOfCommand.Add(Commands.Compress, new List<Attributes>(temp3));
+
+            Attributes[] temp4 = { Attributes.Info, Attributes.All };
+            AttributesOfCommand.Add(Commands.DeCompress, new List<Attributes>(temp4));
+
             AttributesOfCommand.Add(Commands.Delete, new List<Attributes>());
             AttributesOfCommand.Add(Commands.Exit, new List<Attributes>());
             AttributesOfCommand.Add(Commands.Help, new List<Attributes>());
             AttributesOfCommand.Add(Commands.Close, new List<Attributes>());
-
-            Attributes[] temp3 = { Attributes.Info, Attributes.IgnoreWarnings, Attributes.All };
-            AttributesOfCommand.Add(Commands.Compress, new List<Attributes>(temp3));
         }
         static public void Start()
         {
@@ -300,58 +339,64 @@ namespace lab1
                     }
                 }
 
-                switch (command.MainCommand)
+                try
                 {
-                    case Commands.Help:
-                        ShowHelp(command.CommandAttributes);
-                        break;
-                    case Commands.InitializeFile:
-                        myFile = InitializeFile(command.CommandAttributes) ?? myFile;
-                        if (myFile != null)
-                            fileInf = new FileInfo(myFile.Name);
-                        break;
-                    case Commands.Status:
-                        Console.Clear();
-                        ShowStatus(command.CommandAttributes, fileInf);
-                        break;
-                    case Commands.Exit:
-                        Console.WriteLine("Successfull shutdown");
-                        flagExit = true;
-                        break;
-                    case Commands.Delete:
-                        Console.Clear();
-                        myFile.Close();
-                        fileInf.Delete();
-                        myFile = null;
-                        fileInf = null;
-                        Console.WriteLine("File deleted successfully");
-                        break;
-                    case Commands.Close:
-                        Console.Clear();
-                        myFile.Close();
-                        myFile = null;
-                        fileInf = null;
-                        Console.WriteLine("File closed successfully");
-                        break;
-                    case Commands.Compress:
-                        Console.Clear();
-                        CompressFile(command.CommandAttributes, ref myFile, ref fileInf);
-                        break;
-                    case Commands.DeCompress:
-                        Console.Clear();
-                        DeCompressFile(ref myFile, ref fileInf);
-                        break;
-
-
-
-
-
+                    switch (command.MainCommand)
+                    {
+                        case Commands.Help:
+                            ShowHelp(command.CommandAttributes);
+                            break;
+                        case Commands.InitializeFile:
+                            myFile = InitializeFile(command.CommandAttributes) ?? myFile;
+                            if (myFile != null)
+                                fileInf = new FileInfo(myFile.Name);
+                            break;
+                        case Commands.Status:
+                            Console.Clear();
+                            ShowStatus(command.CommandAttributes, fileInf);
+                            break;
+                        case Commands.Exit:
+                            Console.WriteLine("Successfull shutdown");
+                            flagExit = true;
+                            break;
+                        case Commands.Delete:
+                            Console.Clear();
+                            myFile.Close();
+                            fileInf.Delete();
+                            myFile = null;
+                            fileInf = null;
+                            Console.WriteLine("File deleted successfully");
+                            break;
+                        case Commands.Close:
+                            Console.Clear();
+                            myFile.Close();
+                            myFile = null;
+                            fileInf = null;
+                            Console.WriteLine("File closed successfully");
+                            break;
+                        case Commands.Compress:
+                            Console.Clear();
+                            CompressFile(command.CommandAttributes, ref myFile, ref fileInf);
+                            break;
+                        case Commands.DeCompress:
+                            Console.Clear();
+                            DeCompressFile(command.CommandAttributes, ref myFile, ref fileInf);
+                            break;
+                    }
                 }
+                catch (Exception e)
+                {
+                    Console.WriteLine(e.Message);
+                }
+
+
 
 
             }
 
 
         }
+
+
     }
 }
