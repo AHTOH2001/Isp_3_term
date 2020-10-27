@@ -1,0 +1,42 @@
+27.10.2020 05:07:20 файл D:\Ucheba\Labs\3 sem\Isp\lab2\SourceDirectory\Новая папка (5) был создан
+27.10.2020 05:07:29 файл D:\Ucheba\Labs\3 sem\Isp\lab2\SourceDirectory\fs.txt был удален
+27.10.2020 05:07:31 файл D:\Ucheba\Labs\3 sem\Isp\lab2\SourceDirectory\Новая папка (2) был удален
+27.10.2020 05:07:31 файл D:\Ucheba\Labs\3 sem\Isp\lab2\SourceDirectory\Новая папка (3) был удален
+27.10.2020 05:07:31 файл D:\Ucheba\Labs\3 sem\Isp\lab2\SourceDirectory\Новая папка (4) был удален
+27.10.2020 05:07:31 файл D:\Ucheba\Labs\3 sem\Isp\lab2\SourceDirectory\Новая папка (5) был удален
+27.10.2020 05:07:54 файл D:\Ucheba\Labs\3 sem\Isp\lab2\SourceDirectory\2020 был изменен
+27.10.2020 05:07:54 файл D:\Ucheba\Labs\3 sem\Isp\lab2\SourceDirectory\2020 был изменен
+27.10.2020 05:09:44 файл D:\Ucheba\Labs\3 sem\Isp\lab2\SourceDirectory\Новый текстовый документ (2).txt был создан
+27.10.2020 05:09:44 файл D:\Ucheba\Labs\3 sem\Isp\lab2\SourceDirectory\Новый текстовый документ (2).txt был изменен
+27.10.2020 05:09:47 файл D:\Ucheba\Labs\3 sem\Isp\lab2\SourceDirectory\Новая папка (2) был создан
+27.10.2020 05:09:52 файл D:\Ucheba\Labs\3 sem\Isp\lab2\SourceDirectory\Архив WinRAR.rar был создан
+27.10.2020 05:09:52 файл D:\Ucheba\Labs\3 sem\Isp\lab2\SourceDirectory\Архив WinRAR.rar был изменен
+27.10.2020 05:09:52 файл D:\Ucheba\Labs\3 sem\Isp\lab2\SourceDirectory\Архив WinRAR.rar был изменен
+27.10.2020 05:09:52 файл D:\Ucheba\Labs\3 sem\Isp\lab2\SourceDirectory\Архив WinRAR.rar был изменен
+27.10.2020 05:09:55 файл D:\Ucheba\Labs\3 sem\Isp\lab2\SourceDirectory\Архив WinRAR.rar был удален
+27.10.2020 05:09:56 файл D:\Ucheba\Labs\3 sem\Isp\lab2\SourceDirectory\Новая папка был удален
+27.10.2020 05:09:58 файл D:\Ucheba\Labs\3 sem\Isp\lab2\SourceDirectory\Новый текстовый документ.txt был удален
+27.10.2020 05:09:58 файл D:\Ucheba\Labs\3 sem\Isp\lab2\SourceDirectory\Новая папка (2) был удален
+27.10.2020 05:09:58 файл D:\Ucheba\Labs\3 sem\Isp\lab2\SourceDirectory\Новый текстовый документ был удален
+27.10.2020 05:09:58 файл D:\Ucheba\Labs\3 sem\Isp\lab2\SourceDirectory\Новый текстовый документ (2) был удален
+27.10.2020 05:09:58 файл D:\Ucheba\Labs\3 sem\Isp\lab2\SourceDirectory\Новый текстовый документ (2).txt был удален
+27.10.2020 05:44:52 файл D:\Ucheba\Labs\3 sem\Isp\lab2\SourceDirectory\Новая папка был создан
+27.10.2020 05:44:57 файл D:\Ucheba\Labs\3 sem\Isp\lab2\SourceDirectory\Новая папка был переименован в D:\Ucheba\Labs\3 sem\Isp\lab2\SourceDirectory\fs
+27.10.2020 05:45:13 файл D:\Ucheba\Labs\3 sem\Isp\lab2\SourceDirectory\fs был удален
+27.10.2020 05:45:27 файл D:\Ucheba\Labs\3 sem\Isp\lab2\SourceDirectory\Новая папка был создан
+27.10.2020 05:47:14 файл D:\Ucheba\Labs\3 sem\Isp\lab2\SourceDirectory\Новая папка (2) был создан
+27.10.2020 05:49:22 файл D:\Ucheba\Labs\3 sem\Isp\lab2\SourceDirectory\Новая папка (3) был создан
+27.10.2020 05:49:27 файл D:\Ucheba\Labs\3 sem\Isp\lab2\SourceDirectory\Новая папка (3)\Новая папка был создан
+27.10.2020 05:49:35 файл D:\Ucheba\Labs\3 sem\Isp\lab2\SourceDirectory\Новая папка (3)\Новая папка\Новая папка был создан
+27.10.2020 05:49:39 файл D:\Ucheba\Labs\3 sem\Isp\lab2\SourceDirectory\Новая папка (3)\Новая папка\Новый текстовый документ.txt был создан
+27.10.2020 05:49:39 файл D:\Ucheba\Labs\3 sem\Isp\lab2\SourceDirectory\Новая папка (3)\Новая папка\Новый текстовый документ.txt был изменен
+27.10.2020 05:49:48 файл D:\Ucheba\Labs\3 sem\Isp\lab2\SourceDirectory\Новая папка (3)\Новая папка\Новый текстовый документ.txt был удален
+27.10.2020 05:49:51 файл D:\Ucheba\Labs\3 sem\Isp\lab2\SourceDirectory\Новая папка (3)\Новая папка\Новая папка был удален
+27.10.2020 05:49:56 файл D:\Ucheba\Labs\3 sem\Isp\lab2\SourceDirectory\Новая папка (3)\Новая папка был переименован в D:\Ucheba\Labs\3 sem\Isp\lab2\SourceDirectory\Новая папка (3)\ds
+27.10.2020 05:59:57 файл D:\Ucheba\Labs\3 sem\Isp\lab2\SourceDirectory\Новая папка (4) был создан
+27.10.2020 06:00:01 файл D:\Ucheba\Labs\3 sem\Isp\lab2\SourceDirectory\Новая папка (4)\Новый текстовый документ.txt был создан
+27.10.2020 06:00:01 файл D:\Ucheba\Labs\3 sem\Isp\lab2\SourceDirectory\Новая папка (4)\Новый текстовый документ.txt был изменен
+27.10.2020 06:00:05 файл D:\Ucheba\Labs\3 sem\Isp\lab2\SourceDirectory\Новая папка (4)\Новая папка был создан
+27.10.2020 06:00:10 файл D:\Ucheba\Labs\3 sem\Isp\lab2\SourceDirectory\Новая папка (4)\Новая папка\Новая папка был создан
+27.10.2020 06:00:14 файл D:\Ucheba\Labs\3 sem\Isp\lab2\SourceDirectory\Новая папка (4)\Новая папка\Новый текстовый документ.txt был создан
+27.10.2020 06:00:14 файл D:\Ucheba\Labs\3 sem\Isp\lab2\SourceDirectory\Новая папка (4)\Новая папка\Новый текстовый документ.txt был изменен
