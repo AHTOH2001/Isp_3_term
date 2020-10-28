@@ -38,8 +38,6 @@ namespace lab2
             watcher = new Watcher(sourceDirectory, extractor);
             Thread watcherThread = new Thread(new ThreadStart(watcher.Start));
             watcherThread.Start();
-
-
         }
 
         //protected override void OnStop()

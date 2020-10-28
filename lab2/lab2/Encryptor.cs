@@ -12,7 +12,7 @@ namespace lab2
         {
             // Check arguments.
             if (plainText == null || plainText.Length <= 0)
-                throw new ArgumentNullException("plainText");
+                return new byte[0];
             if (Key == null || Key.Length <= 0)
                 throw new ArgumentNullException("Key");
             if (IV == null || IV.Length <= 0)
@@ -52,7 +52,7 @@ namespace lab2
         {
             // Check arguments.
             if (cipherText == null || cipherText.Length <= 0)
-                throw new ArgumentNullException("cipherText");
+                return "";
             if (Key == null || Key.Length <= 0)
                 throw new ArgumentNullException("Key");
             if (IV == null || IV.Length <= 0)

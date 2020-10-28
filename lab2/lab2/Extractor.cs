@@ -40,7 +40,7 @@ namespace lab2
             streamWriter.Close();
             Logger.RecordEntry("расшифрован", filePath);
         }
-        
+
         private string deleteExtension(string sourceFile)
         {
             FileInfo fileInfo = new FileInfo(sourceFile);
@@ -50,12 +50,15 @@ namespace lab2
             throw new Exception("deleteExtensionUnknownError");
         }
         public void Extract(string sourceFile)
-        {            
+        {
+            ArchiveOldFiles(targetDirectory);
             Encrypt(sourceFile);
             FileInfo sourceFileInfo = new FileInfo(sourceFile);
             string initialExtension = sourceFileInfo.Extension;
             FileInfo archivedFileInfo = new FileInfo(deleteExtension(sourceFileInfo.FullName) + ".gz");
             Archivator.Compress(sourceFile, archivedFileInfo.FullName);
+
+            sourceFileInfo.Delete();
 
             File.Move(archivedFileInfo.FullName, targetDirectory + '\\' + archivedFileInfo.Name);
             archivedFileInfo = new FileInfo(targetDirectory + '\\' + archivedFileInfo.Name);
@@ -65,8 +68,25 @@ namespace lab2
             Archivator.Decompress(archivedFileInfo.FullName, sourceFileInfo.FullName);
             File.Delete(archivedFileInfo.FullName);
             Decrypt(sourceFileInfo.FullName);
+        }
 
-            
+        private void ArchiveOldFiles(string targetDirectory)
+        {
+            DirectoryInfo directoryInfo = new DirectoryInfo(targetDirectory);
+            foreach (var file in directoryInfo.GetFiles())
+            {
+                if (file.Name != "archive" && file.Name.Substring(0, 3).ToLower() != "log")
+                {
+                    DateTime creationDate = file.CreationTime;
+                    var str = targetDirectory + "\\archive\\" + creationDate.Year.ToString() + '\\' + creationDate.Month.ToString() + '\\' + creationDate.Day.ToString() + '\\' + file.Name;                    
+                    
+                    FileInfo file1 = new FileInfo(str);
+                    DirectoryInfo archiveDirectory = new DirectoryInfo(targetDirectory + "\\archive\\" + creationDate.Year.ToString() + '\\' + creationDate.Month.ToString() + '\\' + creationDate.Day.ToString());
+                    archiveDirectory.Create();
+                    file.MoveTo(archiveDirectory.FullName + '\\' + file.Name);
+                    Logger.RecordEntry("добавлен в архив", file.FullName);
+                }
+            }
         }
     }
 }
