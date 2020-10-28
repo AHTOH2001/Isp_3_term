@@ -40,3 +40,78 @@
 27.10.2020 06:00:10 файл D:\Ucheba\Labs\3 sem\Isp\lab2\SourceDirectory\Новая папка (4)\Новая папка\Новая папка был создан
 27.10.2020 06:00:14 файл D:\Ucheba\Labs\3 sem\Isp\lab2\SourceDirectory\Новая папка (4)\Новая папка\Новый текстовый документ.txt был создан
 27.10.2020 06:00:14 файл D:\Ucheba\Labs\3 sem\Isp\lab2\SourceDirectory\Новая папка (4)\Новая папка\Новый текстовый документ.txt был изменен
+28.10.2020 09:08:10 файл D:\Ucheba\Labs\3 sem\Isp\lab2\SourceDirectory\2020 — копия был создан
+28.10.2020 09:08:10 файл D:\Ucheba\Labs\3 sem\Isp\lab2\SourceDirectory\2020 — копия был изменен
+28.10.2020 09:08:10 файл D:\Ucheba\Labs\3 sem\Isp\lab2\SourceDirectory\2020 — копия\10 был создан
+28.10.2020 09:08:10 файл D:\Ucheba\Labs\3 sem\Isp\lab2\SourceDirectory\2020 — копия\10 был изменен
+28.10.2020 09:08:10 файл D:\Ucheba\Labs\3 sem\Isp\lab2\SourceDirectory\2020 — копия\10\27 был создан
+28.10.2020 09:08:10 файл D:\Ucheba\Labs\3 sem\Isp\lab2\SourceDirectory\2020 — копия\10\27 был изменен
+28.10.2020 09:08:10 файл D:\Ucheba\Labs\3 sem\Isp\lab2\SourceDirectory\2020 — копия\10\27\Sales_2020_10_27_14_17_58.txt был создан
+28.10.2020 09:08:10 файл D:\Ucheba\Labs\3 sem\Isp\lab2\SourceDirectory\2020 — копия\10\27\Sales_2020_10_27_14_17_58.txt был изменен
+28.10.2020 09:08:10 файл D:\Ucheba\Labs\3 sem\Isp\lab2\SourceDirectory\2020 — копия\10\27\Sales_2020_10_27_14_17_58.txt был изменен
+28.10.2020 09:08:10 файл D:\Ucheba\Labs\3 sem\Isp\lab2\SourceDirectory\2020 — копия был изменен
+28.10.2020 09:08:10 файл D:\Ucheba\Labs\3 sem\Isp\lab2\SourceDirectory\2020 — копия\10 был изменен
+28.10.2020 09:08:10 файл D:\Ucheba\Labs\3 sem\Isp\lab2\SourceDirectory\2020 — копия\10\27 был изменен
+28.10.2020 09:24:14 файл D:\Ucheba\Labs\3 sem\Isp\lab2\SourceDirectory\2020 — копия был создан
+28.10.2020 09:24:15 файл D:\Ucheba\Labs\3 sem\Isp\lab2\SourceDirectory\2020 — копия\10 был создан
+28.10.2020 09:24:15 файл D:\Ucheba\Labs\3 sem\Isp\lab2\SourceDirectory\2020 — копия\10\27 был создан
+28.10.2020 09:24:15 файл D:\Ucheba\Labs\3 sem\Isp\lab2\SourceDirectory\2020 — копия\10\27\Sales_2020_10_27_14_17_58.txt был создан
+28.10.2020 09:24:32 файл D:\Ucheba\Labs\3 sem\Isp\lab2\SourceDirectory\2020 — копия был удален
+28.10.2020 11:53:18 файл D:\Ucheba\Labs\3 sem\Isp\lab2\SourceDirectory\Новая папка был создан
+28.10.2020 11:53:20 файл D:\Ucheba\Labs\3 sem\Isp\lab2\SourceDirectory\Новая папка был удален
+28.10.2020 11:53:34 файл D:\Ucheba\Labs\3 sem\Isp\lab2\SourceDirectory\Новая папка был создан
+28.10.2020 11:53:36 файл D:\Ucheba\Labs\3 sem\Isp\lab2\SourceDirectory\Новая папка — копия был создан
+28.10.2020 11:53:37 файл D:\Ucheba\Labs\3 sem\Isp\lab2\SourceDirectory\Новая папка — копия (2) был создан
+28.10.2020 11:53:37 файл D:\Ucheba\Labs\3 sem\Isp\lab2\SourceDirectory\Новая папка — копия (3) был создан
+28.10.2020 11:53:39 файл D:\Ucheba\Labs\3 sem\Isp\lab2\SourceDirectory\Новая папка был удален
+28.10.2020 11:53:39 файл D:\Ucheba\Labs\3 sem\Isp\lab2\SourceDirectory\Новая папка — копия был удален
+28.10.2020 11:53:39 файл D:\Ucheba\Labs\3 sem\Isp\lab2\SourceDirectory\Новая папка — копия (2) был удален
+28.10.2020 11:53:39 файл D:\Ucheba\Labs\3 sem\Isp\lab2\SourceDirectory\Новая папка — копия (3) был удален
+28.10.2020 12:07:00 файл D:\Ucheba\Labs\3 sem\Isp\lab2\SourceDirectory\2020 — копия был создан
+28.10.2020 12:07:00 файл D:\Ucheba\Labs\3 sem\Isp\lab2\SourceDirectory\2020 — копия\10 был создан
+28.10.2020 12:07:00 файл D:\Ucheba\Labs\3 sem\Isp\lab2\SourceDirectory\2020 — копия\10\27 был создан
+28.10.2020 12:07:00 файл D:\Ucheba\Labs\3 sem\Isp\lab2\SourceDirectory\2020 — копия\10\27\Sales_2020_10_27_14_17_58.txt был создан
+28.10.2020 12:07:46 файл D:\Ucheba\Labs\3 sem\Isp\lab2\SourceDirectory\2020 — копия — копия был создан
+28.10.2020 12:07:46 файл D:\Ucheba\Labs\3 sem\Isp\lab2\SourceDirectory\2020 — копия — копия\10 был создан
+28.10.2020 12:07:46 файл D:\Ucheba\Labs\3 sem\Isp\lab2\SourceDirectory\2020 — копия — копия\10\27 был создан
+28.10.2020 12:07:46 файл D:\Ucheba\Labs\3 sem\Isp\lab2\SourceDirectory\2020 — копия — копия\10\27\Sales_2020_10_27_14_17_58.txt был создан
+28.10.2020 12:11:02 файл D:\Ucheba\Labs\3 sem\Isp\lab2\SourceDirectory\2020 — копия — копия — копия был создан
+28.10.2020 12:11:02 файл D:\Ucheba\Labs\3 sem\Isp\lab2\SourceDirectory\2020 — копия — копия — копия\10 был создан
+28.10.2020 12:11:02 файл D:\Ucheba\Labs\3 sem\Isp\lab2\SourceDirectory\2020 — копия — копия — копия\10\27 был создан
+28.10.2020 12:11:02 файл D:\Ucheba\Labs\3 sem\Isp\lab2\SourceDirectory\2020 — копия — копия — копия\10\27\Sales_2020_10_27_14_17_58.txt был создан
+28.10.2020 12:11:17 файл D:\Ucheba\Labs\3 sem\Isp\lab2\SourceDirectory\2020 — копия — копия — копия — копия был создан
+28.10.2020 12:11:17 файл D:\Ucheba\Labs\3 sem\Isp\lab2\SourceDirectory\2020 — копия — копия — копия — копия\10 был создан
+28.10.2020 12:11:17 файл D:\Ucheba\Labs\3 sem\Isp\lab2\SourceDirectory\2020 — копия — копия — копия — копия\10\27 был создан
+28.10.2020 12:11:17 файл D:\Ucheba\Labs\3 sem\Isp\lab2\SourceDirectory\2020 — копия — копия — копия — копия\10\27\Sales_2020_10_27_14_17_58.txt был создан
+28.10.2020 12:18:00 файл D:\Ucheba\Labs\3 sem\Isp\lab2\SourceDirectory\2020 — копия — копия — копия — копия — копия был создан
+28.10.2020 12:18:00 файл D:\Ucheba\Labs\3 sem\Isp\lab2\SourceDirectory\2020 — копия — копия — копия — копия — копия\10 был создан
+28.10.2020 12:18:00 файл D:\Ucheba\Labs\3 sem\Isp\lab2\SourceDirectory\2020 — копия — копия — копия — копия — копия\10\27 был создан
+28.10.2020 12:18:00 файл D:\Ucheba\Labs\3 sem\Isp\lab2\SourceDirectory\2020 — копия — копия — копия — копия — копия\10\27\Sales_2020_10_27_14_17_58.txt был создан
+28.10.2020 12:18:00 файл D:\Ucheba\Labs\3 sem\Isp\lab2\SourceDirectory\2020 — копия — копия — копия — копия — копия\10\27\Sales_2020_10_27_14_17_58.txt был зашифрован
+28.10.2020 12:18:24 файл D:\Ucheba\Labs\3 sem\Isp\lab2\SourceDirectory\2020 — копия — копия — копия — копия — копия — копия был создан
+28.10.2020 12:18:24 файл D:\Ucheba\Labs\3 sem\Isp\lab2\SourceDirectory\2020 — копия — копия — копия — копия — копия — копия\10 был создан
+28.10.2020 12:18:24 файл D:\Ucheba\Labs\3 sem\Isp\lab2\SourceDirectory\2020 — копия — копия — копия — копия — копия — копия\10\27 был создан
+28.10.2020 12:18:24 файл D:\Ucheba\Labs\3 sem\Isp\lab2\SourceDirectory\2020 — копия — копия — копия — копия — копия — копия\10\27\Sales_2020_10_27_14_17_58.txt был создан
+28.10.2020 12:18:40 файл D:\Ucheba\Labs\3 sem\Isp\lab2\SourceDirectory\2020 — копия — копия — копия — копия — копия — копия — копия был создан
+28.10.2020 12:18:41 файл D:\Ucheba\Labs\3 sem\Isp\lab2\SourceDirectory\2020 — копия — копия — копия — копия — копия — копия — копия\10 был создан
+28.10.2020 12:18:41 файл D:\Ucheba\Labs\3 sem\Isp\lab2\SourceDirectory\2020 — копия — копия — копия — копия — копия — копия — копия\10\27 был создан
+28.10.2020 12:18:41 файл D:\Ucheba\Labs\3 sem\Isp\lab2\SourceDirectory\2020 — копия — копия — копия — копия — копия — копия — копия\10\27\Sales_2020_10_27_14_17_58.txt был создан
+28.10.2020 12:19:11 файл D:\Ucheba\Labs\3 sem\Isp\lab2\SourceDirectory\2020 — копия был создан
+28.10.2020 12:19:11 файл D:\Ucheba\Labs\3 sem\Isp\lab2\SourceDirectory\2020 — копия\10 был создан
+28.10.2020 12:19:11 файл D:\Ucheba\Labs\3 sem\Isp\lab2\SourceDirectory\2020 — копия\10\27 был создан
+28.10.2020 12:19:11 файл D:\Ucheba\Labs\3 sem\Isp\lab2\SourceDirectory\2020 — копия\10\27\Sales_2020_10_27_14_17_58.txt был создан
+28.10.2020 12:22:21 файл D:\Ucheba\Labs\3 sem\Isp\lab2\SourceDirectory\2020 — копия (2) был создан
+28.10.2020 12:22:21 файл D:\Ucheba\Labs\3 sem\Isp\lab2\SourceDirectory\2020 — копия (2)\10 был создан
+28.10.2020 12:22:21 файл D:\Ucheba\Labs\3 sem\Isp\lab2\SourceDirectory\2020 — копия (2)\10\27 был создан
+28.10.2020 12:22:21 файл D:\Ucheba\Labs\3 sem\Isp\lab2\SourceDirectory\2020 — копия (2)\10\27\Sales_2020_10_27_14_17_58.txt был создан
+28.10.2020 12:22:21 файл D:\Ucheba\Labs\3 sem\Isp\lab2\SourceDirectory\2020 — копия (2)\10\27\Sales_2020_10_27_14_17_58.txt был зашифрован
+28.10.2020 12:27:18 файл D:\Ucheba\Labs\3 sem\Isp\lab2\SourceDirectory\2020 — копия (3) был создан
+28.10.2020 12:27:18 файл D:\Ucheba\Labs\3 sem\Isp\lab2\SourceDirectory\2020 — копия (3)\10 был создан
+28.10.2020 12:27:18 файл D:\Ucheba\Labs\3 sem\Isp\lab2\SourceDirectory\2020 — копия (3)\10\27 был создан
+28.10.2020 12:27:18 файл D:\Ucheba\Labs\3 sem\Isp\lab2\SourceDirectory\2020 — копия (3)\10\27\Sales_2020_10_27_14_17_58.txt был создан
+28.10.2020 12:27:18 файл D:\Ucheba\Labs\3 sem\Isp\lab2\SourceDirectory\2020 — копия (3)\10\27\Sales_2020_10_27_14_17_58.txt был зашифрован
+28.10.2020 12:29:38 файл D:\Ucheba\Labs\3 sem\Isp\lab2\SourceDirectory\2020 — копия (4) был создан
+28.10.2020 12:29:38 файл D:\Ucheba\Labs\3 sem\Isp\lab2\SourceDirectory\2020 — копия (4)\10 был создан
+28.10.2020 12:29:38 файл D:\Ucheba\Labs\3 sem\Isp\lab2\SourceDirectory\2020 — копия (4)\10\27 был создан
+28.10.2020 12:29:38 файл D:\Ucheba\Labs\3 sem\Isp\lab2\SourceDirectory\2020 — копия (4)\10\27\Sales_2020_10_27_14_17_58.txt был создан
+28.10.2020 12:29:38 файл D:\Ucheba\Labs\3 sem\Isp\lab2\SourceDirectory\2020 — копия (4)\10\27\Sales_2020_10_27_14_17_58.txt был зашифрован
