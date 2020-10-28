@@ -1,1 +1,0 @@
-System.Linq.Enumerable+SelectArrayIterator`2[System.Byte,System.Char]

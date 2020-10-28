@@ -12,8 +12,10 @@ namespace lab2
         FileSystemWatcher watcher;        
         bool enabled = true;
         string WatchedFolder;
-        public Watcher(string WatchedFolder)
+        Extractor extractor;
+        public Watcher(string WatchedFolder,Extractor extractor)
         {
+            this.extractor = extractor;
             this.WatchedFolder = WatchedFolder;
             watcher = new FileSystemWatcher(WatchedFolder);
             watcher.Deleted += Watcher_Deleted;
@@ -69,7 +71,9 @@ namespace lab2
 
             if (IsNotFolder(e.FullPath))
             {
-                Service1.Encrypt(e.FullPath);
+                watcher.EnableRaisingEvents = false;
+                extractor.Extract(e.FullPath);
+                watcher.EnableRaisingEvents = true;
             }
         }
 

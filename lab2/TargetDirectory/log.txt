@@ -115,3 +115,162 @@
 28.10.2020 12:29:38 файл D:\Ucheba\Labs\3 sem\Isp\lab2\SourceDirectory\2020 — копия (4)\10\27 был создан
 28.10.2020 12:29:38 файл D:\Ucheba\Labs\3 sem\Isp\lab2\SourceDirectory\2020 — копия (4)\10\27\Sales_2020_10_27_14_17_58.txt был создан
 28.10.2020 12:29:38 файл D:\Ucheba\Labs\3 sem\Isp\lab2\SourceDirectory\2020 — копия (4)\10\27\Sales_2020_10_27_14_17_58.txt был зашифрован
+28.10.2020 01:14:04 файл D:\Ucheba\Labs\3 sem\Isp\lab2\SourceDirectory\2020 — копия (5) был создан
+28.10.2020 01:14:04 файл D:\Ucheba\Labs\3 sem\Isp\lab2\SourceDirectory\2020 — копия (5)\10 был создан
+28.10.2020 01:14:04 файл D:\Ucheba\Labs\3 sem\Isp\lab2\SourceDirectory\2020 — копия (5)\10\27 был создан
+28.10.2020 01:14:04 файл D:\Ucheba\Labs\3 sem\Isp\lab2\SourceDirectory\2020 — копия (5)\10\27\Sales_2020_10_27_14_17_58.txt был создан
+28.10.2020 01:14:04 файл D:\Ucheba\Labs\3 sem\Isp\lab2\SourceDirectory\2020 — копия (5)\10\27\Sales_2020_10_27_14_17_58.txt был зашифрован
+28.10.2020 01:19:54 файл D:\Ucheba\Labs\3 sem\Isp\lab2\SourceDirectory\2020 — копия (6) был создан
+28.10.2020 01:19:54 файл D:\Ucheba\Labs\3 sem\Isp\lab2\SourceDirectory\2020 — копия (6)\10 был создан
+28.10.2020 01:19:54 файл D:\Ucheba\Labs\3 sem\Isp\lab2\SourceDirectory\2020 — копия (6)\10\27 был создан
+28.10.2020 01:19:54 файл D:\Ucheba\Labs\3 sem\Isp\lab2\SourceDirectory\2020 — копия (6)\10\27\Sales_2020_10_27_14_17_58.txt был создан
+28.10.2020 01:19:54 файл D:\Ucheba\Labs\3 sem\Isp\lab2\SourceDirectory\2020 — копия (6)\10\27\Sales_2020_10_27_14_17_58.txt был зашифрован
+28.10.2020 01:20:25 файл D:\Ucheba\Labs\3 sem\Isp\lab2\SourceDirectory\2020 — копия (7) был создан
+28.10.2020 01:20:25 файл D:\Ucheba\Labs\3 sem\Isp\lab2\SourceDirectory\2020 — копия (7)\10 был создан
+28.10.2020 01:20:25 файл D:\Ucheba\Labs\3 sem\Isp\lab2\SourceDirectory\2020 — копия (7)\10\27 был создан
+28.10.2020 01:20:25 файл D:\Ucheba\Labs\3 sem\Isp\lab2\SourceDirectory\2020 — копия (7)\10\27\Sales_2020_10_27_14_17_58.txt был создан
+28.10.2020 01:20:25 файл D:\Ucheba\Labs\3 sem\Isp\lab2\SourceDirectory\2020 — копия (7)\10\27\Sales_2020_10_27_14_17_58.txt был зашифрован
+28.10.2020 01:20:25 файл D:\Ucheba\Labs\3 sem\Isp\lab2\SourceDirectory\2020 — копия (7)\10\27\Sales_2020_10_27_14_17_58.txt был расшифрован
+28.10.2020 03:57:00 файл D:\Ucheba\Labs\3 sem\Isp\lab2\SourceDirectory\2020 — копия (8) был создан
+28.10.2020 03:57:00 файл D:\Ucheba\Labs\3 sem\Isp\lab2\SourceDirectory\2020 — копия (8)\10 был создан
+28.10.2020 03:57:00 файл D:\Ucheba\Labs\3 sem\Isp\lab2\SourceDirectory\2020 — копия (8)\10\27 был создан
+28.10.2020 03:57:00 файл D:\Ucheba\Labs\3 sem\Isp\lab2\SourceDirectory\2020 — копия (8)\10\27\Sales_2020_10_27_14_17_58.txt был создан
+28.10.2020 03:57:00 файл D:\Ucheba\Labs\3 sem\Isp\lab2\SourceDirectory\2020 — копия (8)\10\27\Sales_2020_10_27_14_17_58.txt был зашифрован
+28.10.2020 03:58:28 файл D:\Ucheba\Labs\3 sem\Isp\lab2\SourceDirectory\2020 — копия (9) был создан
+28.10.2020 03:58:28 файл D:\Ucheba\Labs\3 sem\Isp\lab2\SourceDirectory\2020 — копия (9)\10 был создан
+28.10.2020 03:58:28 файл D:\Ucheba\Labs\3 sem\Isp\lab2\SourceDirectory\2020 — копия (9)\10\27 был создан
+28.10.2020 03:58:28 файл D:\Ucheba\Labs\3 sem\Isp\lab2\SourceDirectory\2020 — копия (9)\10\27\Sales_2020_10_27_14_17_58.txt был создан
+28.10.2020 03:58:28 файл D:\Ucheba\Labs\3 sem\Isp\lab2\SourceDirectory\2020 — копия (9)\10\27\Sales_2020_10_27_14_17_58.txt был зашифрован
+28.10.2020 03:58:28 файл D:\Ucheba\Labs\3 sem\Isp\lab2\SourceDirectory\2020 — копия (9)\10\27\Sales_2020_10_27_14_17_58.txt был заархивирован, исходный размер: 603  сжатый размер: 10
+28.10.2020 03:58:28 файл D:\Ucheba\Labs\3 sem\Isp\lab2\SourceDirectory\2020 — копия (9)\10\27\Sales_2020_10_27_14_17_58.txt1 был создан
+28.10.2020 03:58:28 файл D:\Ucheba\Labs\3 sem\Isp\lab2\SourceDirectory\2020 — копия (9)\10\27\Sales_2020_10_27_14_17_58.txt1 был зашифрован
+28.10.2020 03:58:28 файл D:\Ucheba\Labs\3 sem\Isp\lab2\SourceDirectory\2020 — копия (9)\10\27\Sales_2020_10_27_14_17_58.txt1 был заархивирован, исходный размер: 1516  сжатый размер: 10
+28.10.2020 03:58:28 файл D:\Ucheba\Labs\3 sem\Isp\lab2\SourceDirectory\2020 — копия (9)\10\27\Sales_2020_10_27_14_17_58.txt11 был создан
+28.10.2020 03:58:28 файл D:\Ucheba\Labs\3 sem\Isp\lab2\SourceDirectory\2020 — копия (9)\10\27\Sales_2020_10_27_14_17_58.txt11 был зашифрован
+28.10.2020 03:58:28 файл D:\Ucheba\Labs\3 sem\Isp\lab2\SourceDirectory\2020 — копия (9)\10\27\Sales_2020_10_27_14_17_58.txt11 был заархивирован, исходный размер: 3504  сжатый размер: 10
+28.10.2020 03:58:28 файл D:\Ucheba\Labs\3 sem\Isp\lab2\SourceDirectory\2020 — копия (9)\10\27\Sales_2020_10_27_14_17_58.txt111 был создан
+28.10.2020 03:58:28 файл D:\Ucheba\Labs\3 sem\Isp\lab2\SourceDirectory\2020 — копия (9)\10\27\Sales_2020_10_27_14_17_58.txt111 был зашифрован
+28.10.2020 03:58:28 файл D:\Ucheba\Labs\3 sem\Isp\lab2\SourceDirectory\2020 — копия (9)\10\27\Sales_2020_10_27_14_17_58.txt111 был заархивирован, исходный размер: 7889  сжатый размер: 10
+28.10.2020 03:58:28 файл D:\Ucheba\Labs\3 sem\Isp\lab2\SourceDirectory\2020 — копия (9)\10\27\Sales_2020_10_27_14_17_58.txt1111 был создан
+28.10.2020 03:58:28 файл D:\Ucheba\Labs\3 sem\Isp\lab2\SourceDirectory\2020 — копия (9)\10\27\Sales_2020_10_27_14_17_58.txt1111 был зашифрован
+28.10.2020 03:58:28 файл D:\Ucheba\Labs\3 sem\Isp\lab2\SourceDirectory\2020 — копия (9)\10\27\Sales_2020_10_27_14_17_58.txt1111 был заархивирован, исходный размер: 17581  сжатый размер: 10
+28.10.2020 03:58:28 файл D:\Ucheba\Labs\3 sem\Isp\lab2\SourceDirectory\2020 — копия (9)\10\27\Sales_2020_10_27_14_17_58.txt11111 был создан
+28.10.2020 03:58:28 файл D:\Ucheba\Labs\3 sem\Isp\lab2\SourceDirectory\2020 — копия (9)\10\27\Sales_2020_10_27_14_17_58.txt11111 был зашифрован
+28.10.2020 03:58:28 файл D:\Ucheba\Labs\3 sem\Isp\lab2\SourceDirectory\2020 — копия (9)\10\27\Sales_2020_10_27_14_17_58.txt11111 был заархивирован, исходный размер: 38848  сжатый размер: 8192
+28.10.2020 03:58:28 файл D:\Ucheba\Labs\3 sem\Isp\lab2\SourceDirectory\2020 — копия (9)\10\27\Sales_2020_10_27_14_17_58.txt111111 был создан
+28.10.2020 03:58:28 файл D:\Ucheba\Labs\3 sem\Isp\lab2\SourceDirectory\2020 — копия (9)\10\27\Sales_2020_10_27_14_17_58.txt111111 был зашифрован
+28.10.2020 03:58:28 файл D:\Ucheba\Labs\3 sem\Isp\lab2\SourceDirectory\2020 — копия (9)\10\27\Sales_2020_10_27_14_17_58.txt111111 был заархивирован, исходный размер: 85531  сжатый размер: 40960
+28.10.2020 03:58:28 файл D:\Ucheba\Labs\3 sem\Isp\lab2\SourceDirectory\2020 — копия (9)\10\27\Sales_2020_10_27_14_17_58.txt1111111 был создан
+28.10.2020 03:58:28 файл D:\Ucheba\Labs\3 sem\Isp\lab2\SourceDirectory\2020 — копия (9)\10\27\Sales_2020_10_27_14_17_58.txt1111111 был зашифрован
+28.10.2020 03:58:28 файл D:\Ucheba\Labs\3 sem\Isp\lab2\SourceDirectory\2020 — копия (9)\10\27\Sales_2020_10_27_14_17_58.txt1111111 был заархивирован, исходный размер: 188884  сжатый размер: 122880
+28.10.2020 03:58:28 файл D:\Ucheba\Labs\3 sem\Isp\lab2\SourceDirectory\2020 — копия (9)\10\27\Sales_2020_10_27_14_17_58.txt11111111 был создан
+28.10.2020 03:58:28 файл D:\Ucheba\Labs\3 sem\Isp\lab2\SourceDirectory\2020 — копия (9)\10\27\Sales_2020_10_27_14_17_58.txt11111111 был зашифрован
+28.10.2020 03:58:28 файл D:\Ucheba\Labs\3 sem\Isp\lab2\SourceDirectory\2020 — копия (9)\10\27\Sales_2020_10_27_14_17_58.txt11111111 был заархивирован, исходный размер: 415433  сжатый размер: 319488
+28.10.2020 03:58:28 файл D:\Ucheba\Labs\3 sem\Isp\lab2\SourceDirectory\2020 — копия (9)\10\27\Sales_2020_10_27_14_17_58.txt111111111 был создан
+28.10.2020 03:58:28 файл D:\Ucheba\Labs\3 sem\Isp\lab2\SourceDirectory\2020 — копия (9)\10\27\Sales_2020_10_27_14_17_58.txt111111111 был зашифрован
+28.10.2020 03:58:28 файл D:\Ucheba\Labs\3 sem\Isp\lab2\SourceDirectory\2020 — копия (9)\10\27\Sales_2020_10_27_14_17_58.txt111111111 был заархивирован, исходный размер: 914895  сжатый размер: 712704
+28.10.2020 03:58:28 файл D:\Ucheba\Labs\3 sem\Isp\lab2\SourceDirectory\2020 — копия (9)\10\27\Sales_2020_10_27_14_17_58.txt1111111111 был создан
+28.10.2020 03:58:29 файл D:\Ucheba\Labs\3 sem\Isp\lab2\SourceDirectory\2020 — копия (9)\10\27\Sales_2020_10_27_14_17_58.txt1111111111 был зашифрован
+28.10.2020 03:58:29 файл D:\Ucheba\Labs\3 sem\Isp\lab2\SourceDirectory\2020 — копия (9)\10\27\Sales_2020_10_27_14_17_58.txt1111111111 был заархивирован, исходный размер: 2015732  сжатый размер: 1612983
+28.10.2020 03:58:29 файл D:\Ucheba\Labs\3 sem\Isp\lab2\SourceDirectory\2020 — копия (9)\10\27\Sales_2020_10_27_14_17_58.txt11111111111 был создан
+28.10.2020 03:58:29 файл D:\Ucheba\Labs\3 sem\Isp\lab2\SourceDirectory\2020 — копия (9)\10\27\Sales_2020_10_27_14_17_58.txt11111111111 был зашифрован
+28.10.2020 03:58:29 файл D:\Ucheba\Labs\3 sem\Isp\lab2\SourceDirectory\2020 — копия (9)\10\27\Sales_2020_10_27_14_17_58.txt11111111111 был заархивирован, исходный размер: 4437109  сжатый размер: 3563520
+28.10.2020 03:58:29 файл D:\Ucheba\Labs\3 sem\Isp\lab2\SourceDirectory\2020 — копия (9)\10\27\Sales_2020_10_27_14_17_58.txt111111111111 был создан
+28.10.2020 03:58:29 файл D:\Ucheba\Labs\3 sem\Isp\lab2\SourceDirectory\2020 — копия (9)\10\27\Sales_2020_10_27_14_17_58.txt111111111111 был зашифрован
+28.10.2020 03:58:29 файл D:\Ucheba\Labs\3 sem\Isp\lab2\SourceDirectory\2020 — копия (9)\10\27\Sales_2020_10_27_14_17_58.txt111111111111 был заархивирован, исходный размер: 9772798  сжатый размер: 7888819
+28.10.2020 03:58:29 файл D:\Ucheba\Labs\3 sem\Isp\lab2\SourceDirectory\2020 — копия (9)\10\27\Sales_2020_10_27_14_17_58.txt1111111111111 был создан
+28.10.2020 03:58:30 файл D:\Ucheba\Labs\3 sem\Isp\lab2\SourceDirectory\2020 — копия (9)\10\27\Sales_2020_10_27_14_17_58.txt1111111111111 был зашифрован
+28.10.2020 03:58:31 файл D:\Ucheba\Labs\3 sem\Isp\lab2\SourceDirectory\2020 — копия (9)\10\27\Sales_2020_10_27_14_17_58.txt1111111111111 был заархивирован, исходный размер: 21528850  сжатый размер: 17394498
+28.10.2020 03:58:31 файл D:\Ucheba\Labs\3 sem\Isp\lab2\SourceDirectory\2020 — копия (9)\10\27\Sales_2020_10_27_14_17_58.txt11111111111111 был создан
+28.10.2020 03:58:32 файл D:\Ucheba\Labs\3 sem\Isp\lab2\SourceDirectory\2020 — копия (9)\10\27\Sales_2020_10_27_14_17_58.txt11111111111111 был зашифрован
+28.10.2020 03:58:33 файл D:\Ucheba\Labs\3 sem\Isp\lab2\SourceDirectory\2020 — копия (9)\10\27\Sales_2020_10_27_14_17_58.txt11111111111111 был заархивирован, исходный размер: 47401176  сжатый размер: 38287611
+28.10.2020 03:58:33 файл D:\Ucheba\Labs\3 sem\Isp\lab2\SourceDirectory\2020 — копия (9)\10\27\Sales_2020_10_27_14_17_58.txt111111111111111 был создан
+28.10.2020 03:58:35 файл D:\Ucheba\Labs\3 sem\Isp\lab2\SourceDirectory\2020 — копия (9)\10\27\Sales_2020_10_27_14_17_58.txt111111111111111 был зашифрован
+28.10.2020 03:58:39 файл D:\Ucheba\Labs\3 sem\Isp\lab2\SourceDirectory\2020 — копия (9)\10\27\Sales_2020_10_27_14_17_58.txt111111111111111 был заархивирован, исходный размер: 104382055  сжатый размер: 84336640
+28.10.2020 03:58:39 файл D:\Ucheba\Labs\3 sem\Isp\lab2\SourceDirectory\2020 — копия (9)\10\27\Sales_2020_10_27_14_17_58.txt1111111111111111 был создан
+28.10.2020 04:03:00 файл D:\Ucheba\Labs\3 sem\Isp\lab2\SourceDirectory\2020 — копия был создан
+28.10.2020 04:03:00 файл D:\Ucheba\Labs\3 sem\Isp\lab2\SourceDirectory\2020 — копия\10 был создан
+28.10.2020 04:03:00 файл D:\Ucheba\Labs\3 sem\Isp\lab2\SourceDirectory\2020 — копия\10\27 был создан
+28.10.2020 04:03:00 файл D:\Ucheba\Labs\3 sem\Isp\lab2\SourceDirectory\2020 — копия\10\27\Sales_2020_10_27_14_17_58.txt был создан
+28.10.2020 04:03:02 файл D:\Ucheba\Labs\3 sem\Isp\lab2\SourceDirectory\2020 — копия\10\27\Sales_2020_10_27_14_17_58.txt был зашифрован
+28.10.2020 04:21:17 файл D:\Ucheba\Labs\3 sem\Isp\lab2\SourceDirectory\2020 — копия (2) был создан
+28.10.2020 04:21:17 файл D:\Ucheba\Labs\3 sem\Isp\lab2\SourceDirectory\2020 — копия (2)\10 был создан
+28.10.2020 04:21:17 файл D:\Ucheba\Labs\3 sem\Isp\lab2\SourceDirectory\2020 — копия (2)\10\27 был создан
+28.10.2020 04:21:17 файл D:\Ucheba\Labs\3 sem\Isp\lab2\SourceDirectory\2020 — копия (2)\10\27\Sales_2020_10_27_14_17_58.txt был создан
+28.10.2020 04:21:17 файл D:\Ucheba\Labs\3 sem\Isp\lab2\SourceDirectory\2020 — копия (2)\10\27\Sales_2020_10_27_14_17_58.txt был зашифрован
+28.10.2020 04:21:17 файл D:\Ucheba\Labs\3 sem\Isp\lab2\SourceDirectory\2020 — копия (2)\10\27\Sales_2020_10_27_14_17_58.txt был заархивирован, исходный размер: 587  сжатый размер: 10
+28.10.2020 04:21:17 файл D:\Ucheba\Labs\3 sem\Isp\lab2\SourceDirectory\2020 — копия (2)\10\27\Sales_2020_10_27_14_17_58.gz был создан
+28.10.2020 04:21:17 файл D:\Ucheba\Labs\3 sem\Isp\lab2\SourceDirectory\2020 — копия (2)\10\27\Sales_2020_10_27_14_17_58.gz был зашифрован
+28.10.2020 04:21:38 файл D:\Ucheba\Labs\3 sem\Isp\lab2\SourceDirectory\2020 — копия (3) был создан
+28.10.2020 04:21:38 файл D:\Ucheba\Labs\3 sem\Isp\lab2\SourceDirectory\2020 — копия (3)\10 был создан
+28.10.2020 04:21:38 файл D:\Ucheba\Labs\3 sem\Isp\lab2\SourceDirectory\2020 — копия (3)\10\27 был создан
+28.10.2020 04:21:38 файл D:\Ucheba\Labs\3 sem\Isp\lab2\SourceDirectory\2020 — копия (3)\10\27\Sales_2020_10_27_14_17_58.txt был создан
+28.10.2020 04:21:38 файл D:\Ucheba\Labs\3 sem\Isp\lab2\SourceDirectory\2020 — копия (3)\10\27\Sales_2020_10_27_14_17_58.txt был зашифрован
+28.10.2020 04:21:38 файл D:\Ucheba\Labs\3 sem\Isp\lab2\SourceDirectory\2020 — копия (3)\10\27\Sales_2020_10_27_14_17_58.txt был заархивирован, исходный размер: 594  сжатый размер: 10
+28.10.2020 04:21:38 файл D:\Ucheba\Labs\3 sem\Isp\lab2\SourceDirectory\2020 — копия (3)\10\27\Sales_2020_10_27_14_17_58.gz был создан
+28.10.2020 04:21:38 файл D:\Ucheba\Labs\3 sem\Isp\lab2\SourceDirectory\2020 — копия (3)\10\27\Sales_2020_10_27_14_17_58.gz был зашифрован
+28.10.2020 04:29:46 файл D:\Ucheba\Labs\3 sem\Isp\lab2\SourceDirectory\2020 — копия (4) был создан
+28.10.2020 04:29:46 файл D:\Ucheba\Labs\3 sem\Isp\lab2\SourceDirectory\2020 — копия (4)\10 был создан
+28.10.2020 04:29:46 файл D:\Ucheba\Labs\3 sem\Isp\lab2\SourceDirectory\2020 — копия (4)\10\27 был создан
+28.10.2020 04:29:46 файл D:\Ucheba\Labs\3 sem\Isp\lab2\SourceDirectory\2020 — копия (4)\10\27\Sales_2020_10_27_14_17_58.txt был создан
+28.10.2020 04:29:46 файл D:\Ucheba\Labs\3 sem\Isp\lab2\SourceDirectory\2020 — копия (4)\10\27\Sales_2020_10_27_14_17_58.txt был зашифрован
+28.10.2020 04:29:46 файл D:\Ucheba\Labs\3 sem\Isp\lab2\SourceDirectory\2020 — копия (4)\10\27\Sales_2020_10_27_14_17_58.txt был заархивирован, исходный размер: 598  сжатый размер: 10
+28.10.2020 04:52:00 файл D:\Ucheba\Labs\3 sem\Isp\lab2\SourceDirectory\2020 — копия (5) был создан
+28.10.2020 04:52:00 файл D:\Ucheba\Labs\3 sem\Isp\lab2\SourceDirectory\2020 — копия (5)\10 был создан
+28.10.2020 04:52:00 файл D:\Ucheba\Labs\3 sem\Isp\lab2\SourceDirectory\2020 — копия (5)\10\27 был создан
+28.10.2020 04:52:00 файл D:\Ucheba\Labs\3 sem\Isp\lab2\SourceDirectory\2020 — копия (5)\10\27\Sales_2020_10_27_14_17_58.txt был создан
+28.10.2020 04:52:00 файл D:\Ucheba\Labs\3 sem\Isp\lab2\SourceDirectory\2020 — копия (5)\10\27\Sales_2020_10_27_14_17_58.txt был зашифрован
+28.10.2020 04:52:00 файл D:\Ucheba\Labs\3 sem\Isp\lab2\SourceDirectory\2020 — копия (5)\10\27\Sales_2020_10_27_14_17_58.txt был заархивирован, исходный размер: 589  сжатый размер: 10
+28.10.2020 05:06:32 файл D:\Ucheba\Labs\3 sem\Isp\lab2\SourceDirectory\2020 — копия был создан
+28.10.2020 05:06:32 файл D:\Ucheba\Labs\3 sem\Isp\lab2\SourceDirectory\2020 — копия\10 был создан
+28.10.2020 05:06:32 файл D:\Ucheba\Labs\3 sem\Isp\lab2\SourceDirectory\2020 — копия\10\27 был создан
+28.10.2020 05:06:32 файл D:\Ucheba\Labs\3 sem\Isp\lab2\SourceDirectory\2020 — копия\10\27\Sales_2020_10_27_14_17_58.txt был создан
+28.10.2020 05:06:32 файл D:\Ucheba\Labs\3 sem\Isp\lab2\SourceDirectory\2020 — копия\10\27\Sales_2020_10_27_14_17_58.txt был зашифрован
+28.10.2020 05:06:32 файл D:\Ucheba\Labs\3 sem\Isp\lab2\SourceDirectory\2020 — копия\10\27\Sales_2020_10_27_14_17_58.txt был заархивирован, исходный размер: 604  сжатый размер: 10
+28.10.2020 05:07:14 файл D:\Ucheba\Labs\3 sem\Isp\lab2\SourceDirectory\2020 — копия (2) был создан
+28.10.2020 05:07:14 файл D:\Ucheba\Labs\3 sem\Isp\lab2\SourceDirectory\2020 — копия (2)\10 был создан
+28.10.2020 05:07:14 файл D:\Ucheba\Labs\3 sem\Isp\lab2\SourceDirectory\2020 — копия (2)\10\27 был создан
+28.10.2020 05:07:14 файл D:\Ucheba\Labs\3 sem\Isp\lab2\SourceDirectory\2020 — копия (2)\10\27\Sales_2020_10_27_14_17_58.txt был создан
+28.10.2020 05:07:14 файл D:\Ucheba\Labs\3 sem\Isp\lab2\SourceDirectory\2020 — копия (2)\10\27\Sales_2020_10_27_14_17_58.txt был зашифрован
+28.10.2020 05:07:14 файл D:\Ucheba\Labs\3 sem\Isp\lab2\SourceDirectory\2020 — копия (2)\10\27\Sales_2020_10_27_14_17_58.txt был заархивирован, исходный размер: 617  сжатый размер: 10
+28.10.2020 05:21:06 файл D:\Ucheba\Labs\3 sem\Isp\lab2\SourceDirectory\2020 — копия (2) был удален
+28.10.2020 05:21:06 файл D:\Ucheba\Labs\3 sem\Isp\lab2\SourceDirectory\2020 — копия был удален
+28.10.2020 05:21:10 файл D:\Ucheba\Labs\3 sem\Isp\lab2\SourceDirectory\2020 — копия был создан
+28.10.2020 05:21:10 файл D:\Ucheba\Labs\3 sem\Isp\lab2\SourceDirectory\2020 — копия\10 был создан
+28.10.2020 05:21:11 файл D:\Ucheba\Labs\3 sem\Isp\lab2\SourceDirectory\2020 — копия\10\27 был создан
+28.10.2020 05:21:11 файл D:\Ucheba\Labs\3 sem\Isp\lab2\SourceDirectory\2020 — копия\10\27\Sales_2020_10_27_14_17_58.txt был создан
+28.10.2020 05:21:11 файл D:\Ucheba\Labs\3 sem\Isp\lab2\SourceDirectory\2020 — копия\10\27\Sales_2020_10_27_14_17_58.txt был зашифрован
+28.10.2020 05:21:11 файл D:\Ucheba\Labs\3 sem\Isp\lab2\SourceDirectory\2020 — копия\10\27\Sales_2020_10_27_14_17_58.txt был заархивирован, исходный размер: 610  сжатый размер: 10
+28.10.2020 05:21:11 файл D:\Ucheba\Labs\3 sem\Isp\lab2\TargetDirectory\Sales_2020_10_27_14_17_58.gz был перемещён
+28.10.2020 05:21:11 файл D:\Ucheba\Labs\3 sem\Isp\lab2\TargetDirectory\Sales_2020_10_27_14_17_58.txt был разархивирован
+28.10.2020 05:21:11 файл D:\Ucheba\Labs\3 sem\Isp\lab2\TargetDirectory\Sales_2020_10_27_14_17_58.txt был расшифрован
+28.10.2020 05:24:11 файл D:\Ucheba\Labs\3 sem\Isp\lab2\SourceDirectory\2020 — копия (2) был создан
+28.10.2020 05:24:11 файл D:\Ucheba\Labs\3 sem\Isp\lab2\SourceDirectory\2020 — копия (2)\10 был создан
+28.10.2020 05:24:11 файл D:\Ucheba\Labs\3 sem\Isp\lab2\SourceDirectory\2020 — копия (2)\10\27 был создан
+28.10.2020 05:24:11 файл D:\Ucheba\Labs\3 sem\Isp\lab2\SourceDirectory\2020 — копия (2)\10\27\Sales_2020_10_27_14_17_58.txt был создан
+28.10.2020 05:24:11 файл D:\Ucheba\Labs\3 sem\Isp\lab2\SourceDirectory\2020 — копия (2)\10\27\Sales_2020_10_27_14_17_58.txt был зашифрован
+28.10.2020 05:24:11 файл D:\Ucheba\Labs\3 sem\Isp\lab2\SourceDirectory\2020 — копия (2)\10\27\Sales_2020_10_27_14_17_58.txt был заархивирован, исходный размер: 584  сжатый размер: 10
+28.10.2020 05:35:14 файл D:\Ucheba\Labs\3 sem\Isp\lab2\SourceDirectory\2020 — копия (3) был создан
+28.10.2020 05:35:14 файл D:\Ucheba\Labs\3 sem\Isp\lab2\SourceDirectory\2020 — копия (3)\10 был создан
+28.10.2020 05:35:14 файл D:\Ucheba\Labs\3 sem\Isp\lab2\SourceDirectory\2020 — копия (3)\10\27 был создан
+28.10.2020 05:35:14 файл D:\Ucheba\Labs\3 sem\Isp\lab2\SourceDirectory\2020 — копия (3)\10\27\Sales_2020_10_27_14_17_58.txt был создан
+28.10.2020 05:35:23 файл D:\Ucheba\Labs\3 sem\Isp\lab2\SourceDirectory\2020 — копия (3)\10\27\Sales_2020_10_27_14_17_58.txt был зашифрован
+28.10.2020 05:35:45 файл D:\Ucheba\Labs\3 sem\Isp\lab2\SourceDirectory\2020 — копия (3)\10\27\Sales_2020_10_27_14_17_58.txt был заархивирован, исходный размер: 612  сжатый размер: 10
+28.10.2020 05:36:49 файл D:\Ucheba\Labs\3 sem\Isp\lab2\SourceDirectory\2020 — копия (3)\10\27\Sales_2020_10_27_14_17_58.gz был удален
+28.10.2020 05:36:52 файл D:\Ucheba\Labs\3 sem\Isp\lab2\SourceDirectory\2020 — копия был удален
+28.10.2020 05:36:52 файл D:\Ucheba\Labs\3 sem\Isp\lab2\SourceDirectory\2020 — копия (2) был удален
+28.10.2020 05:36:57 файл D:\Ucheba\Labs\3 sem\Isp\lab2\SourceDirectory\2020 — копия был создан
+28.10.2020 05:36:57 файл D:\Ucheba\Labs\3 sem\Isp\lab2\SourceDirectory\2020 — копия\10 был создан
+28.10.2020 05:36:57 файл D:\Ucheba\Labs\3 sem\Isp\lab2\SourceDirectory\2020 — копия\10\27 был создан
+28.10.2020 05:36:57 файл D:\Ucheba\Labs\3 sem\Isp\lab2\SourceDirectory\2020 — копия\10\27\Sales_2020_10_27_14_17_58.txt был создан
+28.10.2020 05:36:59 файл D:\Ucheba\Labs\3 sem\Isp\lab2\SourceDirectory\2020 — копия\10\27\Sales_2020_10_27_14_17_58.txt был зашифрован
+28.10.2020 05:37:01 файл D:\Ucheba\Labs\3 sem\Isp\lab2\SourceDirectory\2020 — копия\10\27\Sales_2020_10_27_14_17_58.txt был заархивирован, исходный размер: 584  сжатый размер: 10
+28.10.2020 05:37:33 файл D:\Ucheba\Labs\3 sem\Isp\lab2\SourceDirectory\2020 — копия был создан
+28.10.2020 05:37:33 файл D:\Ucheba\Labs\3 sem\Isp\lab2\SourceDirectory\2020 — копия\10 был создан
+28.10.2020 05:37:33 файл D:\Ucheba\Labs\3 sem\Isp\lab2\SourceDirectory\2020 — копия\10\27 был создан
+28.10.2020 05:37:33 файл D:\Ucheba\Labs\3 sem\Isp\lab2\SourceDirectory\2020 — копия\10\27\Sales_2020_10_27_14_17_58.txt был создан
+28.10.2020 05:37:37 файл D:\Ucheba\Labs\3 sem\Isp\lab2\SourceDirectory\2020 — копия\10\27\Sales_2020_10_27_14_17_58.txt был зашифрован
+28.10.2020 05:39:01 файл D:\Ucheba\Labs\3 sem\Isp\lab2\SourceDirectory\2020 — копия\10\27\Sales_2020_10_27_14_17_58.txt был заархивирован, исходный размер: 601  сжатый размер: 10
+28.10.2020 05:39:29 файл D:\Ucheba\Labs\3 sem\Isp\lab2\TargetDirectory\Sales_2020_10_27_14_17_58.gz был перемещён
+28.10.2020 05:39:47 файл D:\Ucheba\Labs\3 sem\Isp\lab2\TargetDirectory\Sales_2020_10_27_14_17_58.txt был разархивирован
+28.10.2020 05:41:22 файл D:\Ucheba\Labs\3 sem\Isp\lab2\TargetDirectory\Sales_2020_10_27_14_17_58.txt был расшифрован

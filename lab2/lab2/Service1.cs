@@ -5,26 +5,20 @@ using System.Threading;
 using System.Security.Cryptography;
 using System.Linq;
 using System.IO;
+using System.IO.Compression;
 
 namespace lab2
 {
     public partial class Service1 //: ServiceBase
     {
-        Watcher watcher;
+        Watcher watcher;                       
         //Begin_CONFIG
-        static byte[] aesKey;
-        static byte[] aesIV;
+        const string LogFilePath = @"D:\Ucheba\Labs\3 sem\Isp\lab2\TargetDirectory\log.txt";
+        const string sourceDirectory = @"D:\Ucheba\Labs\3 sem\Isp\lab2\SourceDirectory";
+        const string targetDirectory = @"D:\Ucheba\Labs\3 sem\Isp\lab2\TargetDirectory";
         //Finish_CONFIG
-        public static void Encrypt(string filePath)
-        {
-            StreamReader streamReader = new StreamReader(filePath);
-            byte[] encrypted = Encryptor.EncryptStringToBytes_Aes(streamReader.ReadToEnd(), aesKey, aesIV);
-            streamReader.Close();
-            StreamWriter streamWriter = new StreamWriter(filePath, false);
-            streamWriter.Write(string.Concat(encrypted.Select(x=>(char)x).ToArray()));            
-            streamWriter.Close();
-            Logger.RecordEntry("зашифрован", filePath);
-        }
+
+
 
         //public Service1()
         //{
@@ -37,10 +31,11 @@ namespace lab2
         public void OnStart()
         {
             var tempAes = Aes.Create();
-            aesKey = tempAes.Key;
-            aesIV = tempAes.IV;
-            Logger.LogFilePath = @"D:\Ucheba\Labs\3 sem\Isp\lab2\TargetDirectory\log.txt";
-            watcher = new Watcher(@"D:\Ucheba\Labs\3 sem\Isp\lab2\SourceDirectory");
+            var aesKey = tempAes.Key;
+            var aesIV = tempAes.IV;
+            var extractor = new Extractor(sourceDirectory,targetDirectory,aesKey,aesIV); 
+            Logger.LogFilePath = LogFilePath;
+            watcher = new Watcher(sourceDirectory, extractor);
             Thread watcherThread = new Thread(new ThreadStart(watcher.Start));
             watcherThread.Start();
 
