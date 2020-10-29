@@ -1,31 +1,32 @@
-28.10.2020 07:01:57 файл D:\Ucheba\Labs\3 sem\Isp\lab2\SourceDirectory\2020 был удален
-28.10.2020 07:02:08 файл D:\Ucheba\Labs\3 sem\Isp\lab2\SourceDirectory\2020 был создан
-28.10.2020 07:02:15 файл D:\Ucheba\Labs\3 sem\Isp\lab2\SourceDirectory\2020 — копия был создан
-28.10.2020 07:02:15 файл D:\Ucheba\Labs\3 sem\Isp\lab2\SourceDirectory\2020 — копия\10 был создан
-28.10.2020 07:02:15 файл D:\Ucheba\Labs\3 sem\Isp\lab2\SourceDirectory\2020 — копия\10\27 был создан
-28.10.2020 07:02:15 файл D:\Ucheba\Labs\3 sem\Isp\lab2\SourceDirectory\2020 — копия\10\27\Sales_2020_10_27_14_17_58.txt был создан
-28.10.2020 07:02:15 файл D:\Ucheba\Labs\3 sem\Isp\lab2\SourceDirectory\2020 — копия\10\27\Sales_2020_10_27_14_17_58.txt был зашифрован
-28.10.2020 07:02:15 файл D:\Ucheba\Labs\3 sem\Isp\lab2\SourceDirectory\2020 — копия\10\27\Sales_2020_10_27_14_17_58.txt был заархивирован, исходный размер: 619  сжатый размер: 10
-28.10.2020 07:02:15 файл D:\Ucheba\Labs\3 sem\Isp\lab2\TargetDirectory\Sales_2020_10_27_14_17_58.gz был перемещён
-28.10.2020 07:02:15 файл D:\Ucheba\Labs\3 sem\Isp\lab2\TargetDirectory\Sales_2020_10_27_14_17_58.txt был разархивирован
-28.10.2020 07:02:15 файл D:\Ucheba\Labs\3 sem\Isp\lab2\TargetDirectory\Sales_2020_10_27_14_17_58.txt был расшифрован
-28.10.2020 07:03:16 файл D:\Ucheba\Labs\3 sem\Isp\lab2\SourceDirectory\Новая папка был создан
-28.10.2020 07:03:23 файл D:\Ucheba\Labs\3 sem\Isp\lab2\SourceDirectory\Новая папка был переименован в D:\Ucheba\Labs\3 sem\Isp\lab2\SourceDirectory\2019
-28.10.2020 07:03:35 файл D:\Ucheba\Labs\3 sem\Isp\lab2\SourceDirectory\2019\Новая папка был создан
-28.10.2020 07:03:36 файл D:\Ucheba\Labs\3 sem\Isp\lab2\SourceDirectory\2019\Новая папка был переименован в D:\Ucheba\Labs\3 sem\Isp\lab2\SourceDirectory\2019\2
-28.10.2020 07:03:41 файл D:\Ucheba\Labs\3 sem\Isp\lab2\SourceDirectory\2019\2\Новый текстовый документ.txt был создан
-28.10.2020 07:03:41 файл D:\Ucheba\Labs\3 sem\Isp\lab2\TargetDirectory\archive\2020\10\28\Sales_2020_10_27_14_17_58.txt был добавлен в архив
-28.10.2020 07:05:46 файл D:\Ucheba\Labs\3 sem\Isp\lab2\SourceDirectory\2019\2\Новый текстовый документ (2).txt был создан
-28.10.2020 07:10:49 файл D:\Ucheba\Labs\3 sem\Isp\lab2\SourceDirectory\2019\2\Новый текстовый документ (3).txt был создан
-28.10.2020 07:10:49 файл D:\Ucheba\Labs\3 sem\Isp\lab2\SourceDirectory\2019\2\Новый текстовый документ (3).txt был зашифрован
-28.10.2020 07:10:49 файл D:\Ucheba\Labs\3 sem\Isp\lab2\SourceDirectory\2019\2\Новый текстовый документ (3).txt был заархивирован, исходный размер: 0  сжатый размер: 0
-28.10.2020 07:10:49 файл D:\Ucheba\Labs\3 sem\Isp\lab2\TargetDirectory\Новый текстовый документ (3).gz был перемещён
-28.10.2020 07:10:49 файл D:\Ucheba\Labs\3 sem\Isp\lab2\TargetDirectory\Новый текстовый документ (3).txt был разархивирован
-28.10.2020 07:10:49 файл D:\Ucheba\Labs\3 sem\Isp\lab2\TargetDirectory\Новый текстовый документ (3).txt был расшифрован
-28.10.2020 07:16:06 файл D:\Ucheba\Labs\3 sem\Isp\lab2\SourceDirectory\2020\10\27\Sales_2020_10_27_14_17_58 — копия (2).txt был создан
-28.10.2020 07:16:06 файл D:\Ucheba\Labs\3 sem\Isp\lab2\TargetDirectory\archive\2020\10\28\Новый текстовый документ (3).txt был добавлен в архив
-28.10.2020 07:16:06 файл D:\Ucheba\Labs\3 sem\Isp\lab2\SourceDirectory\2020\10\27\Sales_2020_10_27_14_17_58 — копия (2).txt был зашифрован
-28.10.2020 07:16:06 файл D:\Ucheba\Labs\3 sem\Isp\lab2\SourceDirectory\2020\10\27\Sales_2020_10_27_14_17_58 — копия (2).txt был заархивирован, исходный размер: 610  сжатый размер: 10
-28.10.2020 07:16:06 файл D:\Ucheba\Labs\3 sem\Isp\lab2\TargetDirectory\Sales_2020_10_27_14_17_58 — копия (2).gz был перемещён
-28.10.2020 07:16:06 файл D:\Ucheba\Labs\3 sem\Isp\lab2\TargetDirectory\Sales_2020_10_27_14_17_58 — копия (2).txt был разархивирован
-28.10.2020 07:16:06 файл D:\Ucheba\Labs\3 sem\Isp\lab2\TargetDirectory\Sales_2020_10_27_14_17_58 — копия (2).txt был расшифрован
+29.10.2020 03:22:26 файл D:\Ucheba\Labs\3 sem\Isp\lab2\SourceDirectory\Новая папка — копия (7) был создан
+29.10.2020 03:22:26 файл D:\Ucheba\Labs\3 sem\Isp\lab2\SourceDirectory\Новая папка — копия (7)\Новый текстовый документ.txt был создан
+29.10.2020 03:22:26 файл D:\Ucheba\Labs\3 sem\Isp\lab2\SourceDirectory\Новая папка — копия (7)\Новый текстовый документ.txt был зашифрован
+29.10.2020 03:22:26 файл D:\Ucheba\Labs\3 sem\Isp\lab2\SourceDirectory\Новая папка — копия (7)\Новый текстовый документ.txt был заархивирован, исходный размер: 26  сжатый размер: 10
+29.10.2020 03:22:26 файл D:\Ucheba\Labs\3 sem\Isp\lab2\TargetDirectory\Новый текстовый документ.gz был перемещён
+29.10.2020 03:22:26 файл D:\Ucheba\Labs\3 sem\Isp\lab2\TargetDirectory\Новый текстовый документ.txt был разархивирован
+29.10.2020 03:22:26 файл D:\Ucheba\Labs\3 sem\Isp\lab2\TargetDirectory\Новый текстовый документ.txt был расшифрован
+29.10.2020 03:25:21 файл D:\Ucheba\Labs\3 sem\Isp\lab2\SourceDirectory\Новая папка был удален
+29.10.2020 03:25:21 файл D:\Ucheba\Labs\3 sem\Isp\lab2\SourceDirectory\Новая папка — копия был удален
+29.10.2020 03:25:21 файл D:\Ucheba\Labs\3 sem\Isp\lab2\SourceDirectory\Новая папка — копия (2) был удален
+29.10.2020 03:25:21 файл D:\Ucheba\Labs\3 sem\Isp\lab2\SourceDirectory\Новая папка — копия (3) был удален
+29.10.2020 03:25:21 файл D:\Ucheba\Labs\3 sem\Isp\lab2\SourceDirectory\Новая папка — копия (4) был удален
+29.10.2020 03:25:21 файл D:\Ucheba\Labs\3 sem\Isp\lab2\SourceDirectory\Новая папка — копия (5) был удален
+29.10.2020 03:25:21 файл D:\Ucheba\Labs\3 sem\Isp\lab2\SourceDirectory\Новая папка — копия (6) был удален
+29.10.2020 03:25:21 файл D:\Ucheba\Labs\3 sem\Isp\lab2\SourceDirectory\Новая папка — копия (7) был удален
+29.10.2020 03:25:43 статус: Сервис останавливается...
+29.10.2020 03:25:44 статус: Сервис остановлен...
+29.10.2020 03:25:52 статус: Сервис запускается...
+29.10.2020 03:25:52 статус: Сервис запущен...
+29.10.2020 03:26:03 статус: Сервис останавливается...
+29.10.2020 03:26:04 статус: Сервис остановлен...
+29.10.2020 03:29:09 статус: Сервис запускается...
+29.10.2020 03:29:09 статус: Сервис запущен...
+29.10.2020 03:29:16 файл D:\Ucheba\Labs\3 sem\Isp\lab2\SourceDirectory\2019\11\13\Sales_2019_11_13_05_42_12 — копия.txt был создан
+29.10.2020 03:29:16 файл D:\Ucheba\Labs\3 sem\Isp\lab2\TargetDirectory\archive\2020\10\29\15.22.26\Новый текстовый документ.txt был добавлен в архив
+29.10.2020 03:29:16 файл D:\Ucheba\Labs\3 sem\Isp\lab2\SourceDirectory\2019\11\13\Sales_2019_11_13_05_42_12 — копия.txt был зашифрован
+29.10.2020 03:29:16 файл D:\Ucheba\Labs\3 sem\Isp\lab2\SourceDirectory\2019\11\13\Sales_2019_11_13_05_42_12 — копия.txt был заархивирован, исходный размер: 50  сжатый размер: 10
+29.10.2020 03:29:16 файл D:\Ucheba\Labs\3 sem\Isp\lab2\TargetDirectory\Sales_2019_11_13_05_42_12 — копия.gz был перемещён
+29.10.2020 03:29:16 файл D:\Ucheba\Labs\3 sem\Isp\lab2\TargetDirectory\Sales_2019_11_13_05_42_12 — копия.txt был разархивирован
+29.10.2020 03:29:16 файл D:\Ucheba\Labs\3 sem\Isp\lab2\TargetDirectory\Sales_2019_11_13_05_42_12 — копия.txt был расшифрован
+29.10.2020 03:29:47 статус: Сервис останавливается...
+29.10.2020 03:29:48 статус: Сервис остановлен...
