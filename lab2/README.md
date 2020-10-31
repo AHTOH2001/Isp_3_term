@@ -1,4 +1,4 @@
-#Service installing advices
+# Service installing advices
 
 1. In the file Watcher.cs change paths of files 
 2. Move files /yourDirectory/lab2/bin/Debug/lab2.exe and /yourDirectory/lab2/bin/Debug/ServiceLibraries.dll to the other directory (Not necessary, but preferable)
