@@ -1,18 +1,11 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
+﻿using System.ServiceProcess;
 using System.Threading;
-using System.Security.Cryptography;
-using System.Linq;
-using System.IO;
-using System.IO.Compression;
-using System.ServiceProcess;
 
 namespace lab2
 {
     public partial class Service1 : ServiceBase
     {
-        Watcher watcher;        
+        Watcher watcher;
 
         public Service1()
         {
@@ -23,18 +16,18 @@ namespace lab2
         }
 
         protected override void OnStart(string[] args)
-        {                   
+        {
             watcher = new Watcher();
             Thread watcherThread = new Thread(new ThreadStart(watcher.Start));
-            watcherThread.Start();            
+            watcherThread.Start();
         }
 
         protected override void OnStop()
         {
-            Logger.RecordStatus("Сервис останавливается...");
+            Logger.RecordStatus("The service stops...");
             watcher.Stop();
             Thread.Sleep(1000);
-            Logger.RecordStatus("Сервис остановлен...");
+            Logger.RecordStatus("The service stopped...");
         }
     }
 }

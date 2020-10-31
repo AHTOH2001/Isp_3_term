@@ -1,9 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
-using System.IO;
-using System.IO.Compression;
+﻿using System.IO;
 using System.Security.Cryptography;
-using System.Text;
 using System.Threading;
 
 namespace lab2
@@ -12,30 +8,29 @@ namespace lab2
     {
         FileSystemWatcher watcher;
         bool enabled = true;
-        string WatchedFolder;
+        string watchedFolder;
         Extractor extractor;
         //Begin_CONFIG
-        const string LogFilePath = @"D:\Ucheba\Labs\3 sem\Isp\lab2\TargetDirectory\log.txt";
+        const string logFilePath = @"D:\Ucheba\Labs\3 sem\Isp\lab2\TargetDirectory\log.txt";
         const string sourceDirectory = @"D:\Ucheba\Labs\3 sem\Isp\lab2\SourceDirectory";
         const string targetDirectory = @"D:\Ucheba\Labs\3 sem\Isp\lab2\TargetDirectory";
         //Finish_CONFIG
         public Watcher()
         {
-            Logger.LogFilePath = LogFilePath;
-            Logger.RecordStatus("Сервис запускается...");
+            Logger.logFilePath = logFilePath;
+            Logger.RecordStatus("The service starts...");
             var tempAes = Aes.Create();
             var aesKey = tempAes.Key;
             var aesIV = tempAes.IV;
-            var extractor = new Extractor(sourceDirectory, targetDirectory, aesKey, aesIV);
+            var extractor = new Extractor(targetDirectory, aesKey, aesIV);
             this.extractor = extractor;
-            this.WatchedFolder = sourceDirectory;
-            watcher = new FileSystemWatcher(WatchedFolder);
+            this.watchedFolder = sourceDirectory;
+            watcher = new FileSystemWatcher(watchedFolder);
             watcher.Deleted += Watcher_Deleted;
             watcher.Created += Watcher_Created;
-            // watcher.Changed += Watcher_Changed;
             watcher.Renamed += Watcher_Renamed;
             watcher.IncludeSubdirectories = true;
-            Logger.RecordStatus("Сервис запущен...");
+            Logger.RecordStatus("The service started...");
         }
 
         public void Start()
@@ -53,32 +48,23 @@ namespace lab2
             enabled = false;
         }
 
-        // переименовывание файлов
         private void Watcher_Renamed(object sender, RenamedEventArgs e)
         {
-            string fileEvent = "переименован в " + e.FullPath;
+            string fileEvent = "renamed to " + e.FullPath;
             string filePath = e.OldFullPath;
             Logger.RecordEntry(fileEvent, filePath);
         }
-        // изменение файлов
-        //private void Watcher_Changed(object sender, FileSystemEventArgs e)
-        //{
-        //    string fileEvent = "изменен";
-        //    string filePath = e.FullPath;
-        //    Logger.RecordEntry(fileEvent, filePath);
-        //}
 
         private bool IsNotFolder(string fullPath)
         {
-            FileInfo fl = new FileInfo(fullPath);
+            var fl = new FileInfo(fullPath);
             if (fl.Extension != "") return true;
             else return false;
         }
 
-        // создание файлов
         private void Watcher_Created(object sender, FileSystemEventArgs e)
         {
-            string fileEvent = "создан";
+            string fileEvent = "created";
             string filePath = e.FullPath;
             Logger.RecordEntry(fileEvent, filePath);
 
@@ -90,10 +76,9 @@ namespace lab2
             }
         }
 
-        // удаление файлов
         private void Watcher_Deleted(object sender, FileSystemEventArgs e)
         {
-            string fileEvent = "удален";
+            string fileEvent = "deleted";
             string filePath = e.FullPath;
             Logger.RecordEntry(fileEvent, filePath);
         }

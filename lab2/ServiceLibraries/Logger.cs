@@ -1,8 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.IO;
-using System.Text;
-using System.Threading;
 
 namespace lab2
 {
@@ -10,33 +7,35 @@ namespace lab2
     {
 
         static object obj = new object();
-        public static string LogFilePath;
+        public static string logFilePath;
 
-        static public void RecordEntry(string fileEvent, string filePath)
+        public static void RecordEntry(string fileEvent, string filePath)
         {
             lock (obj)
             {
-                using (StreamWriter writer = new StreamWriter(LogFilePath, true))
+                using (StreamWriter writer = new StreamWriter(logFilePath, true))
                 {
-                    writer.WriteLine(String.Format("{0} файл {1} был {2}",
-                        DateTime.Now.ToString("dd/MM/yyyy hh:mm:ss"), filePath, fileEvent));
+                    var message = String.Format("{0} file {1} has been {2}",
+                        DateTime.Now.ToString("dd/MM/yyyy hh:mm:ss"), filePath, fileEvent);
+
+                    writer.WriteLine(message);
                     writer.Flush();
-                    Console.WriteLine(String.Format("{0} файл {1} был {2}",
-                        DateTime.Now.ToString("dd/MM/yyyy hh:mm:ss"), filePath, fileEvent));
+                    Console.WriteLine(message);
                 }
             }
         }
-        static public void RecordStatus(string Status)
+        public static void RecordStatus(string Status)
         {
             lock (obj)
             {
-                using (StreamWriter writer = new StreamWriter(LogFilePath, true))
+                using (StreamWriter writer = new StreamWriter(logFilePath, true))
                 {
-                    writer.WriteLine(String.Format("{0} статус: {1}",
-                        DateTime.Now.ToString("dd/MM/yyyy hh:mm:ss"), Status));
+                    var message = String.Format("{0} status: {1}",
+                        DateTime.Now.ToString("dd/MM/yyyy hh:mm:ss"), Status);
+
+                    writer.WriteLine(message);
                     writer.Flush();
-                    //Console.WriteLine(String.Format("{0} статус: {1}",
-                     //   DateTime.Now.ToString("dd/MM/yyyy hh:mm:ss"), Status));
+                    Console.WriteLine(message);
                 }
             }
         }

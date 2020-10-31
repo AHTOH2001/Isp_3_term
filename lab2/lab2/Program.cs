@@ -1,9 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.ServiceProcess;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.ServiceProcess;
 
 namespace lab2
 {
@@ -14,8 +9,6 @@ namespace lab2
         /// </summary>
         static void Main()
         {
-            //Logger.LogFilePath = @"D:\Ucheba\Labs\3 sem\Isp\lab2\TargetDirectory\log.txt";
-            //Logger.RecordStatus("Test");
             ServiceBase[] ServicesToRun;
             ServicesToRun = new ServiceBase[]
             {

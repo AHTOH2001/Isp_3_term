@@ -1,8 +1,6 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.IO;
 using System.Linq;
-using System.Text;
 
 namespace lab2
 {
@@ -10,40 +8,42 @@ namespace lab2
     {
         byte[] aesKey;
         byte[] aesIV;
-        string sourceDirectory;
         string targetDirectory;
-        public Extractor(string sourceDirectory, string targetDirectory, byte[] aesKey, byte[] aesIV)
+        Encryptor encryptor;
+        Archivator archivator;
+        public Extractor(string targetDirectory, byte[] aesKey, byte[] aesIV)
         {
-            this.sourceDirectory = sourceDirectory;
             this.targetDirectory = targetDirectory;
             this.aesKey = aesKey;
             this.aesIV = aesIV;
+            this.encryptor = new Encryptor();
+            this.archivator = new Archivator();
         }
 
         private void Encrypt(string filePath)
         {
-            StreamReader streamReader = new StreamReader(filePath);
-            byte[] encrypted = Encryptor.EncryptStringToBytes_Aes(streamReader.ReadToEnd(), aesKey, aesIV);
+            var streamReader = new StreamReader(filePath);
+            byte[] encrypted = encryptor.EncryptStringToBytes_Aes(streamReader.ReadToEnd(), aesKey, aesIV);
             streamReader.Close();
-            StreamWriter streamWriter = new StreamWriter(filePath, false);
+            var streamWriter = new StreamWriter(filePath, false);
             streamWriter.Write(string.Concat(encrypted.Select(x => (char)x).ToArray()));
             streamWriter.Close();
-            Logger.RecordEntry("зашифрован", filePath);
+            Logger.RecordEntry("encrypted", filePath);
         }
         private void Decrypt(string filePath)
         {
-            StreamReader streamReader = new StreamReader(filePath);
-            string decrypted = Encryptor.DecryptStringFromBytes_Aes(streamReader.ReadToEnd().Select(x => (byte)x).ToArray(), aesKey, aesIV);
+            var streamReader = new StreamReader(filePath);
+            string decrypted = encryptor.DecryptStringFromBytes_Aes(streamReader.ReadToEnd().Select(x => (byte)x).ToArray(), aesKey, aesIV);
             streamReader.Close();
-            StreamWriter streamWriter = new StreamWriter(filePath, false);
+            var streamWriter = new StreamWriter(filePath, false);
             streamWriter.Write(decrypted);
             streamWriter.Close();
-            Logger.RecordEntry("расшифрован", filePath);
+            Logger.RecordEntry("decrypted", filePath);
         }
 
         private string DeleteExtension(string sourceFile)
         {
-            FileInfo fileInfo = new FileInfo(sourceFile);
+            var fileInfo = new FileInfo(sourceFile);
             if (fileInfo.Extension == "") return sourceFile;
             for (int i = sourceFile.Length - 1; i >= 0; i--)
                 if (sourceFile[i] == '.') return sourceFile.Substring(0, i);
@@ -53,35 +53,35 @@ namespace lab2
         {
             ArchiveOldFiles(targetDirectory);
             Encrypt(sourceFile);
-            FileInfo sourceFileInfo = new FileInfo(sourceFile);
+            var sourceFileInfo = new FileInfo(sourceFile);
             string initialExtension = sourceFileInfo.Extension;
-            FileInfo archivedFileInfo = new FileInfo(DeleteExtension(sourceFileInfo.FullName) + ".gz");
-            Archivator.Compress(sourceFile, archivedFileInfo.FullName);
+            var archivedFileInfo = new FileInfo(DeleteExtension(sourceFileInfo.FullName) + ".gz");
+            archivator.Compress(sourceFile, archivedFileInfo.FullName);
 
             sourceFileInfo.Delete();
 
             File.Move(archivedFileInfo.FullName, targetDirectory + '\\' + archivedFileInfo.Name);
             archivedFileInfo = new FileInfo(targetDirectory + '\\' + archivedFileInfo.Name);
-            Logger.RecordEntry("перемещён", archivedFileInfo.FullName);
+            Logger.RecordEntry("moved", archivedFileInfo.FullName);
 
             sourceFileInfo = new FileInfo(DeleteExtension(archivedFileInfo.FullName) + initialExtension);
-            Archivator.Decompress(archivedFileInfo.FullName, sourceFileInfo.FullName);
+            archivator.Decompress(archivedFileInfo.FullName, sourceFileInfo.FullName);
             File.Delete(archivedFileInfo.FullName);
             Decrypt(sourceFileInfo.FullName);
         }
 
         private void ArchiveOldFiles(string targetDirectory)
         {
-            DirectoryInfo directoryInfo = new DirectoryInfo(targetDirectory);
+            var directoryInfo = new DirectoryInfo(targetDirectory);
             foreach (var file in directoryInfo.GetFiles())
             {
                 if (file.Name != "archive" && file.Name.Substring(0, 3).ToLower() != "log")
-                {                    
-                    DateTime creationDate = file.CreationTime;
-                    DirectoryInfo archiveDirectory = new DirectoryInfo(targetDirectory + "\\archive\\" + creationDate.Year.ToString() + '\\' + creationDate.Month.ToString() + '\\' + creationDate.Day.ToString() + '\\' + creationDate.ToString("HH.mm.ss"));
+                {
+                    var creationDate = file.CreationTime;
+                    var archiveDirectory = new DirectoryInfo(targetDirectory + "\\archive\\" + creationDate.Year.ToString() + '\\' + creationDate.Month.ToString() + '\\' + creationDate.Day.ToString() + '\\' + creationDate.ToString("HH.mm.ss"));
                     archiveDirectory.Create();
                     file.MoveTo(archiveDirectory.FullName + '\\' + file.Name);
-                    Logger.RecordEntry("добавлен в архив", file.FullName);
+                    Logger.RecordEntry("added to archieve", file.FullName);
                 }
             }
         }
