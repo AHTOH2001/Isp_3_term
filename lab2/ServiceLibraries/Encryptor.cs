@@ -8,16 +8,16 @@ namespace lab2
     {
         public byte[] EncryptStringToBytesAes(string plainText, byte[] Key, byte[] IV)
         {
-            // Check arguments.
-            if (plainText == null || plainText.Length <= 0)
+            // Check arguments.           
+            if (Utils.IsNullOrEmpty(plainText))
             {
                 return new byte[0];
             }
-            if (Key == null || Key.Length <= 0)
+            if (Utils.IsNullOrEmpty(Key))
             {
                 throw new ArgumentNullException("Key");
             }
-            if (IV == null || IV.Length <= 0)
+            if (Utils.IsNullOrEmpty(IV))
             {
                 throw new ArgumentNullException("IV");
             }
@@ -55,15 +55,15 @@ namespace lab2
         public string DecryptStringFromBytesAes(byte[] cipherText, byte[] Key, byte[] IV)
         {
             // Check arguments.
-            if (cipherText == null || cipherText.Length <= 0)
+            if (Utils.IsNullOrEmpty(cipherText))
             {
                 return "";
             }
-            if (Key == null || Key.Length <= 0)
+            if (Utils.IsNullOrEmpty(Key))
             {
                 throw new ArgumentNullException("Key");
             }
-            if (IV == null || IV.Length <= 0)
+            if (Utils.IsNullOrEmpty(IV))
             {
                 throw new ArgumentNullException("IV");
             }

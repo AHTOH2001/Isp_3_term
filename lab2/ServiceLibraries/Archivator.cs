@@ -7,7 +7,7 @@ namespace lab2
     {
         public void Compress(string sourceFile, string compressedFile)
         {
-            using (var sourceStream = new FileStream(sourceFile, FileMode.OpenOrCreate))
+            using (var sourceStream = new FileStream(sourceFile, FileMode.Open))
             {
                 using (var targetStream = File.Create(compressedFile))
                 {
@@ -22,7 +22,7 @@ namespace lab2
 
         public void Decompress(string compressedFile, string targetFile)
         {
-            using (var sourceStream = new FileStream(compressedFile, FileMode.OpenOrCreate))
+            using (var sourceStream = new FileStream(compressedFile, FileMode.Open))
             {
                 using (var targetStream = File.Create(targetFile))
                 {

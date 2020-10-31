@@ -1,5 +1,4 @@
-﻿using System;
-using System.IO;
+﻿using System.IO;
 using System.Linq;
 
 namespace lab2
@@ -11,6 +10,7 @@ namespace lab2
         private string _targetDirectory;
         private Encryptor _encryptor;
         private Archivator _archivator;
+
         public Extractor(string targetDirectory, byte[] aesKey, byte[] aesIV)
         {
             this._targetDirectory = targetDirectory;
@@ -23,7 +23,7 @@ namespace lab2
         private void Encrypt(string filePath)
         {
             var streamReader = new StreamReader(filePath);
-            byte[] encrypted = _encryptor.EncryptStringToBytesAes(streamReader.ReadToEnd(), _aesKey, _aesIV);
+            var encrypted = _encryptor.EncryptStringToBytesAes(streamReader.ReadToEnd(), _aesKey, _aesIV);
             streamReader.Close();
             var streamWriter = new StreamWriter(filePath, false);
             streamWriter.Write(string.Concat(encrypted.Select(x => (char)x).ToArray()));
@@ -41,38 +41,22 @@ namespace lab2
             Logger.RecordEntry("decrypted", filePath);
         }
 
-        private string DeleteExtension(string sourceFile)
-        {
-            var fileInfo = new FileInfo(sourceFile);
-            if (fileInfo.Extension == "")
-            {
-                return sourceFile;
-            }
-            for (int i = sourceFile.Length - 1; i >= 0; i--)
-            {
-                if (sourceFile[i] == '.')
-                {
-                    return sourceFile.Substring(0, i);
-                }
-            }
-            throw new Exception("deleteExtensionUnknownError");
-        }
         public void Extract(string sourceFile)
         {
             ArchiveOldFiles(_targetDirectory);
             Encrypt(sourceFile);
             var sourceFileInfo = new FileInfo(sourceFile);
             string initialExtension = sourceFileInfo.Extension;
-            var archivedFileInfo = new FileInfo(DeleteExtension(sourceFileInfo.FullName) + ".gz");
+            var archivedFileInfo = new FileInfo(sourceFileInfo.DirectoryName + Path.DirectorySeparatorChar + Path.GetFileNameWithoutExtension(sourceFileInfo.Name) + ".gz");
             _archivator.Compress(sourceFile, archivedFileInfo.FullName);
 
             sourceFileInfo.Delete();
 
-            File.Move(archivedFileInfo.FullName, _targetDirectory + '\\' + archivedFileInfo.Name);
-            archivedFileInfo = new FileInfo(_targetDirectory + '\\' + archivedFileInfo.Name);
+            File.Move(archivedFileInfo.FullName, _targetDirectory + Path.DirectorySeparatorChar + archivedFileInfo.Name);
+            archivedFileInfo = new FileInfo(_targetDirectory + Path.DirectorySeparatorChar + archivedFileInfo.Name);
             Logger.RecordEntry("moved", archivedFileInfo.FullName);
 
-            sourceFileInfo = new FileInfo(DeleteExtension(archivedFileInfo.FullName) + initialExtension);
+            sourceFileInfo = new FileInfo(archivedFileInfo.DirectoryName + Path.DirectorySeparatorChar + Path.GetFileNameWithoutExtension(archivedFileInfo.Name) + initialExtension);
             _archivator.Decompress(archivedFileInfo.FullName, sourceFileInfo.FullName);
             File.Delete(archivedFileInfo.FullName);
             Decrypt(sourceFileInfo.FullName);
@@ -86,9 +70,12 @@ namespace lab2
                 if (file.Name != "archive" && file.Name.Substring(0, 3).ToLower() != "log")
                 {
                     var creationDate = file.CreationTime;
-                    var archiveDirectory = new DirectoryInfo(targetDirectory + "\\archive\\" + creationDate.Year.ToString() + '\\' + creationDate.Month.ToString() + '\\' + creationDate.Day.ToString() + '\\' + creationDate.ToString("HH.mm.ss"));
-                    archiveDirectory.Create();
-                    file.MoveTo(archiveDirectory.FullName + '\\' + file.Name);
+                    var archiveDirectory = new DirectoryInfo(Path.Combine(targetDirectory, "archive", creationDate.Year.ToString(), creationDate.Month.ToString(), creationDate.Day.ToString(), creationDate.ToString("HH.mm.ss")));
+                    if (!archiveDirectory.Exists)
+                    {
+                        archiveDirectory.Create();
+                    }
+                    file.MoveTo(archiveDirectory.FullName + Path.DirectorySeparatorChar + file.Name);
                     Logger.RecordEntry("added to archieve", file.FullName);
                 }
             }

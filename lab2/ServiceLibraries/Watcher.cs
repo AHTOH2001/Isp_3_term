@@ -1,4 +1,5 @@
-﻿using System.IO;
+﻿using System;
+using System.IO;
 using System.Security.Cryptography;
 using System.Threading;
 
@@ -11,10 +12,11 @@ namespace lab2
         private string _watchedFolder;
         private Extractor _extractor;
         //Begin_CONFIG
-        const string logFilePath = @"D:\Ucheba\Labs\3 sem\Isp\lab2\TargetDirectory\log.txt";
-        const string sourceDirectory = @"D:\Ucheba\Labs\3 sem\Isp\lab2\SourceDirectory";
-        const string targetDirectory = @"D:\Ucheba\Labs\3 sem\Isp\lab2\TargetDirectory";
+        private const string logFilePath = @"D:\Ucheba\Labs\3 sem\Isp\lab2\TargetDirectory\log.txt";
+        private const string sourceDirectory = @"D:\Ucheba\Labs\3 sem\Isp\lab2\SourceDirectory";
+        private const string targetDirectory = @"D:\Ucheba\Labs\3 sem\Isp\lab2\TargetDirectory";
         //Finish_CONFIG
+
         public Watcher()
         {
             Logger.LogFilePath = logFilePath;
@@ -50,35 +52,30 @@ namespace lab2
 
         private void WatcherRenamed(object sender, RenamedEventArgs e)
         {
-            string fileEvent = "renamed to " + e.FullPath;
+            string fileEvent = "renamed to" + e.FullPath;
             string filePath = e.OldFullPath;
             Logger.RecordEntry(fileEvent, filePath);
         }
 
-        private bool IsNotFolder(string fullPath)
-        {
-            var fl = new FileInfo(fullPath);
-            if (fl.Extension != "")
-            {
-                return true;
-            }
-            else
-            {
-                return false;
-            }
-        }
-
         private void WatcherCreated(object sender, FileSystemEventArgs e)
         {
-            string fileEvent = "created";
-            string filePath = e.FullPath;
-            Logger.RecordEntry(fileEvent, filePath);
-
-            if (IsNotFolder(e.FullPath))
+            try
             {
-                _watcher.EnableRaisingEvents = false;
-                _extractor.Extract(e.FullPath);
-                _watcher.EnableRaisingEvents = true;
+                string fileEvent = "created";
+                string filePath = e.FullPath;
+                Logger.RecordEntry(fileEvent, filePath);
+                //Folders shouldn't be extracted
+                if (Path.HasExtension(filePath))
+                {
+                    _watcher.EnableRaisingEvents = false;
+                    _extractor.Extract(e.FullPath);
+                    _watcher.EnableRaisingEvents = true;
+                }
+            }
+            catch (Exception exception)
+            {
+                Logger.RecordStatus(exception.Message);
+                Stop();
             }
         }
 
