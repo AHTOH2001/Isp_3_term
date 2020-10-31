@@ -6,15 +6,21 @@ namespace lab2
 {
     public class Encryptor
     {
-        public byte[] EncryptStringToBytes_Aes(string plainText, byte[] Key, byte[] IV)
+        public byte[] EncryptStringToBytesAes(string plainText, byte[] Key, byte[] IV)
         {
             // Check arguments.
             if (plainText == null || plainText.Length <= 0)
+            {
                 return new byte[0];
+            }
             if (Key == null || Key.Length <= 0)
+            {
                 throw new ArgumentNullException("Key");
+            }
             if (IV == null || IV.Length <= 0)
+            {
                 throw new ArgumentNullException("IV");
+            }
             byte[] encrypted;
 
             // Create an Aes object
@@ -46,15 +52,21 @@ namespace lab2
             return encrypted;
         }
 
-        public string DecryptStringFromBytes_Aes(byte[] cipherText, byte[] Key, byte[] IV)
+        public string DecryptStringFromBytesAes(byte[] cipherText, byte[] Key, byte[] IV)
         {
             // Check arguments.
             if (cipherText == null || cipherText.Length <= 0)
+            {
                 return "";
+            }
             if (Key == null || Key.Length <= 0)
+            {
                 throw new ArgumentNullException("Key");
+            }
             if (IV == null || IV.Length <= 0)
+            {
                 throw new ArgumentNullException("IV");
+            }
 
             // Declare the string used to hold
             // the decrypted text.

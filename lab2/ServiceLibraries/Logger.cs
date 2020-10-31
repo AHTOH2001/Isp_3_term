@@ -6,14 +6,14 @@ namespace lab2
     public static class Logger
     {
 
-        static object obj = new object();
-        public static string logFilePath;
+        private static object _obj = new object();
+        public static string LogFilePath;
 
         public static void RecordEntry(string fileEvent, string filePath)
         {
-            lock (obj)
+            lock (_obj)
             {
-                using (StreamWriter writer = new StreamWriter(logFilePath, true))
+                using (StreamWriter writer = new StreamWriter(LogFilePath, true))
                 {
                     var message = String.Format("{0} file {1} has been {2}",
                         DateTime.Now.ToString("dd/MM/yyyy hh:mm:ss"), filePath, fileEvent);
@@ -26,9 +26,9 @@ namespace lab2
         }
         public static void RecordStatus(string Status)
         {
-            lock (obj)
+            lock (_obj)
             {
-                using (StreamWriter writer = new StreamWriter(logFilePath, true))
+                using (StreamWriter writer = new StreamWriter(LogFilePath, true))
                 {
                     var message = String.Format("{0} status: {1}",
                         DateTime.Now.ToString("dd/MM/yyyy hh:mm:ss"), Status);

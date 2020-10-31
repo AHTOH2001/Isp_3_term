@@ -6,10 +6,10 @@ namespace lab2
 {
     public class Watcher
     {
-        FileSystemWatcher watcher;
-        bool enabled = true;
-        string watchedFolder;
-        Extractor extractor;
+        private FileSystemWatcher _watcher;
+        private bool _enabled = true;
+        private string _watchedFolder;
+        private Extractor _extractor;
         //Begin_CONFIG
         const string logFilePath = @"D:\Ucheba\Labs\3 sem\Isp\lab2\TargetDirectory\log.txt";
         const string sourceDirectory = @"D:\Ucheba\Labs\3 sem\Isp\lab2\SourceDirectory";
@@ -17,38 +17,38 @@ namespace lab2
         //Finish_CONFIG
         public Watcher()
         {
-            Logger.logFilePath = logFilePath;
+            Logger.LogFilePath = logFilePath;
             Logger.RecordStatus("The service starts...");
             var tempAes = Aes.Create();
             var aesKey = tempAes.Key;
             var aesIV = tempAes.IV;
             var extractor = new Extractor(targetDirectory, aesKey, aesIV);
-            this.extractor = extractor;
-            this.watchedFolder = sourceDirectory;
-            watcher = new FileSystemWatcher(watchedFolder);
-            watcher.Deleted += Watcher_Deleted;
-            watcher.Created += Watcher_Created;
-            watcher.Renamed += Watcher_Renamed;
-            watcher.IncludeSubdirectories = true;
+            this._extractor = extractor;
+            this._watchedFolder = sourceDirectory;
+            _watcher = new FileSystemWatcher(_watchedFolder);
+            _watcher.Deleted += WatcherDeleted;
+            _watcher.Created += WatcherCreated;
+            _watcher.Renamed += WatcherRenamed;
+            _watcher.IncludeSubdirectories = true;
             Logger.RecordStatus("The service started...");
         }
 
         public void Start()
         {
-            watcher.EnableRaisingEvents = true;
-            enabled = true;
-            while (enabled)
+            _watcher.EnableRaisingEvents = true;
+            _enabled = true;
+            while (_enabled)
             {
                 Thread.Sleep(1000);
             }
         }
         public void Stop()
         {
-            watcher.EnableRaisingEvents = false;
-            enabled = false;
+            _watcher.EnableRaisingEvents = false;
+            _enabled = false;
         }
 
-        private void Watcher_Renamed(object sender, RenamedEventArgs e)
+        private void WatcherRenamed(object sender, RenamedEventArgs e)
         {
             string fileEvent = "renamed to " + e.FullPath;
             string filePath = e.OldFullPath;
@@ -58,11 +58,17 @@ namespace lab2
         private bool IsNotFolder(string fullPath)
         {
             var fl = new FileInfo(fullPath);
-            if (fl.Extension != "") return true;
-            else return false;
+            if (fl.Extension != "")
+            {
+                return true;
+            }
+            else
+            {
+                return false;
+            }
         }
 
-        private void Watcher_Created(object sender, FileSystemEventArgs e)
+        private void WatcherCreated(object sender, FileSystemEventArgs e)
         {
             string fileEvent = "created";
             string filePath = e.FullPath;
@@ -70,13 +76,13 @@ namespace lab2
 
             if (IsNotFolder(e.FullPath))
             {
-                watcher.EnableRaisingEvents = false;
-                extractor.Extract(e.FullPath);
-                watcher.EnableRaisingEvents = true;
+                _watcher.EnableRaisingEvents = false;
+                _extractor.Extract(e.FullPath);
+                _watcher.EnableRaisingEvents = true;
             }
         }
 
-        private void Watcher_Deleted(object sender, FileSystemEventArgs e)
+        private void WatcherDeleted(object sender, FileSystemEventArgs e)
         {
             string fileEvent = "deleted";
             string filePath = e.FullPath;

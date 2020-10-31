@@ -6,24 +6,24 @@ namespace lab2
 {
     public class Extractor
     {
-        byte[] aesKey;
-        byte[] aesIV;
-        string targetDirectory;
-        Encryptor encryptor;
-        Archivator archivator;
+        private byte[] _aesKey;
+        private byte[] _aesIV;
+        private string _targetDirectory;
+        private Encryptor _encryptor;
+        private Archivator _archivator;
         public Extractor(string targetDirectory, byte[] aesKey, byte[] aesIV)
         {
-            this.targetDirectory = targetDirectory;
-            this.aesKey = aesKey;
-            this.aesIV = aesIV;
-            this.encryptor = new Encryptor();
-            this.archivator = new Archivator();
+            this._targetDirectory = targetDirectory;
+            this._aesKey = aesKey;
+            this._aesIV = aesIV;
+            this._encryptor = new Encryptor();
+            this._archivator = new Archivator();
         }
 
         private void Encrypt(string filePath)
         {
             var streamReader = new StreamReader(filePath);
-            byte[] encrypted = encryptor.EncryptStringToBytes_Aes(streamReader.ReadToEnd(), aesKey, aesIV);
+            byte[] encrypted = _encryptor.EncryptStringToBytesAes(streamReader.ReadToEnd(), _aesKey, _aesIV);
             streamReader.Close();
             var streamWriter = new StreamWriter(filePath, false);
             streamWriter.Write(string.Concat(encrypted.Select(x => (char)x).ToArray()));
@@ -33,7 +33,7 @@ namespace lab2
         private void Decrypt(string filePath)
         {
             var streamReader = new StreamReader(filePath);
-            string decrypted = encryptor.DecryptStringFromBytes_Aes(streamReader.ReadToEnd().Select(x => (byte)x).ToArray(), aesKey, aesIV);
+            string decrypted = _encryptor.DecryptStringFromBytesAes(streamReader.ReadToEnd().Select(x => (byte)x).ToArray(), _aesKey, _aesIV);
             streamReader.Close();
             var streamWriter = new StreamWriter(filePath, false);
             streamWriter.Write(decrypted);
@@ -44,28 +44,36 @@ namespace lab2
         private string DeleteExtension(string sourceFile)
         {
             var fileInfo = new FileInfo(sourceFile);
-            if (fileInfo.Extension == "") return sourceFile;
+            if (fileInfo.Extension == "")
+            {
+                return sourceFile;
+            }
             for (int i = sourceFile.Length - 1; i >= 0; i--)
-                if (sourceFile[i] == '.') return sourceFile.Substring(0, i);
+            {
+                if (sourceFile[i] == '.')
+                {
+                    return sourceFile.Substring(0, i);
+                }
+            }
             throw new Exception("deleteExtensionUnknownError");
         }
         public void Extract(string sourceFile)
         {
-            ArchiveOldFiles(targetDirectory);
+            ArchiveOldFiles(_targetDirectory);
             Encrypt(sourceFile);
             var sourceFileInfo = new FileInfo(sourceFile);
             string initialExtension = sourceFileInfo.Extension;
             var archivedFileInfo = new FileInfo(DeleteExtension(sourceFileInfo.FullName) + ".gz");
-            archivator.Compress(sourceFile, archivedFileInfo.FullName);
+            _archivator.Compress(sourceFile, archivedFileInfo.FullName);
 
             sourceFileInfo.Delete();
 
-            File.Move(archivedFileInfo.FullName, targetDirectory + '\\' + archivedFileInfo.Name);
-            archivedFileInfo = new FileInfo(targetDirectory + '\\' + archivedFileInfo.Name);
+            File.Move(archivedFileInfo.FullName, _targetDirectory + '\\' + archivedFileInfo.Name);
+            archivedFileInfo = new FileInfo(_targetDirectory + '\\' + archivedFileInfo.Name);
             Logger.RecordEntry("moved", archivedFileInfo.FullName);
 
             sourceFileInfo = new FileInfo(DeleteExtension(archivedFileInfo.FullName) + initialExtension);
-            archivator.Decompress(archivedFileInfo.FullName, sourceFileInfo.FullName);
+            _archivator.Decompress(archivedFileInfo.FullName, sourceFileInfo.FullName);
             File.Delete(archivedFileInfo.FullName);
             Decrypt(sourceFileInfo.FullName);
         }
