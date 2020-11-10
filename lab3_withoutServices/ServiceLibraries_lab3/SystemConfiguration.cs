@@ -72,14 +72,14 @@ namespace ServiceLibraries_lab3
             }
 
             JsonParser.Parse(_configurationFilePath, _etlJsonOptions);
-
-        }
+        }        
         public Type GetConfigurationClass<T>(T obj)
         {
-            var result = _etlJsonOptions.Find(option => option.Name == obj.GetType().Name);
+            string objectName = Utils.GetOptionPseudonim(obj.GetType());
+            var result = _etlJsonOptions.Find(option => objectName == option.Name);
             if (result == null)
             {
-                throw new KeyNotFoundException(string.Format("Configuration \"{0}\" was not found in the configuration file", obj.GetType().Name));
+                throw new KeyNotFoundException(string.Format("Configuration \"{0}\" was not found in the configuration file", objectName));
             }
             return result;
         }

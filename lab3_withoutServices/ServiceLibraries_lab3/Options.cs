@@ -6,21 +6,17 @@ using System.Threading.Tasks;
 
 namespace ServiceLibraries_lab3
 {
-    public class Options
+    public class AllConfigurations
     {
-        Dictionary<string, int> intValue;
-        Dictionary<string, bool> boolValue;
-        Dictionary<string, string> stringValue;
-        public object this[string key]
-        {
-            get
-            {
-                return 0;
-            }
-            set
-            {
-
-            }
-        }
+    }    
+    public class WatcherOptions
+    {
+    }
+    [ConfigurationPseudonym("ArchiveConfiguration")]
+    public class ArchiveOptions
+    {
+    }
+    public class CompressorOptions
+    {
     }
 }
