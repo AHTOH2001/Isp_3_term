@@ -24,57 +24,62 @@ namespace ServiceLibraries_lab3
         //    }        
         public static void Parse(string jsonFilePath, List<Type> etlJsonOptions)
         {
-            StreamReader streamReader = new StreamReader(jsonFilePath);
-            string inputJson = streamReader.ReadToEnd();
-            string pattern0 = @"^{\s*""(?<AllConfName>[^""]*)""\s*:\s*{\s*(?<content>[\w\W]*)}\s*}$";
-            var regexAllConfWithContent = new Regex(pattern0, RegexOptions.Compiled);
-            var allConfName = regexAllConfWithContent.Match(inputJson).Groups["AllConfName"].Value;
-            inputJson = regexAllConfWithContent.Match(inputJson).Groups["content"].Value;
-            string pattern1 = @"""(?<ClassName>[^""]*)""\s*:\s*\{(?<Content>[^}]*)\}";
-            var regexClassNameWithContent = new Regex(pattern1, RegexOptions.Compiled);
-            string pattern2 = @"""(?<FieldName>[^""]*)""\s*:\s*(?<Content>[^,]*)";
-            var regexDetailedContent = new Regex(pattern2, RegexOptions.Compiled);
-            foreach (Match matchClassNameWithContent in regexClassNameWithContent.Matches(inputJson))
+            try
             {
-                GroupCollection groupsClassNameWithContent = matchClassNameWithContent.Groups;
-                ClassBuilder classBuilder = new ClassBuilder(groupsClassNameWithContent["ClassName"].Value);
-                string content = groupsClassNameWithContent["Content"].Value;
-                foreach (Match matchDetailedContent in regexDetailedContent.Matches(content))
+                StreamReader streamReader = new StreamReader(jsonFilePath);
+                string inputJson = streamReader.ReadToEnd();
+                string pattern0 = @"^{\s*""(?<AllConfName>[^""]*)""\s*:\s*{\s*(?<content>[\w\W]*)}\s*}$";
+                var regexAllConfWithContent = new Regex(pattern0, RegexOptions.Compiled);
+                var allConfName = regexAllConfWithContent.Match(inputJson).Groups["AllConfName"].Value;                
+                inputJson = regexAllConfWithContent.Match(inputJson).Groups["content"].Value;
+                string pattern1 = @"""(?<ClassName>[^""]*)""\s*:\s*\{(?<Content>[^}]*)\}";
+                var regexClassNameWithContent = new Regex(pattern1, RegexOptions.Compiled);
+                string pattern2 = @"""(?<FieldName>[^""]*)""\s*:\s*(?<Content>[^,]*)";
+                var regexDetailedContent = new Regex(pattern2, RegexOptions.Compiled);
+                foreach (Match matchClassNameWithContent in regexClassNameWithContent.Matches(inputJson))
                 {
-                    GroupCollection groupDetailedContent = matchDetailedContent.Groups;
-                    Type actualType = FigureOutType(groupDetailedContent["Content"].Value);
-                    classBuilder.AddField(actualType,
-                                          groupDetailedContent["FieldName"].Value,
-                                          Convert.ChangeType(groupDetailedContent["Content"].Value, actualType));
+                    GroupCollection groupsClassNameWithContent = matchClassNameWithContent.Groups;
+                    ClassBuilder classBuilder = new ClassBuilder(groupsClassNameWithContent["ClassName"].Value);
+                    string content = groupsClassNameWithContent["Content"].Value;
+                    foreach (Match matchDetailedContent in regexDetailedContent.Matches(content))
+                    {
+                        GroupCollection groupDetailedContent = matchDetailedContent.Groups;
+                        Type actualType = FigureOutType(groupDetailedContent["Content"].Value);
+                        classBuilder.AddField(actualType,
+                                              groupDetailedContent["FieldName"].Value,
+                                              Convert.ChangeType(groupDetailedContent["Content"].Value, actualType));
+                    }
+                    etlJsonOptions.Add(classBuilder.CreateClass());
                 }
-                etlJsonOptions.Add(classBuilder.CreateClass());
-            }
 
-            ClassBuilder classBuilder1 = new ClassBuilder(allConfName);
-            foreach (var e in etlJsonOptions)
-            {
-                classBuilder1.AddField(e.GetType(), e.Name, e);
+                ClassBuilder classBuilder1 = new ClassBuilder(allConfName);
+                foreach (var e in etlJsonOptions)
+                {
+                    classBuilder1.AddField(e.GetType(), e.Name, e);
+                }
+                etlJsonOptions.Add(classBuilder1.CreateClass());
             }
-            etlJsonOptions.Add(classBuilder1.CreateClass());
+            catch (Exception e)
+            {
+                throw new FormatException(string.Format("Json file has wrong format: {0}", e.Message));
+            }
         }
 
         private static Type FigureOutType(string inputString)
         {
-            if (inputString[0] == '\"')
+            if (inputString[0] == '\"' && inputString.Last() == '\"')
             {
                 return typeof(string);
             }
-            else
+            else if (inputString.ToLower()[0] == 't' || inputString.ToLower()[0] == 'f')
             {
-                if (inputString.ToLower()[0] == 't' || inputString.ToLower()[0] == 'f')
-                {
-                    return typeof(bool);
-                }
-                else
-                {
-                    return typeof(int);
-                }
+                return typeof(bool);
             }
+            else if (int.TryParse(inputString, out _))
+            {
+                return typeof(int);
+            }
+            throw new FormatException(string.Format("wrong field value {0}",inputString));
         }
     }
 }

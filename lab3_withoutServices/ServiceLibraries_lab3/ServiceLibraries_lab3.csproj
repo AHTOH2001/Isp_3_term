@@ -43,11 +43,14 @@
   <ItemGroup>
     <Compile Include="ClassBuilder.cs" />
     <Compile Include="ConfigurationPseudonymAttribute.cs" />
+    <Compile Include="JsonFileNameAttribute.cs" />
     <Compile Include="JsonParser.cs" />
     <Compile Include="Options.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="SystemConfiguration.cs" />
     <Compile Include="Utils.cs" />
+    <Compile Include="XmlFileNameAttribute.cs" />
+    <Compile Include="XMLparser.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <ProjectExtensions>

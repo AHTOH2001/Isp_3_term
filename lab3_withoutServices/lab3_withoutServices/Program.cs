@@ -16,8 +16,9 @@ namespace lab3_withoutServices
         {
             //watcher = new Watcher();
             //Thread watcherThread = new Thread(new ThreadStart(watcher.Start));
-            //watcherThread.Start();            
-            SystemConfiguration systemConfiguration = new SystemConfiguration();
+            //watcherThread.Start();     
+            
+            SystemConfiguration systemConfiguration = new SystemConfiguration(xmlFileName: "config.xml");
 
             ArchiveOptions archiveOptions = new ArchiveOptions();
             var allConfigurations = new AllConfigurations();
