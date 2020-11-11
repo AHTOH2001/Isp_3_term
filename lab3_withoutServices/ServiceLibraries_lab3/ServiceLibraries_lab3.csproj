@@ -50,7 +50,7 @@
     <Compile Include="SystemConfiguration.cs" />
     <Compile Include="Utils.cs" />
     <Compile Include="XmlFileNameAttribute.cs" />
-    <Compile Include="XMLparser.cs" />
+    <Compile Include="XmlParser.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <ProjectExtensions>

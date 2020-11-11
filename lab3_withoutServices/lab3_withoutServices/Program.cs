@@ -20,18 +20,17 @@ namespace lab3_withoutServices
             
             SystemConfiguration systemConfiguration = new SystemConfiguration(xmlFileName: "config.xml");
 
-            ArchiveOptions archiveOptions = new ArchiveOptions();
+            var archiveOptions = new ArchiveOptions();
             var allConfigurations = new AllConfigurations();
-            var e = systemConfiguration.GetConfigurationClass(archiveOptions);
+            var e = systemConfiguration.GetConfigurationClass(allConfigurations);
             {
                 Console.WriteLine(e.Name);
                 Console.WriteLine("fields count :  {0}", e.GetFields().Length);
                 foreach (var e1 in e.GetFields())
                 {
                     Console.WriteLine($"Field name: {e1.Name}");
-                    Type val = e1.GetValue(null) as Type;
-                    Console.WriteLine(val.Name);
-                    Console.WriteLine("fieilds count : {0}", val.GetFields().Length);
+                    Type val = e1.GetValue(null) as Type;                    
+                    Console.WriteLine("fields count : {0}", val.GetFields().Length);
                 }
             }
 

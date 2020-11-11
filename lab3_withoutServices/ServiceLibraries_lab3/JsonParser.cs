@@ -28,14 +28,20 @@ namespace ServiceLibraries_lab3
             {
                 StreamReader streamReader = new StreamReader(jsonFilePath);
                 string inputJson = streamReader.ReadToEnd();
-                string pattern0 = @"^{\s*""(?<AllConfName>[^""]*)""\s*:\s*{\s*(?<content>[\w\W]*)}\s*}$";
-                var regexAllConfWithContent = new Regex(pattern0, RegexOptions.Compiled);
-                var allConfName = regexAllConfWithContent.Match(inputJson).Groups["AllConfName"].Value;                
-                inputJson = regexAllConfWithContent.Match(inputJson).Groups["content"].Value;
-                string pattern1 = @"""(?<ClassName>[^""]*)""\s*:\s*\{(?<Content>[^}]*)\}";
-                var regexClassNameWithContent = new Regex(pattern1, RegexOptions.Compiled);
-                string pattern2 = @"""(?<FieldName>[^""]*)""\s*:\s*(?<Content>[^,]*)";
-                var regexDetailedContent = new Regex(pattern2, RegexOptions.Compiled);
+                string pattern0 = @"^{\s*
+                                    ""(?<AllConfName>[^""]*)""\s*:\s*
+                                    {\s*(?<Content>[\w\W]*)}\s*}$";
+                var regexAllConfWithContent = new Regex(pattern0, RegexOptions.Compiled | RegexOptions.IgnorePatternWhitespace);
+                var allConfName = regexAllConfWithContent.Match(inputJson).Groups["AllConfName"].Value;
+                inputJson = regexAllConfWithContent.Match(inputJson).Groups["Content"].Value;
+
+                string pattern1 = @"""(?<ClassName>[^""]*)""\s*:\s*
+                                    \{(?<Content>[^}]*)\}";
+                var regexClassNameWithContent = new Regex(pattern1, RegexOptions.Compiled | RegexOptions.IgnorePatternWhitespace);
+
+                string pattern2 = @"""(?<FieldName>[^""]*)""\s*:\s*
+                                    (?<Content>[^,]*)";
+                var regexDetailedContent = new Regex(pattern2, RegexOptions.Compiled | RegexOptions.IgnorePatternWhitespace);
                 foreach (Match matchClassNameWithContent in regexClassNameWithContent.Matches(inputJson))
                 {
                     GroupCollection groupsClassNameWithContent = matchClassNameWithContent.Groups;
@@ -66,12 +72,8 @@ namespace ServiceLibraries_lab3
         }
 
         private static Type FigureOutType(string inputString)
-        {
-            if (inputString[0] == '\"' && inputString.Last() == '\"')
-            {
-                return typeof(string);
-            }
-            else if (inputString.ToLower()[0] == 't' || inputString.ToLower()[0] == 'f')
+        {            
+            if (bool.TryParse(inputString, out _))
             {
                 return typeof(bool);
             }
@@ -79,7 +81,11 @@ namespace ServiceLibraries_lab3
             {
                 return typeof(int);
             }
-            throw new FormatException(string.Format("wrong field value {0}",inputString));
+            else if (inputString.TrimStart()[0] == '\"' && inputString.TrimEnd().Last() == '\"')
+            {
+                return typeof(string);
+            }
+            throw new FormatException(string.Format("wrong field value {0}", inputString));
         }
     }
 }

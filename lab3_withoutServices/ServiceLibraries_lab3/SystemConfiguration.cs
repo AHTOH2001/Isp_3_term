@@ -66,7 +66,7 @@ namespace ServiceLibraries_lab3
                 }
                 else
                 {
-                    xmlParser.Parse(_configurationFilePath, _etlOptions);
+                    XmlParser.Parse(_configurationFilePath, _etlOptions);
                 }
             }
             else
@@ -76,7 +76,7 @@ namespace ServiceLibraries_lab3
         }        
         public Type GetConfigurationClass<T>(T obj)
         {
-            string objectName = Utils.GetAttribute<ConfigurationPseudonymAttribute>(obj).Pseudonym;
+            string objectName = Utils.GetAttribute<ConfigurationPseudonymAttribute>(obj)?.Pseudonym ?? obj.GetType().Name;
             var result = _etlOptions.Find(option => objectName == option.Name);
             if (result == null)
             {
