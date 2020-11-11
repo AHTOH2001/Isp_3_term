@@ -1,12 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Reflection;
-using System.Reflection.Emit;
-using System.Text.RegularExpressions;
 using System.IO;
+using System.Text.RegularExpressions;
 
 namespace ServiceLibraries_lab3
 {
@@ -16,35 +11,35 @@ namespace ServiceLibraries_lab3
         {
             try
             {
-                StreamReader streamReader = new StreamReader(xmlFilePath);
-                string inputXml = streamReader.ReadToEnd();
-                string pattern0 = @"^\s*
-                                <[^>]*>\s*
-                                <(?<AllConfName>[^>]*)>\s*
-                                (?<Content>[\w\W]*)
-                                </\k<AllConfName>>\s*$";
-                Regex regexAllConfWithContent = new Regex(pattern0, RegexOptions.Compiled | RegexOptions.IgnorePatternWhitespace);
+                var streamReader = new StreamReader(xmlFilePath);
+                var inputXml = streamReader.ReadToEnd();
+                var pattern0 = @"^\s*
+                                 <[^>]*>\s*
+                                 <(?<AllConfName>[^>]*)>\s*
+                                 (?<Content>[\w\W]*)
+                                 </\k<AllConfName>>\s*$";
+                var regexAllConfWithContent = new Regex(pattern0, RegexOptions.Compiled | RegexOptions.IgnorePatternWhitespace);
                 var allConfName = regexAllConfWithContent.Match(inputXml).Groups["AllConfName"].Value;
                 inputXml = regexAllConfWithContent.Match(inputXml).Groups["Content"].Value;
 
-                string pattern1 = @"\s*<(?<ClassName>[^>]*)>\s*
-                                    (?<Content>[\w\W]*)\s*
-                                    </\k<ClassName>>";
+                var pattern1 = @"\s*<(?<ClassName>[^>]*)>\s*
+                                 (?<Content>[\w\W]*)\s*
+                                 </\k<ClassName>>";
                 var regexClassNameWithContent = new Regex(pattern1, RegexOptions.Compiled | RegexOptions.IgnorePatternWhitespace);
 
-                string pattern2 = @"\s*<(?<FieldName>[^>]*)>\s*
-                                    (?<Content>[\w\W]*)\s*
-                                    </\k<FieldName>>";
+                var pattern2 = @"\s*<(?<FieldName>[^>]*)>\s*
+                                 (?<Content>[\w\W]*)\s*
+                                 </\k<FieldName>>";
                 var regexDetailedContent = new Regex(pattern2, RegexOptions.Compiled | RegexOptions.IgnorePatternWhitespace);
                 foreach (Match matchClassNameWithContent in regexClassNameWithContent.Matches(inputXml))
                 {
-                    GroupCollection groupsClassNameWithContent = matchClassNameWithContent.Groups;
-                    ClassBuilder classBuilder = new ClassBuilder(groupsClassNameWithContent["ClassName"].Value);
-                    string content = groupsClassNameWithContent["Content"].Value;
+                    var groupsClassNameWithContent = matchClassNameWithContent.Groups;
+                    var classBuilder = new ClassBuilder(groupsClassNameWithContent["ClassName"].Value);
+                    var content = groupsClassNameWithContent["Content"].Value;
                     foreach (Match matchDetailedContent in regexDetailedContent.Matches(content))
                     {
-                        GroupCollection groupDetailedContent = matchDetailedContent.Groups;
-                        Type actualType = FigureOutType(groupDetailedContent["Content"].Value);
+                        var groupDetailedContent = matchDetailedContent.Groups;
+                        var actualType = FigureOutType(groupDetailedContent["Content"].Value);
                         classBuilder.AddField(actualType,
                                               groupDetailedContent["FieldName"].Value,
                                               Convert.ChangeType(groupDetailedContent["Content"].Value, actualType));
@@ -52,7 +47,7 @@ namespace ServiceLibraries_lab3
                     etlXmlOptions.Add(classBuilder.CreateClass());
                 }
 
-                ClassBuilder classBuilder1 = new ClassBuilder(allConfName);
+                var classBuilder1 = new ClassBuilder(allConfName);
                 foreach (var e in etlXmlOptions)
                 {
                     classBuilder1.AddField(e.GetType(), e.Name, e);
@@ -78,7 +73,7 @@ namespace ServiceLibraries_lab3
             else
             {
                 return typeof(string);
-            }                               
+            }
         }
     }
 }

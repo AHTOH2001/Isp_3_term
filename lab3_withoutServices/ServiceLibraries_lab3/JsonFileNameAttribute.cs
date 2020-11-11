@@ -1,9 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.IO;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace ServiceLibraries_lab3
 {
@@ -13,7 +9,7 @@ namespace ServiceLibraries_lab3
         public string Name { get; set; }
         public JsonFileNameAttribute(string name)
         {
-            Name = Path.ChangeExtension(name, "json");            
+            Name = Path.ChangeExtension(name, "json");
         }
     }
 }
