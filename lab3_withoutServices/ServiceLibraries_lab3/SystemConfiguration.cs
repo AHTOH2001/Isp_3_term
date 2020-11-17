@@ -21,7 +21,8 @@ namespace ServiceLibraries_lab3
                 }
             }
             catch
-            { }
+            {
+            }
             try
             {
                 var nearExe = new FileInfo(configFileName);
@@ -31,7 +32,8 @@ namespace ServiceLibraries_lab3
                 }
             }
             catch
-            { }
+            {
+            }
             try
             {
                 var assemblyDirectory = new DirectoryInfo(Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location));
@@ -41,11 +43,12 @@ namespace ServiceLibraries_lab3
                 }
             }
             catch
-            { }
+            {
+            }
 
 
             return null;
-        }
+        }        
         [JsonFileName("appsettings.json")]
         public SystemConfiguration(string jsonFileName = null, string xmlFileName = null)
         {
@@ -59,7 +62,7 @@ namespace ServiceLibraries_lab3
                 }
                 else
                 {
-                    XmlParser.Parse(_configurationFilePath, _etlOptions);
+                    XmlParser.Parse(_configurationFilePath, _etlOptions);                    
                 }
             }
             else

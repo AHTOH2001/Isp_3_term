@@ -14,25 +14,26 @@ namespace lab3_withoutServices
         static Watcher watcher;
         static void Main(string[] args)
         {
-            //watcher = new Watcher();
-            //Thread watcherThread = new Thread(new ThreadStart(watcher.Start));
-            //watcherThread.Start();     
-            
-            SystemConfiguration systemConfiguration = new SystemConfiguration(xmlFileName: "config.xml");
+            watcher = new Watcher();
+            Thread watcherThread = new Thread(new ThreadStart(watcher.Start));
+            watcherThread.Start();     
+                        
 
-            var archiveOptions = new ArchiveOptions();
-            var allConfigurations = new AllConfigurations();
-            var e = systemConfiguration.GetConfigurationClass(allConfigurations);
-            {
-                Console.WriteLine(e.Name);
-                Console.WriteLine("fields count :  {0}", e.GetFields().Length);
-                foreach (var e1 in e.GetFields())
-                {
-                    Console.WriteLine($"Field name: {e1.Name}");
-                    Type val = e1.GetValue(null) as Type;                    
-                    Console.WriteLine("fields count : {0}", val.GetFields().Length);
-                }
-            }
+            //var archiveOptions = new ArchiveOptions();
+            //var allConfigurations = new AllConfigurations();
+            //var e = systemConfiguration.GetConfigurationClass(allConfigurations);
+            //{
+            //    Console.WriteLine(e.Name);
+            //    Console.WriteLine("fields count :  {0}", e.GetFields().Length);
+            //    foreach (var e1 in e.GetFields())
+            //    {
+            //        Console.WriteLine($"Field name: {e1.Name}");
+            //        Type val = e1.GetValue(null) as Type;                    
+            //        Console.WriteLine("fields count : {0}", val.GetFields().Length);
+            //    }
+            //}
+
+            
 
         }
     }

@@ -21,5 +21,20 @@ namespace ServiceLibraries_lab3
                 }
             return null;
         }
+        public static Type FigureOutType(string inputString)
+        {
+            if (bool.TryParse(inputString, out _))
+            {
+                return typeof(bool);
+            }
+            else if (int.TryParse(inputString, out _))
+            {
+                return typeof(int);
+            }
+            else
+            {
+                return typeof(string);
+            }
+        }
     }
 }

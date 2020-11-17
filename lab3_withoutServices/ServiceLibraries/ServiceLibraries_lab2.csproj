@@ -49,5 +49,11 @@
     <Compile Include="Utils.cs" />
     <Compile Include="Watcher.cs" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\ServiceLibraries_lab3\ServiceLibraries_lab3.csproj">
+      <Project>{4b467636-99ea-43dc-8c7a-63243b7fe38b}</Project>
+      <Name>ServiceLibraries_lab3</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

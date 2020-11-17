@@ -10,7 +10,7 @@ namespace lab2
         public static string LogFilePath;
 
         public static void RecordEntry(string fileEvent, string filePath)
-        {
+        {       
             lock (_obj)
             {
                 using (StreamWriter writer = new StreamWriter(LogFilePath, true))
@@ -24,14 +24,14 @@ namespace lab2
                 }
             }
         }
-        public static void RecordStatus(string Status)
-        {
+        public static void RecordStatus(string status)
+        {            
             lock (_obj)
             {
                 using (StreamWriter writer = new StreamWriter(LogFilePath, true))
                 {
                     var message = String.Format("{0} status: {1}",
-                        DateTime.Now.ToString("dd/MM/yyyy hh:mm:ss"), Status);
+                        DateTime.Now.ToString("dd/MM/yyyy hh:mm:ss"), status);
 
                     writer.WriteLine(message);
                     writer.Flush();

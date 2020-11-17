@@ -14,6 +14,7 @@ namespace ServiceLibraries_lab3
             {
                 var streamReader = new StreamReader(jsonFilePath);
                 var inputJson = streamReader.ReadToEnd();
+                streamReader.Close();
                 var pattern0 = @"^{\s*
                                  ""(?<AllConfName>[^""]*)""\s*:\s*
                                  {\s*(?<Content>[\w\W]*)}\s*}$";
@@ -25,8 +26,8 @@ namespace ServiceLibraries_lab3
                                  \{(?<Content>[^}]*)\}";
                 var regexClassNameWithContent = new Regex(pattern1, RegexOptions.Compiled | RegexOptions.IgnorePatternWhitespace);
 
-                var pattern2 = @"""(?<FieldName>[^""]*)""\s*:\s*
-                                    (?<Content>[^,]*)";
+                var pattern2 = @"""(?<FieldName>[^""]*)""\s*:\s*[@""]*
+                                    (?<Content>[^,""]*)\s*[@""]*";
                 var regexDetailedContent = new Regex(pattern2, RegexOptions.Compiled | RegexOptions.IgnorePatternWhitespace);
                 foreach (Match matchClassNameWithContent in regexClassNameWithContent.Matches(inputJson))
                 {
@@ -36,7 +37,7 @@ namespace ServiceLibraries_lab3
                     foreach (Match matchDetailedContent in regexDetailedContent.Matches(content))
                     {
                         var groupDetailedContent = matchDetailedContent.Groups;
-                        var actualType = FigureOutType(groupDetailedContent["Content"].Value);
+                        var actualType = Utils.FigureOutType(groupDetailedContent["Content"].Value);
                         classBuilder.AddField(actualType,
                                               groupDetailedContent["FieldName"].Value,
                                               Convert.ChangeType(groupDetailedContent["Content"].Value, actualType));
@@ -55,23 +56,6 @@ namespace ServiceLibraries_lab3
             {
                 throw new FormatException(string.Format("Json file has wrong format: {0}", e.Message));
             }
-        }
-
-        private static Type FigureOutType(string inputString)
-        {
-            if (bool.TryParse(inputString, out _))
-            {
-                return typeof(bool);
-            }
-            else if (int.TryParse(inputString, out _))
-            {
-                return typeof(int);
-            }
-            else if (inputString.TrimStart()[0] == '\"' && inputString.TrimEnd().Last() == '\"')
-            {
-                return typeof(string);
-            }
-            throw new FormatException(string.Format("wrong field value {0}", inputString));
-        }
+        }        
     }
 }

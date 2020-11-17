@@ -7,10 +7,13 @@
     {
     }
     [ConfigurationPseudonym("ArchiveConfiguration")]
-    public class ArchiveOptions
+    public class ArchivatorOptions
     {
     }
     public class CompressorOptions
+    {
+    }
+    public class EncryptorOptions
     {
     }
 }
