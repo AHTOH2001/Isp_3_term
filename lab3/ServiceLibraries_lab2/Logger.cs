@@ -1,7 +1,7 @@
 ﻿using System;
 using System.IO;
 
-namespace lab2
+namespace ServiceLibraries_lab2
 {
     public static class Logger
     {

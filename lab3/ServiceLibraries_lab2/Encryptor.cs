@@ -2,7 +2,7 @@
 using System.IO;
 using System.Security.Cryptography;
 
-namespace lab2
+namespace ServiceLibraries_lab2
 {
     public class Encryptor
     {

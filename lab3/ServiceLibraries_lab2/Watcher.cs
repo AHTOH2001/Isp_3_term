@@ -4,7 +4,7 @@ using System.Security.Cryptography;
 using System.Threading;
 using ServiceLibraries_lab3;
 
-namespace lab2
+namespace ServiceLibraries_lab2
 {
     public class Watcher
     {

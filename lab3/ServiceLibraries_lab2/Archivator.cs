@@ -2,7 +2,7 @@
 using System.IO;
 using System.IO.Compression;
 
-namespace lab2
+namespace ServiceLibraries_lab2
 {
     public class Archivator
     {

@@ -3,7 +3,7 @@ using System.Linq;
 using System;
 using ServiceLibraries_lab3;
 
-namespace lab2
+namespace ServiceLibraries_lab2
 {
     public class Extractor
     {
