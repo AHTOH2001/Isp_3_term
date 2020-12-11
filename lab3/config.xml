@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<AllConfigurations>
+  <WatcherOptions>
+    <LogFilePath>D:\Ucheba\Labs\3 sem\Isp\lab2\TargetDirectory\log.txt</LogFilePath>
+    <SourceDirectory>D:\Ucheba\Labs\3 sem\Isp\lab2\SourceDirectory</SourceDirectory>
+    <TargetDirectory>D:\Ucheba\Labs\3 sem\Isp\lab2\TargetDirectory</TargetDirectory>
+  </WatcherOptions>
+  <CompressorOptions>
+    <CompressingLevel>2</CompressingLevel>
+  </CompressorOptions>
+</AllConfigurations>
