@@ -402,3 +402,256 @@ The process cannot access the file 'D:\Ucheba\Labs\3 sem\Isp\lab4\SourceDirector
 12.12.2020 21:17:36 status: The watcher started...
 12.12.2020 21:17:36 status: The service started...
 12.12.2020 21:17:36 file D:\Ucheba\Labs\3 sem\Isp\lab4\SourceDirectory\report.xml has been created
+13.12.2020 17:41:32 status: The watcher starts...
+13.12.2020 17:41:32 status: The watcher started...
+13.12.2020 17:41:32 status: The service started...
+13.12.2020 17:41:32 file D:\Ucheba\Labs\3 sem\Isp\lab4\SourceDirectory\ReportOfEmployeeDepartmentHistory.xml has been created
+13.12.2020 17:41:42 status: The watcher starts...
+13.12.2020 17:41:42 status: The watcher started...
+13.12.2020 17:41:42 status: The service started...
+13.12.2020 17:41:42 file D:\Ucheba\Labs\3 sem\Isp\lab4\SourceDirectory\ReportOfEmployeeDepartmentHistory.xml has been created
+13.12.2020 17:41:42 file D:\Ucheba\Labs\3 sem\Isp\lab4\SourceDirectory\ReportOfEmployeeOrganisationLevel.xml has been created
+13.12.2020 18:34:17 status: The watcher starts...
+13.12.2020 18:34:17 status: The watcher started...
+13.12.2020 18:34:17 status: The service started...
+13.12.2020 18:34:17 file D:\Ucheba\Labs\3 sem\Isp\lab4\SourceDirectory\ReportOfEmployeeDepartmentHistory.xml has been created
+13.12.2020 18:34:17 file D:\Ucheba\Labs\3 sem\Isp\lab4\SourceDirectory\ReportOfEmployeeOrganisationLevel.xml has been created
+13.12.2020 18:34:18 file D:\Ucheba\Labs\3 sem\Isp\lab4\SourceDirectory\ReportOfCurrentlyWorkingPersons.xml has been created
+13.12.2020 18:34:23 file D:\Ucheba\Labs\3 sem\Isp\lab4\SourceDirectory\ReportOfEmployeeDepartmentHistory.xml has been created
+13.12.2020 18:34:23 file D:\Ucheba\Labs\3 sem\Isp\lab4\SourceDirectory\ReportOfEmployeeOrganisationLevel.xml has been created
+13.12.2020 18:34:42 status: The watcher starts...
+13.12.2020 18:34:42 status: The watcher started...
+13.12.2020 18:34:42 status: The service started...
+13.12.2020 18:34:43 file D:\Ucheba\Labs\3 sem\Isp\lab4\SourceDirectory\ReportOfEmployeeDepartmentHistory.xml has been created
+13.12.2020 18:34:43 file D:\Ucheba\Labs\3 sem\Isp\lab4\SourceDirectory\ReportOfEmployeeOrganisationLevel.xml has been created
+13.12.2020 18:35:30 status: The watcher starts...
+13.12.2020 18:35:30 status: The watcher started...
+13.12.2020 18:35:30 status: The service started...
+13.12.2020 18:35:41 file D:\Ucheba\Labs\3 sem\Isp\lab4\SourceDirectory\ReportOfEmployeeDepartmentHistory.xml has been created
+13.12.2020 18:35:41 file D:\Ucheba\Labs\3 sem\Isp\lab4\SourceDirectory\ReportOfEmployeeOrganisationLevel.xml has been created
+13.12.2020 18:53:06 status: The watcher starts...
+13.12.2020 18:53:06 status: The watcher started...
+13.12.2020 18:53:06 status: The service started...
+13.12.2020 18:53:06 file D:\Ucheba\Labs\3 sem\Isp\lab4\SourceDirectory\ReportOfEmployeeDepartmentHistory.xml has been created
+13.12.2020 18:53:06 file D:\Ucheba\Labs\3 sem\Isp\lab4\SourceDirectory\ReportOfEmployeeOrganisationLevel.xml has been created
+13.12.2020 18:53:41 status: The watcher starts...
+13.12.2020 18:53:41 status: The watcher started...
+13.12.2020 18:53:42 status: The service started...
+13.12.2020 18:53:42 file D:\Ucheba\Labs\3 sem\Isp\lab4\SourceDirectory\ReportOfEmployeeDepartmentHistory.xml has been created
+13.12.2020 18:53:42 file D:\Ucheba\Labs\3 sem\Isp\lab4\SourceDirectory\ReportOfEmployeeOrganisationLevel.xml has been created
+13.12.2020 18:56:43 status: The watcher starts...
+13.12.2020 18:56:43 status: The watcher started...
+13.12.2020 18:56:43 status: The service started...
+13.12.2020 18:56:53 file D:\Ucheba\Labs\3 sem\Isp\lab4\SourceDirectory\ReportOfEmployeeDepartmentHistory.xml has been created
+13.12.2020 18:56:53 file D:\Ucheba\Labs\3 sem\Isp\lab4\SourceDirectory\ReportOfEmployeeOrganisationLevel.xml has been created
+13.12.2020 19:00:33 status: The watcher starts...
+13.12.2020 19:00:33 status: The watcher started...
+13.12.2020 19:00:33 status: The service started...
+13.12.2020 19:00:44 file D:\Ucheba\Labs\3 sem\Isp\lab4\SourceDirectory\ReportOfEmployeeDepartmentHistory.xml has been created
+13.12.2020 19:01:41 file D:\Ucheba\Labs\3 sem\Isp\lab4\SourceDirectory\ReportOfEmployeeOrganisationLevel.xml has been created
+13.12.2020 19:01:50 status: The watcher starts...
+13.12.2020 19:01:50 status: The watcher started...
+13.12.2020 19:01:51 status: The service started...
+13.12.2020 19:01:56 file D:\Ucheba\Labs\3 sem\Isp\lab4\SourceDirectory\ReportOfEmployeeDepartmentHistory.xml has been created
+13.12.2020 19:01:59 file D:\Ucheba\Labs\3 sem\Isp\lab4\SourceDirectory\ReportOfEmployeeOrganisationLevel.xml has been created
+13.12.2020 19:02:40 status: The watcher starts...
+13.12.2020 19:02:40 status: The watcher started...
+13.12.2020 19:02:40 status: The service started...
+13.12.2020 19:02:45 file D:\Ucheba\Labs\3 sem\Isp\lab4\SourceDirectory\ReportOfEmployeeDepartmentHistory.xml has been created
+13.12.2020 19:02:46 file D:\Ucheba\Labs\3 sem\Isp\lab4\SourceDirectory\ReportOfEmployeeOrganisationLevel.xml has been created
+13.12.2020 19:02:46 file D:\Ucheba\Labs\3 sem\Isp\lab4\SourceDirectory\ReportOfCurrentlyWorkingPersons.xml has been created
+13.12.2020 19:02:51 file D:\Ucheba\Labs\3 sem\Isp\lab4\SourceDirectory\ReportOfEmployeeDepartmentHistory.xml has been created
+13.12.2020 19:02:51 file D:\Ucheba\Labs\3 sem\Isp\lab4\SourceDirectory\ReportOfEmployeeOrganisationLevel.xml has been created
+13.12.2020 19:03:58 status: The watcher starts...
+13.12.2020 19:03:58 status: The watcher started...
+13.12.2020 19:03:59 status: The service started...
+13.12.2020 19:04:06 file D:\Ucheba\Labs\3 sem\Isp\lab4\SourceDirectory\ReportOfEmployeeDepartmentHistory.xml has been created
+13.12.2020 19:04:07 file D:\Ucheba\Labs\3 sem\Isp\lab4\SourceDirectory\ReportOfEmployeeOrganisationLevel.xml has been created
+13.12.2020 19:04:08 file D:\Ucheba\Labs\3 sem\Isp\lab4\SourceDirectory\ReportOfEmployeePayments.xml has been created
+13.12.2020 19:04:10 file D:\Ucheba\Labs\3 sem\Isp\lab4\SourceDirectory\ReportOfCurrentlyWorkingPersons.xml has been created
+13.12.2020 19:04:16 file D:\Ucheba\Labs\3 sem\Isp\lab4\SourceDirectory\ReportOfEmployeeDepartmentHistory.xml has been created
+13.12.2020 19:04:39 file D:\Ucheba\Labs\3 sem\Isp\lab4\SourceDirectory\ReportOfEmployeeOrganisationLevel.xml has been created
+13.12.2020 19:05:07 file D:\Ucheba\Labs\3 sem\Isp\lab4\SourceDirectory\ReportOfCurrentlyWorkingPersons.xml has been created
+13.12.2020 19:05:16 file D:\Ucheba\Labs\3 sem\Isp\lab4\SourceDirectory\ReportOfEmployeeDepartmentHistory.xml has been created
+13.12.2020 19:05:59 file D:\Ucheba\Labs\3 sem\Isp\lab4\SourceDirectory\ReportOfEmployeeOrganisationLevel.xml has been created
+13.12.2020 19:06:54 status: The watcher starts...
+13.12.2020 19:06:54 status: The watcher started...
+13.12.2020 19:06:54 status: The service started...
+13.12.2020 19:07:09 file D:\Ucheba\Labs\3 sem\Isp\lab4\SourceDirectory\ReportOfEmployeeDepartmentHistory.xml has been created
+13.12.2020 19:07:14 file D:\Ucheba\Labs\3 sem\Isp\lab4\SourceDirectory\ReportOfEmployeeOrganisationLevel.xml has been created
+13.12.2020 19:07:17 file D:\Ucheba\Labs\3 sem\Isp\lab4\SourceDirectory\ReportOfEmployeePayments.xml has been created
+13.12.2020 19:07:21 file D:\Ucheba\Labs\3 sem\Isp\lab4\SourceDirectory\ReportOfCurrentlyWorkingPersons.xml has been created
+13.12.2020 19:07:50 file D:\Ucheba\Labs\3 sem\Isp\lab4\SourceDirectory\ReportOfEmployeeDepartmentHistory.xml has been created
+13.12.2020 19:07:57 file D:\Ucheba\Labs\3 sem\Isp\lab4\SourceDirectory\ReportOfEmployeeOrganisationLevel.xml has been created
+13.12.2020 19:08:08 file D:\Ucheba\Labs\3 sem\Isp\lab4\SourceDirectory\ReportOfEmployeePayments.xml has been created
+13.12.2020 19:08:14 file D:\Ucheba\Labs\3 sem\Isp\lab4\SourceDirectory\ReportOfCurrentlyWorkingPersons.xml has been created
+13.12.2020 19:08:30 file D:\Ucheba\Labs\3 sem\Isp\lab4\SourceDirectory\ReportOfEmployeeDepartmentHistory.xml has been created
+13.12.2020 19:08:32 file D:\Ucheba\Labs\3 sem\Isp\lab4\SourceDirectory\ReportOfEmployeeOrganisationLevel.xml has been created
+13.12.2020 19:08:37 file D:\Ucheba\Labs\3 sem\Isp\lab4\SourceDirectory\ReportOfEmployeePayments.xml has been created
+13.12.2020 19:08:39 file D:\Ucheba\Labs\3 sem\Isp\lab4\SourceDirectory\ReportOfCurrentlyWorkingPersons.xml has been created
+13.12.2020 19:08:54 file D:\Ucheba\Labs\3 sem\Isp\lab4\SourceDirectory\ReportOfEmployeeDepartmentHistory.xml has been created
+13.12.2020 19:08:56 file D:\Ucheba\Labs\3 sem\Isp\lab4\SourceDirectory\ReportOfEmployeeOrganisationLevel.xml has been created
+13.12.2020 19:08:56 file D:\Ucheba\Labs\3 sem\Isp\lab4\SourceDirectory\ReportOfEmployeePayments.xml has been created
+13.12.2020 19:08:57 file D:\Ucheba\Labs\3 sem\Isp\lab4\SourceDirectory\ReportOfCurrentlyWorkingPersons.xml has been created
+13.12.2020 19:09:05 file D:\Ucheba\Labs\3 sem\Isp\lab4\SourceDirectory\ReportOfEmployeeDepartmentHistory.xml has been created
+13.12.2020 19:09:05 file D:\Ucheba\Labs\3 sem\Isp\lab4\SourceDirectory\ReportOfEmployeeOrganisationLevel.xml has been created
+13.12.2020 19:09:05 file D:\Ucheba\Labs\3 sem\Isp\lab4\SourceDirectory\ReportOfEmployeePayments.xml has been created
+13.12.2020 19:09:05 file D:\Ucheba\Labs\3 sem\Isp\lab4\SourceDirectory\ReportOfCurrentlyWorkingPersons.xml has been created
+13.12.2020 19:09:11 file D:\Ucheba\Labs\3 sem\Isp\lab4\SourceDirectory\ReportOfEmployeeDepartmentHistory.xml has been created
+13.12.2020 19:09:11 file D:\Ucheba\Labs\3 sem\Isp\lab4\SourceDirectory\ReportOfEmployeeOrganisationLevel.xml has been created
+13.12.2020 19:09:11 file D:\Ucheba\Labs\3 sem\Isp\lab4\SourceDirectory\ReportOfCurrentlyWorkingPersons.xml has been created
+13.12.2020 19:13:19 status: The watcher starts...
+13.12.2020 19:13:19 status: The watcher started...
+13.12.2020 19:13:19 status: The service started...
+13.12.2020 19:13:24 file D:\Ucheba\Labs\3 sem\Isp\lab4\SourceDirectory\ReportOfEmployeeDepartmentHistory.xml has been created
+13.12.2020 19:13:25 file D:\Ucheba\Labs\3 sem\Isp\lab4\SourceDirectory\ReportOfEmployeeOrganisationLevel.xml has been created
+13.12.2020 19:13:25 file D:\Ucheba\Labs\3 sem\Isp\lab4\SourceDirectory\ReportOfCurrentlyWorkingPersons.xml has been created
+13.12.2020 19:13:30 file D:\Ucheba\Labs\3 sem\Isp\lab4\SourceDirectory\ReportOfEmployeeDepartmentHistory.xml has been created
+13.12.2020 19:13:30 file D:\Ucheba\Labs\3 sem\Isp\lab4\SourceDirectory\ReportOfEmployeeOrganisationLevel.xml has been created
+13.12.2020 19:13:30 file D:\Ucheba\Labs\3 sem\Isp\lab4\SourceDirectory\ReportOfCurrentlyWorkingPersons.xml has been created
+13.12.2020 19:13:35 file D:\Ucheba\Labs\3 sem\Isp\lab4\SourceDirectory\ReportOfEmployeeDepartmentHistory.xml has been created
+13.12.2020 19:13:35 file D:\Ucheba\Labs\3 sem\Isp\lab4\SourceDirectory\ReportOfEmployeeOrganisationLevel.xml has been created
+13.12.2020 19:13:35 file D:\Ucheba\Labs\3 sem\Isp\lab4\SourceDirectory\ReportOfCurrentlyWorkingPersons.xml has been created
+13.12.2020 19:13:40 file D:\Ucheba\Labs\3 sem\Isp\lab4\SourceDirectory\ReportOfEmployeeDepartmentHistory.xml has been created
+13.12.2020 19:13:40 file D:\Ucheba\Labs\3 sem\Isp\lab4\SourceDirectory\ReportOfEmployeeOrganisationLevel.xml has been created
+13.12.2020 19:13:40 file D:\Ucheba\Labs\3 sem\Isp\lab4\SourceDirectory\ReportOfCurrentlyWorkingPersons.xml has been created
+13.12.2020 19:13:45 file D:\Ucheba\Labs\3 sem\Isp\lab4\SourceDirectory\ReportOfEmployeeDepartmentHistory.xml has been created
+13.12.2020 19:13:45 file D:\Ucheba\Labs\3 sem\Isp\lab4\SourceDirectory\ReportOfEmployeeOrganisationLevel.xml has been created
+13.12.2020 19:13:45 file D:\Ucheba\Labs\3 sem\Isp\lab4\SourceDirectory\ReportOfCurrentlyWorkingPersons.xml has been created
+13.12.2020 19:13:50 file D:\Ucheba\Labs\3 sem\Isp\lab4\SourceDirectory\ReportOfEmployeeDepartmentHistory.xml has been created
+13.12.2020 19:13:50 file D:\Ucheba\Labs\3 sem\Isp\lab4\SourceDirectory\ReportOfEmployeeOrganisationLevel.xml has been created
+13.12.2020 19:13:50 file D:\Ucheba\Labs\3 sem\Isp\lab4\SourceDirectory\ReportOfCurrentlyWorkingPersons.xml has been created
+13.12.2020 19:13:55 file D:\Ucheba\Labs\3 sem\Isp\lab4\SourceDirectory\ReportOfEmployeeDepartmentHistory.xml has been created
+13.12.2020 19:14:22 file D:\Ucheba\Labs\3 sem\Isp\lab4\SourceDirectory\ReportOfEmployeeDepartmentHistory.xml has been created
+13.12.2020 19:14:27 file D:\Ucheba\Labs\3 sem\Isp\lab4\SourceDirectory\ReportOfEmployeeDepartmentHistory.xml has been created
+13.12.2020 19:14:32 file D:\Ucheba\Labs\3 sem\Isp\lab4\SourceDirectory\ReportOfEmployeeDepartmentHistory.xml has been created
+13.12.2020 19:14:37 file D:\Ucheba\Labs\3 sem\Isp\lab4\SourceDirectory\ReportOfEmployeeDepartmentHistory.xml has been created
+13.12.2020 19:14:46 status: The watcher starts...
+13.12.2020 19:14:46 status: The watcher started...
+13.12.2020 19:14:46 status: The service started...
+13.12.2020 19:14:56 file D:\Ucheba\Labs\3 sem\Isp\lab4\SourceDirectory\ReportOfEmployeeDepartmentHistory.xml has been created
+13.12.2020 19:15:07 file D:\Ucheba\Labs\3 sem\Isp\lab4\SourceDirectory\ReportOfEmployeeDepartmentHistory.xml has been created
+13.12.2020 19:15:17 file D:\Ucheba\Labs\3 sem\Isp\lab4\SourceDirectory\ReportOfEmployeeDepartmentHistory.xml has been created
+13.12.2020 19:15:27 file D:\Ucheba\Labs\3 sem\Isp\lab4\SourceDirectory\ReportOfEmployeeDepartmentHistory.xml has been created
+13.12.2020 19:15:28 file D:\Ucheba\Labs\3 sem\Isp\lab4\SourceDirectory\ReportOfEmployeePayments.xml has been deleted
+13.12.2020 19:15:28 file D:\Ucheba\Labs\3 sem\Isp\lab4\SourceDirectory\ReportOfCurrentlyWorkingPersons.xml has been deleted
+13.12.2020 19:15:28 file D:\Ucheba\Labs\3 sem\Isp\lab4\SourceDirectory\ReportOfEmployeeOrganisationLevel.xml has been deleted
+13.12.2020 19:15:38 file D:\Ucheba\Labs\3 sem\Isp\lab4\SourceDirectory\ReportOfEmployeeDepartmentHistory.xml has been created
+13.12.2020 19:15:38 file D:\Ucheba\Labs\3 sem\Isp\lab4\SourceDirectory\ReportOfEmployeeOrganisationLevel.xml has been created
+13.12.2020 19:15:38 file D:\Ucheba\Labs\3 sem\Isp\lab4\SourceDirectory\ReportOfEmployeePayments.xml has been created
+13.12.2020 19:15:38 file D:\Ucheba\Labs\3 sem\Isp\lab4\SourceDirectory\ReportOfCurrentlyWorkingPersons.xml has been created
+13.12.2020 19:15:48 file D:\Ucheba\Labs\3 sem\Isp\lab4\SourceDirectory\ReportOfEmployeeDepartmentHistory.xml has been created
+13.12.2020 19:15:48 file D:\Ucheba\Labs\3 sem\Isp\lab4\SourceDirectory\ReportOfEmployeeOrganisationLevel.xml has been created
+13.12.2020 19:15:48 file D:\Ucheba\Labs\3 sem\Isp\lab4\SourceDirectory\ReportOfCurrentlyWorkingPersons.xml has been created
+13.12.2020 19:15:58 file D:\Ucheba\Labs\3 sem\Isp\lab4\SourceDirectory\ReportOfEmployeeDepartmentHistory.xml has been created
+13.12.2020 19:15:58 file D:\Ucheba\Labs\3 sem\Isp\lab4\SourceDirectory\ReportOfEmployeeOrganisationLevel.xml has been created
+13.12.2020 19:15:58 file D:\Ucheba\Labs\3 sem\Isp\lab4\SourceDirectory\ReportOfCurrentlyWorkingPersons.xml has been created
+13.12.2020 19:16:08 file D:\Ucheba\Labs\3 sem\Isp\lab4\SourceDirectory\ReportOfEmployeeDepartmentHistory.xml has been created
+13.12.2020 19:16:09 file D:\Ucheba\Labs\3 sem\Isp\lab4\SourceDirectory\ReportOfEmployeeOrganisationLevel.xml has been created
+13.12.2020 19:16:09 file D:\Ucheba\Labs\3 sem\Isp\lab4\SourceDirectory\ReportOfCurrentlyWorkingPersons.xml has been created
+13.12.2020 19:16:19 file D:\Ucheba\Labs\3 sem\Isp\lab4\SourceDirectory\ReportOfEmployeeDepartmentHistory.xml has been created
+13.12.2020 19:16:19 file D:\Ucheba\Labs\3 sem\Isp\lab4\SourceDirectory\ReportOfEmployeeOrganisationLevel.xml has been created
+13.12.2020 19:16:19 file D:\Ucheba\Labs\3 sem\Isp\lab4\SourceDirectory\ReportOfCurrentlyWorkingPersons.xml has been created
+13.12.2020 19:16:29 file D:\Ucheba\Labs\3 sem\Isp\lab4\SourceDirectory\ReportOfEmployeeDepartmentHistory.xml has been created
+13.12.2020 19:16:29 file D:\Ucheba\Labs\3 sem\Isp\lab4\SourceDirectory\ReportOfEmployeeOrganisationLevel.xml has been created
+13.12.2020 19:16:29 file D:\Ucheba\Labs\3 sem\Isp\lab4\SourceDirectory\ReportOfCurrentlyWorkingPersons.xml has been created
+13.12.2020 19:16:39 file D:\Ucheba\Labs\3 sem\Isp\lab4\SourceDirectory\ReportOfEmployeeDepartmentHistory.xml has been created
+13.12.2020 19:16:39 file D:\Ucheba\Labs\3 sem\Isp\lab4\SourceDirectory\ReportOfEmployeeOrganisationLevel.xml has been created
+13.12.2020 19:16:39 file D:\Ucheba\Labs\3 sem\Isp\lab4\SourceDirectory\ReportOfCurrentlyWorkingPersons.xml has been created
+13.12.2020 19:19:42 status: The watcher starts...
+13.12.2020 19:19:42 status: The watcher started...
+13.12.2020 19:19:42 status: The service started...
+13.12.2020 19:19:52 file D:\Ucheba\Labs\3 sem\Isp\lab4\SourceDirectory\ReportOfEmployeeDepartmentHistory.xml has been created
+13.12.2020 19:19:53 file D:\Ucheba\Labs\3 sem\Isp\lab4\SourceDirectory\ReportOfEmployeeOrganisationLevel.xml has been created
+13.12.2020 19:19:53 file D:\Ucheba\Labs\3 sem\Isp\lab4\SourceDirectory\ReportOfCurrentlyWorkingPersons.xml has been created
+13.12.2020 19:20:03 file D:\Ucheba\Labs\3 sem\Isp\lab4\SourceDirectory\ReportOfEmployeeDepartmentHistory.xml has been created
+13.12.2020 19:20:03 file D:\Ucheba\Labs\3 sem\Isp\lab4\SourceDirectory\ReportOfEmployeeOrganisationLevel.xml has been created
+13.12.2020 19:20:03 file D:\Ucheba\Labs\3 sem\Isp\lab4\SourceDirectory\ReportOfCurrentlyWorkingPersons.xml has been created
+13.12.2020 19:20:13 file D:\Ucheba\Labs\3 sem\Isp\lab4\SourceDirectory\ReportOfEmployeeDepartmentHistory.xml has been created
+13.12.2020 19:20:13 file D:\Ucheba\Labs\3 sem\Isp\lab4\SourceDirectory\ReportOfEmployeeOrganisationLevel.xml has been created
+13.12.2020 19:20:13 file D:\Ucheba\Labs\3 sem\Isp\lab4\SourceDirectory\ReportOfCurrentlyWorkingPersons.xml has been created
+13.12.2020 19:20:23 file D:\Ucheba\Labs\3 sem\Isp\lab4\SourceDirectory\ReportOfEmployeeDepartmentHistory.xml has been created
+13.12.2020 19:20:23 file D:\Ucheba\Labs\3 sem\Isp\lab4\SourceDirectory\ReportOfEmployeeOrganisationLevel.xml has been created
+13.12.2020 19:20:24 file D:\Ucheba\Labs\3 sem\Isp\lab4\SourceDirectory\ReportOfCurrentlyWorkingPersons.xml has been created
+13.12.2020 19:21:02 status: The watcher starts...
+13.12.2020 19:21:02 status: The watcher started...
+13.12.2020 19:21:02 status: The service started...
+13.12.2020 19:21:07 file D:\Ucheba\Labs\3 sem\Isp\lab4\SourceDirectory\ReportOfEmployeeDepartmentHistory.xml has been created
+13.12.2020 19:21:07 file D:\Ucheba\Labs\3 sem\Isp\lab4\SourceDirectory\ReportOfEmployeeOrganisationLevel.xml has been created
+13.12.2020 19:21:07 file D:\Ucheba\Labs\3 sem\Isp\lab4\SourceDirectory\ReportOfCurrentlyWorkingPersons.xml has been created
+13.12.2020 19:21:12 file D:\Ucheba\Labs\3 sem\Isp\lab4\SourceDirectory\ReportOfEmployeeDepartmentHistory.xml has been created
+13.12.2020 19:21:12 file D:\Ucheba\Labs\3 sem\Isp\lab4\SourceDirectory\ReportOfEmployeeOrganisationLevel.xml has been created
+13.12.2020 19:21:12 file D:\Ucheba\Labs\3 sem\Isp\lab4\SourceDirectory\ReportOfCurrentlyWorkingPersons.xml has been created
+13.12.2020 19:21:17 file D:\Ucheba\Labs\3 sem\Isp\lab4\SourceDirectory\ReportOfEmployeeDepartmentHistory.xml has been created
+13.12.2020 19:21:18 file D:\Ucheba\Labs\3 sem\Isp\lab4\SourceDirectory\ReportOfEmployeeOrganisationLevel.xml has been created
+13.12.2020 19:21:18 file D:\Ucheba\Labs\3 sem\Isp\lab4\SourceDirectory\ReportOfCurrentlyWorkingPersons.xml has been created
+13.12.2020 19:21:23 file D:\Ucheba\Labs\3 sem\Isp\lab4\SourceDirectory\ReportOfEmployeeDepartmentHistory.xml has been created
+13.12.2020 19:21:23 file D:\Ucheba\Labs\3 sem\Isp\lab4\SourceDirectory\ReportOfEmployeeOrganisationLevel.xml has been created
+13.12.2020 19:21:23 file D:\Ucheba\Labs\3 sem\Isp\lab4\SourceDirectory\ReportOfCurrentlyWorkingPersons.xml has been created
+13.12.2020 19:27:02 status: The watcher starts...
+13.12.2020 19:27:02 status: The watcher started...
+13.12.2020 19:27:02 status: The service started...
+13.12.2020 19:27:07 file D:\Ucheba\Labs\3 sem\Isp\lab4\SourceDirectory\ReportOfEmployeeDepartmentHistory.xml has been created
+13.12.2020 19:27:07 file D:\Ucheba\Labs\3 sem\Isp\lab4\SourceDirectory\ReportOfEmployeeOrganisationLevel.xml has been created
+13.12.2020 19:27:07 file D:\Ucheba\Labs\3 sem\Isp\lab4\SourceDirectory\ReportOfCurrentlyWorkingPersons.xml has been created
+13.12.2020 19:27:12 file D:\Ucheba\Labs\3 sem\Isp\lab4\SourceDirectory\ReportOfEmployeeDepartmentHistory.xml has been created
+13.12.2020 19:27:12 file D:\Ucheba\Labs\3 sem\Isp\lab4\SourceDirectory\ReportOfEmployeeOrganisationLevel.xml has been created
+13.12.2020 19:27:12 file D:\Ucheba\Labs\3 sem\Isp\lab4\SourceDirectory\ReportOfCurrentlyWorkingPersons.xml has been created
+13.12.2020 19:27:17 file D:\Ucheba\Labs\3 sem\Isp\lab4\SourceDirectory\ReportOfEmployeeDepartmentHistory.xml has been created
+13.12.2020 19:27:17 file D:\Ucheba\Labs\3 sem\Isp\lab4\SourceDirectory\ReportOfEmployeeOrganisationLevel.xml has been created
+13.12.2020 19:27:17 file D:\Ucheba\Labs\3 sem\Isp\lab4\SourceDirectory\ReportOfCurrentlyWorkingPersons.xml has been created
+13.12.2020 19:27:35 status: The watcher starts...
+13.12.2020 19:27:35 status: The watcher started...
+13.12.2020 19:27:35 status: The service started...
+13.12.2020 19:27:40 file D:\Ucheba\Labs\3 sem\Isp\lab4\SourceDirectory\ReportOfEmployeeDepartmentHistory.xml has been created
+13.12.2020 19:27:40 file D:\Ucheba\Labs\3 sem\Isp\lab4\SourceDirectory\ReportOfEmployeeOrganisationLevel.xml has been created
+13.12.2020 19:27:40 file D:\Ucheba\Labs\3 sem\Isp\lab4\SourceDirectory\ReportOfCurrentlyWorkingPersons.xml has been created
+13.12.2020 19:27:45 file D:\Ucheba\Labs\3 sem\Isp\lab4\SourceDirectory\ReportOfEmployeeDepartmentHistory.xml has been created
+13.12.2020 19:27:45 file D:\Ucheba\Labs\3 sem\Isp\lab4\SourceDirectory\ReportOfEmployeeOrganisationLevel.xml has been created
+13.12.2020 19:27:45 file D:\Ucheba\Labs\3 sem\Isp\lab4\SourceDirectory\ReportOfCurrentlyWorkingPersons.xml has been created
+13.12.2020 19:27:50 file D:\Ucheba\Labs\3 sem\Isp\lab4\SourceDirectory\ReportOfEmployeeDepartmentHistory.xml has been created
+13.12.2020 19:27:50 file D:\Ucheba\Labs\3 sem\Isp\lab4\SourceDirectory\ReportOfEmployeeOrganisationLevel.xml has been created
+13.12.2020 19:27:50 file D:\Ucheba\Labs\3 sem\Isp\lab4\SourceDirectory\ReportOfCurrentlyWorkingPersons.xml has been created
+13.12.2020 19:27:55 file D:\Ucheba\Labs\3 sem\Isp\lab4\SourceDirectory\ReportOfEmployeeDepartmentHistory.xml has been created
+13.12.2020 19:27:55 file D:\Ucheba\Labs\3 sem\Isp\lab4\SourceDirectory\ReportOfEmployeeOrganisationLevel.xml has been created
+13.12.2020 19:27:56 file D:\Ucheba\Labs\3 sem\Isp\lab4\SourceDirectory\ReportOfCurrentlyWorkingPersons.xml has been created
+13.12.2020 19:28:01 file D:\Ucheba\Labs\3 sem\Isp\lab4\SourceDirectory\ReportOfEmployeeDepartmentHistory.xml has been created
+13.12.2020 19:28:01 file D:\Ucheba\Labs\3 sem\Isp\lab4\SourceDirectory\ReportOfEmployeeOrganisationLevel.xml has been created
+13.12.2020 19:28:01 file D:\Ucheba\Labs\3 sem\Isp\lab4\SourceDirectory\ReportOfCurrentlyWorkingPersons.xml has been created
+13.12.2020 19:28:06 file D:\Ucheba\Labs\3 sem\Isp\lab4\SourceDirectory\ReportOfEmployeeDepartmentHistory.xml has been created
+13.12.2020 19:28:06 file D:\Ucheba\Labs\3 sem\Isp\lab4\SourceDirectory\ReportOfCurrentlyWorkingPersons.xml has been created
+13.12.2020 19:28:11 file D:\Ucheba\Labs\3 sem\Isp\lab4\SourceDirectory\ReportOfEmployeeDepartmentHistory.xml has been created
+13.12.2020 19:28:11 file D:\Ucheba\Labs\3 sem\Isp\lab4\SourceDirectory\ReportOfCurrentlyWorkingPersons.xml has been created
+13.12.2020 19:28:16 file D:\Ucheba\Labs\3 sem\Isp\lab4\SourceDirectory\ReportOfEmployeeDepartmentHistory.xml has been created
+13.12.2020 19:28:16 file D:\Ucheba\Labs\3 sem\Isp\lab4\SourceDirectory\ReportOfCurrentlyWorkingPersons.xml has been created
+13.12.2020 19:28:21 file D:\Ucheba\Labs\3 sem\Isp\lab4\SourceDirectory\ReportOfEmployeeDepartmentHistory.xml has been created
+13.12.2020 19:28:21 file D:\Ucheba\Labs\3 sem\Isp\lab4\SourceDirectory\ReportOfCurrentlyWorkingPersons.xml has been created
+13.12.2020 19:28:26 file D:\Ucheba\Labs\3 sem\Isp\lab4\SourceDirectory\ReportOfEmployeeDepartmentHistory.xml has been created
+13.12.2020 19:28:26 file D:\Ucheba\Labs\3 sem\Isp\lab4\SourceDirectory\ReportOfCurrentlyWorkingPersons.xml has been created
+13.12.2020 19:28:31 file D:\Ucheba\Labs\3 sem\Isp\lab4\SourceDirectory\ReportOfEmployeeDepartmentHistory.xml has been created
+13.12.2020 19:28:31 file D:\Ucheba\Labs\3 sem\Isp\lab4\SourceDirectory\ReportOfCurrentlyWorkingPersons.xml has been created
+13.12.2020 19:28:37 file D:\Ucheba\Labs\3 sem\Isp\lab4\SourceDirectory\ReportOfEmployeeDepartmentHistory.xml has been created
+13.12.2020 19:28:37 file D:\Ucheba\Labs\3 sem\Isp\lab4\SourceDirectory\ReportOfCurrentlyWorkingPersons.xml has been created
+13.12.2020 19:28:42 file D:\Ucheba\Labs\3 sem\Isp\lab4\SourceDirectory\ReportOfEmployeeDepartmentHistory.xml has been created
+13.12.2020 19:28:42 file D:\Ucheba\Labs\3 sem\Isp\lab4\SourceDirectory\ReportOfCurrentlyWorkingPersons.xml has been created
+13.12.2020 19:28:47 file D:\Ucheba\Labs\3 sem\Isp\lab4\SourceDirectory\ReportOfEmployeeDepartmentHistory.xml has been created
+13.12.2020 19:28:47 file D:\Ucheba\Labs\3 sem\Isp\lab4\SourceDirectory\ReportOfCurrentlyWorkingPersons.xml has been created
+13.12.2020 19:28:52 file D:\Ucheba\Labs\3 sem\Isp\lab4\SourceDirectory\ReportOfEmployeeDepartmentHistory.xml has been created
+13.12.2020 19:28:52 file D:\Ucheba\Labs\3 sem\Isp\lab4\SourceDirectory\ReportOfCurrentlyWorkingPersons.xml has been created
+13.12.2020 19:30:20 status: The watcher starts...
+13.12.2020 19:30:20 status: The watcher started...
+13.12.2020 19:30:20 status: The service started...
+13.12.2020 19:30:25 file D:\Ucheba\Labs\3 sem\Isp\lab4\SourceDirectory\ReportOfEmployeeDepartmentHistory.xml has been created
+13.12.2020 19:30:25 file D:\Ucheba\Labs\3 sem\Isp\lab4\SourceDirectory\ReportOfCurrentlyWorkingPersons.xml has been created
+13.12.2020 19:30:31 file D:\Ucheba\Labs\3 sem\Isp\lab4\SourceDirectory\ReportOfEmployeeDepartmentHistory.xml has been created
+13.12.2020 19:30:31 file D:\Ucheba\Labs\3 sem\Isp\lab4\SourceDirectory\ReportOfCurrentlyWorkingPersons.xml has been created
+13.12.2020 19:30:36 file D:\Ucheba\Labs\3 sem\Isp\lab4\SourceDirectory\ReportOfEmployeeDepartmentHistory.xml has been created
+13.12.2020 19:30:36 file D:\Ucheba\Labs\3 sem\Isp\lab4\SourceDirectory\ReportOfCurrentlyWorkingPersons.xml has been created
+13.12.2020 19:30:41 file D:\Ucheba\Labs\3 sem\Isp\lab4\SourceDirectory\ReportOfEmployeeDepartmentHistory.xml has been created
+13.12.2020 19:30:41 file D:\Ucheba\Labs\3 sem\Isp\lab4\SourceDirectory\ReportOfCurrentlyWorkingPersons.xml has been created
+13.12.2020 19:30:46 file D:\Ucheba\Labs\3 sem\Isp\lab4\SourceDirectory\ReportOfEmployeeDepartmentHistory.xml has been created
+13.12.2020 19:30:46 file D:\Ucheba\Labs\3 sem\Isp\lab4\SourceDirectory\ReportOfCurrentlyWorkingPersons.xml has been created
+13.12.2020 19:30:51 file D:\Ucheba\Labs\3 sem\Isp\lab4\SourceDirectory\ReportOfEmployeeDepartmentHistory.xml has been created
+13.12.2020 19:30:51 file D:\Ucheba\Labs\3 sem\Isp\lab4\SourceDirectory\ReportOfCurrentlyWorkingPersons.xml has been created
+13.12.2020 19:30:56 file D:\Ucheba\Labs\3 sem\Isp\lab4\SourceDirectory\ReportOfEmployeeDepartmentHistory.xml has been created
+13.12.2020 19:30:56 file D:\Ucheba\Labs\3 sem\Isp\lab4\SourceDirectory\ReportOfCurrentlyWorkingPersons.xml has been created

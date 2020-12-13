@@ -17,17 +17,20 @@ namespace DataManager
             writer.Write(contentOfFile);
             writer.Close();
             return file.FullName;
-        }                
+        }
         public void TranferFileToFTP(string ftpFolderPath, string fileName)
         {
             try
             {
-                file.MoveTo(Path.Combine(ftpFolderPath, fileName));
+                file.CopyTo(Path.Combine(ftpFolderPath, fileName), true);
             }
             catch (Exception e)
             {
-                file.Delete();
                 throw e;
+            }
+            finally
+            {
+                file.Delete();
             }
         }
     }

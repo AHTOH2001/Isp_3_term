@@ -44,7 +44,7 @@ namespace FileManager
             var aesKey = tempAes.Key;
             var aesIV = tempAes.IV;
             var extractor = new Extractor(_watcherOptions.GetOption<string>("TargetDirectory"), aesKey, aesIV);
-            this._extractor = extractor;
+            this._extractor = extractor;            
             this._watchedFolder = _watcherOptions.GetOption<string>("SourceDirectory");
             _watcher = new FileSystemWatcher(_watchedFolder);
             _watcher.Deleted += WatcherDeleted;

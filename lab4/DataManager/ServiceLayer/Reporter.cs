@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Data.SqlClient;
 using System.IO;
 using System.Linq;
 using System.Text;
@@ -20,11 +21,27 @@ namespace DataManager
         }
         public void CreateNewReport()
         {
+            
             FileTransfer fileTransfer = new FileTransfer();
             var sqlTable = _dataAccess.ExecuteStoredProcedure("[GetEmployeeDepartmentHistory]");
             var xmlContent = _xmlGenerator.generateXML("EmployeeDepartmentHistory", "BusinessEntity", sqlTable);
             fileTransfer.CreateTempFile(xmlContent);            
-            fileTransfer.TranferFileToFTP(_sourceDirectory, "report.xml");            
+            fileTransfer.TranferFileToFTP(_sourceDirectory, "ReportOfEmployeeDepartmentHistory.xml");
+
+            sqlTable = _dataAccess.ExecuteStoredProcedure("[GetEmployeeWithSpecificOrganisationLevel]", new SqlParameter("@MinOrganisationLevel", 1), new SqlParameter("@MaxOrganisationLevel", 2));
+            xmlContent = _xmlGenerator.generateXML("EmployeeOrganisationLevel", "BusinessEntity", sqlTable);
+            fileTransfer.CreateTempFile(xmlContent);
+            fileTransfer.TranferFileToFTP(_sourceDirectory, "ReportOfEmployeeOrganisationLevel.xml");
+
+            sqlTable = _dataAccess.ExecuteStoredProcedure("[GetEmployeeWithSpecificPayment]", new SqlParameter("@paymentMoreThan", 75));
+            xmlContent = _xmlGenerator.generateXML("EmployeePayment", "BusinessEntity", sqlTable);
+            fileTransfer.CreateTempFile(xmlContent);
+            fileTransfer.TranferFileToFTP(_sourceDirectory, "ReportOfEmployeePayments.xml");
+
+            sqlTable = _dataAccess.ExecuteStoredProcedure("[GetInformationAboutPersons]");
+            xmlContent = _xmlGenerator.generateXML("InformationAboutCurrentlyWorkingPersons", "Person", sqlTable);
+            fileTransfer.CreateTempFile(xmlContent);
+            fileTransfer.TranferFileToFTP(_sourceDirectory, "ReportOfCurrentlyWorkingPersons.xml");
         }
     }
 }

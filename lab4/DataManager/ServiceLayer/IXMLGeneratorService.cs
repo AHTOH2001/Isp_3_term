@@ -8,6 +8,6 @@ namespace DataManager
 {
     interface IXMLGeneratorService
     {
-
+        string generateXML(string tableName, string rowName, SqlTableColumn[] tableContent);
     }
 }

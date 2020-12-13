@@ -27,18 +27,11 @@ namespace DataManager
             var serverOptions = _systemConfiguration.GetConfigurationClass(new ServerOptions());
 
             var connectionString = (string)serverOptions.GetField("connectionString").GetValue(null);
-            DataAccess dataAccess = new DataAccess(connectionString);
-            //foreach (var e in dataAccess.ExecuteStoredProcedure("[GetEmployeeDepartmentHistory]"))
-            //{
-            //    Console.Write("Col name: " + e.columnName + "; ");
-            //    foreach (var e1 in e.values)
-            //    {
-            //        Console.Write(e1.ToString() + ' ');
-            //    }
-            //    Console.WriteLine(); 
-            //}
+            DataAccess dataAccess = new DataAccess(connectionString);            
+
             var fileOptions = _systemConfiguration.GetConfigurationClass(new WatcherOptions());
             Logger.LogFilePath = fileOptions.GetOption<string>("LogFilePath");
+
             sourceDirectory = fileOptions.GetOption<string>("SourceDirectory");
             XMLGenerator xmlGenerator = new XMLGenerator();
             Reporter reporter = new Reporter(sourceDirectory, dataAccess, xmlGenerator);
@@ -48,9 +41,9 @@ namespace DataManager
             var minutes = reporterOptions.GetOption<int>("FrequencyOfReportMinutes");
             var seconds = reporterOptions.GetOption<int>("FrequencyOfReportSeconds");
             while (_enabled)
-            {
-                reporter.CreateNewReport();
+            {                
                 Thread.Sleep(new TimeSpan(hours, minutes, seconds));
+                reporter.CreateNewReport();
             }
         }
 

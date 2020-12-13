@@ -20,7 +20,7 @@ namespace FileManager
 
         internal Extractor(string targetDirectory, byte[] aesKey, byte[] aesIV)
         {
-            this._targetDirectory = targetDirectory;            
+            this._targetDirectory = targetDirectory;
             try
             {
                 _encryptorOptions = Watcher.SystemConfiguration.GetConfigurationClass(new EncryptorOptions());
@@ -49,14 +49,14 @@ namespace FileManager
                 Logger.RecordStatus("Warning, archivator options was not found in the config");
             }
             try
-            { 
+            {
                 _archivator.IsNeedToLogArchivator = _archivatorOptions.GetOption<bool>("NeedToLog");
             }
             catch
             {
                 Logger.RecordStatus("Warning, archivator need to log option was not found in the config");
                 _archivator.IsNeedToLogArchivator = true;
-            }            
+            }
             try
             {
                 _compressorOptions = Watcher.SystemConfiguration.GetConfigurationClass(new CompressorOptions());
@@ -73,6 +73,12 @@ namespace FileManager
                     _archivator.CompressionLevel = "Optimal";
                 }
             }
+
+            if (_archivatorOptions.GetOption<bool>("NeedToArchieve"))
+            {
+                ArchiveOldFiles(_targetDirectory);
+            }
+
         }
 
         private void Encrypt(string filePath)
@@ -147,7 +153,7 @@ namespace FileManager
             sourceFileInfo.Delete();
 
             File.Move(archivedFileInfo.FullName, _targetDirectory + Path.DirectorySeparatorChar + archivedFileInfo.Name);
-            archivedFileInfo = new FileInfo(_targetDirectory + Path.DirectorySeparatorChar + archivedFileInfo.Name);            
+            archivedFileInfo = new FileInfo(_targetDirectory + Path.DirectorySeparatorChar + archivedFileInfo.Name);
             if (_archivator.IsNeedToLogArchivator)
             {
                 Logger.RecordEntry("moved", archivedFileInfo.FullName);
@@ -175,12 +181,22 @@ namespace FileManager
                 if (file.Name != "archive" && file.Name.Substring(0, 3).ToLower() != "log")
                 {
                     var creationDate = file.CreationTime;
-                    var archiveDirectory = new DirectoryInfo(Path.Combine(targetDirectory, "archive", creationDate.Year.ToString(), creationDate.Month.ToString(), creationDate.Day.ToString(), creationDate.ToString("HH.mm.ss")));
+                    var archiveDirectory = new DirectoryInfo(Path.Combine(targetDirectory, "archive", creationDate.Year.ToString(), creationDate.Month.ToString(), creationDate.Day.ToString(), creationDate.ToString("HH.mm")));
                     if (!archiveDirectory.Exists)
                     {
                         archiveDirectory.Create();
                     }
-                    file.MoveTo(archiveDirectory.FullName + Path.DirectorySeparatorChar + file.Name);
+                    FileInfo fileInfo = new FileInfo(archiveDirectory.FullName + Path.DirectorySeparatorChar + file.Name);
+                    int k = 1;
+                    while (fileInfo.Exists)
+                    {
+                        k++;
+                        string fileName = Path.GetFileNameWithoutExtension(fileInfo.Name);
+                        if (k > 2)
+                            fileName = fileName.Substring(0, fileName.Length - 3);
+                        fileInfo = new FileInfo(fileInfo.DirectoryName + Path.DirectorySeparatorChar + fileName + " №" + k.ToString() + fileInfo.Extension);
+                    }
+                    file.MoveTo(fileInfo.FullName);
                     if (_archivator.IsNeedToLogArchivator)
                     {
                         Logger.RecordEntry("added to archieve", file.FullName);
