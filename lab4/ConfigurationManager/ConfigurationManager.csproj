@@ -42,16 +42,24 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="ClassBuilder.cs" />
-    <Compile Include="ConfigurationPseudonymAttribute.cs" />
     <Compile Include="JsonFileNameAttribute.cs" />
     <Compile Include="JsonParser.cs" />
-    <Compile Include="Options.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="ReflectionExtension.cs" />
     <Compile Include="SystemConfiguration.cs" />
     <Compile Include="Utils.cs" />
     <Compile Include="XmlFileNameAttribute.cs" />
     <Compile Include="XmlParser.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\ApplicationInsights\ApplicationInsights.csproj">
+      <Project>{15B9948F-9528-40F9-B106-D1DC8B8961BA}</Project>
+      <Name>ApplicationInsights</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Models\Models.csproj">
+      <Project>{bb912828-b92e-48e8-b5d7-f4a1620bddc0}</Project>
+      <Name>Models</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -9,18 +9,25 @@ using ConfigurationManager;
 namespace DataManager
 {
     public class DataAccess
-    {
-        private SystemConfiguration _systemConfiguration;
+    {                
         private SqlConnection connection;
-        public DataAccess(SystemConfiguration systemConfiguration)
-        {
-            _systemConfiguration = systemConfiguration;            
-            var conf = systemConfiguration.GetConfigurationClass(new ServerOptions());
-            var connectionString = (string)conf.GetField("connectionString").GetValue(null);
+        public DataAccess(string connectionString)
+        {            
             connection = new SqlConnection(connectionString);
-            connection.Open();
+            ConnectToServer();
         }
-        
+        private void ConnectToServer()
+        {
+            if (connection.State != System.Data.ConnectionState.Open)
+            {
+                connection.Open();
+                if (connection.State != System.Data.ConnectionState.Open)
+                {
+                    throw new Exception("Unable to connect to data base");
+                }
+            }
+
+        }
         public string proc()
         {
             SqlCommand command = new SqlCommand();
@@ -42,22 +49,27 @@ namespace DataManager
                 throw new Exception("Unable to read");
 
         }
-        public string procWithStoredProcedure1(string procName)
+        public SqlTableColumn[] ExecuteStoredProcedure(string procedureName, params SqlParameter[] sqlParameters)
         {
-            SqlCommand command = new SqlCommand(procName, connection);
+            SqlCommand command = new SqlCommand(procedureName, connection);
             command.CommandType = System.Data.CommandType.StoredProcedure;
+            command.Parameters.AddRange(sqlParameters);            
             var reader = command.ExecuteReader();
-
-            while (reader.Read())
-            {
-                var values = new object[reader.FieldCount];
-                reader.GetValues(values);
-                foreach (var val in values)
-                {                    
-                    Console.WriteLine(val);
+            var fieldCount = reader.FieldCount;
+            reader.Close();
+            SqlTableColumn[] sqlTable = new SqlTableColumn[fieldCount];
+            for (int i = 0; i < fieldCount; i++)
+            {                
+                reader = command.ExecuteReader();
+                sqlTable[i] = new SqlTableColumn(reader.GetName(i));
+                while (reader.Read())
+                {
+                    sqlTable[i].values.Add(reader.GetValue(i));
                 }
+                reader.Close();
             }
-            return "";
+
+            return sqlTable;
         }
         public string procWithStoredProcedure2(string procName)
         {

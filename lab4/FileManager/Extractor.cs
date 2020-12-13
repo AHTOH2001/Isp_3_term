@@ -3,6 +3,7 @@ using System.Linq;
 using System;
 using ConfigurationManager;
 using ApplicationInsights;
+using Models;
 
 namespace FileManager
 {
@@ -146,7 +147,7 @@ namespace FileManager
             sourceFileInfo.Delete();
 
             File.Move(archivedFileInfo.FullName, _targetDirectory + Path.DirectorySeparatorChar + archivedFileInfo.Name);
-            archivedFileInfo = new FileInfo(_targetDirectory + Path.DirectorySeparatorChar + archivedFileInfo.Name);
+            archivedFileInfo = new FileInfo(_targetDirectory + Path.DirectorySeparatorChar + archivedFileInfo.Name);            
             if (_archivator.IsNeedToLogArchivator)
             {
                 Logger.RecordEntry("moved", archivedFileInfo.FullName);

@@ -57,6 +57,10 @@
       <Project>{737daeeb-f50b-40c5-b3c3-4610d089cc8c}</Project>
       <Name>ConfigurationManager</Name>
     </ProjectReference>
+    <ProjectReference Include="..\Models\Models.csproj">
+      <Project>{BB912828-B92E-48E8-B5D7-F4A1620BDDC0}</Project>
+      <Name>Models</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -4,6 +4,7 @@ using System.Security.Cryptography;
 using System.Threading;
 using ApplicationInsights;
 using ConfigurationManager;
+using Models;
 
 namespace FileManager
 {
@@ -23,7 +24,7 @@ namespace FileManager
         }
 
         public void Start()
-        {            
+        {
             _watcherOptions = SystemConfiguration.GetConfigurationClass(new WatcherOptions());
             Logger.LogFilePath = _watcherOptions.GetOption<string>("LogFilePath");
             try
@@ -34,11 +35,10 @@ namespace FileManager
             {
                 Logger.RecordStatus("Warning, watcher need to log option was not found in the config");
                 _isNeedToLogWatcher = true;
-            }            
+            }
             if (_isNeedToLogWatcher)
             {
-                Logger.RecordStatus("System configuration has been injected to the program...");
-                Logger.RecordStatus("The service starts...");
+                Logger.RecordStatus("The watcher starts...");
             }
             var tempAes = Aes.Create();
             var aesKey = tempAes.Key;
@@ -54,7 +54,7 @@ namespace FileManager
             _watcher.EnableRaisingEvents = true;
             if (_isNeedToLogWatcher)
             {
-                Logger.RecordStatus("The service started...");
+                Logger.RecordStatus("The watcher started...");
             }
             _enabled = true;
             while (_enabled)
@@ -67,11 +67,15 @@ namespace FileManager
         {
             _watcher.EnableRaisingEvents = false;
             _enabled = false;
+            if (_isNeedToLogWatcher)
+            {
+                Logger.RecordStatus("The watcher stopped...");
+            }
         }
 
         private void WatcherRenamed(object sender, RenamedEventArgs e)
         {
-            string fileEvent = "renamed to" + e.FullPath;
+            string fileEvent = "renamed to " + e.FullPath;
             string filePath = e.OldFullPath;
             if (_isNeedToLogWatcher)
             {
@@ -83,6 +87,7 @@ namespace FileManager
         {
             try
             {
+
                 string fileEvent = "created";
                 string filePath = e.FullPath;
                 if (_isNeedToLogWatcher)
@@ -99,7 +104,7 @@ namespace FileManager
             }
             catch (Exception exception)
             {
-                Logger.RecordStatus(exception.Message);
+                Logger.RecordError(exception.Message, this);
                 Stop();
             }
         }

@@ -45,6 +45,10 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\..\ApplicationInsights\ApplicationInsights.csproj">
+      <Project>{15b9948f-9528-40f9-b106-d1dc8b8961ba}</Project>
+      <Name>ApplicationInsights</Name>
+    </ProjectReference>
     <ProjectReference Include="..\..\ConfigurationManager\ConfigurationManager.csproj">
       <Project>{737daeeb-f50b-40c5-b3c3-4610d089cc8c}</Project>
       <Name>ConfigurationManager</Name>

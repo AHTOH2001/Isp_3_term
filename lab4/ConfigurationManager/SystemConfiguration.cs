@@ -1,4 +1,6 @@
-﻿using System;
+﻿using ApplicationInsights;
+using Models;
+using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
@@ -74,6 +76,7 @@ namespace ConfigurationManager
                 {
                     _jsonParser.Parse(_configurationFilePath, _etlOptions);
                 }
+                Logger.RecordStatus("System configuration has been injected to the program...");
             }
         }
         public Type GetConfigurationClass<T>(T obj)

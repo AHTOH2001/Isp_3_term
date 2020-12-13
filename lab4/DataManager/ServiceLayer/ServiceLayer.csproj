@@ -41,13 +41,26 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="FileTransfer.cs" />
+    <Compile Include="IFileTransferService.cs" />
+    <Compile Include="IXMLGeneratorService.cs" />
+    <Compile Include="Reporter.cs" />
     <Compile Include="Service.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="XMLGenerator.cs" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\..\ApplicationInsights\ApplicationInsights.csproj">
+      <Project>{15b9948f-9528-40f9-b106-d1dc8b8961ba}</Project>
+      <Name>ApplicationInsights</Name>
+    </ProjectReference>
     <ProjectReference Include="..\..\ConfigurationManager\ConfigurationManager.csproj">
       <Project>{737daeeb-f50b-40c5-b3c3-4610d089cc8c}</Project>
       <Name>ConfigurationManager</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Models\Models.csproj">
+      <Project>{BB912828-B92E-48E8-B5D7-F4A1620BDDC0}</Project>
+      <Name>Models</Name>
     </ProjectReference>
     <ProjectReference Include="..\DataAccess\DataAccessLayer.csproj">
       <Project>{4e25bc40-3589-4609-ad95-0937f4e8e082}</Project>
