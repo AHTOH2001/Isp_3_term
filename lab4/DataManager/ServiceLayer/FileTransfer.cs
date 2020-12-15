@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Text;
+using System.Threading;
 using System.Threading.Tasks;
 
 namespace DataManager
@@ -22,7 +23,10 @@ namespace DataManager
         {
             try
             {
-                file.CopyTo(Path.Combine(ftpFolderPath, fileName), true);
+                //FileInfo targetFile = new FileInfo(Path.Combine(ftpFolderPath, fileName));
+                //if (targetFile.Exists)
+                //    targetFile.Delete();
+                file.CopyTo(Path.Combine(ftpFolderPath, fileName));
             }
             catch (Exception e)
             {
@@ -31,6 +35,7 @@ namespace DataManager
             finally
             {
                 file.Delete();
+                Thread.Sleep(100);
             }
         }
     }

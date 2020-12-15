@@ -21,7 +21,7 @@ namespace DataManager
         }
         public void CreateNewReport()
         {
-            
+            ApplicationInsights.Logger.RecordStatus("Report process started...");
             FileTransfer fileTransfer = new FileTransfer();
             var sqlTable = _dataAccess.ExecuteStoredProcedure("[GetEmployeeDepartmentHistory]");
             var xmlContent = _xmlGenerator.generateXML("EmployeeDepartmentHistory", "BusinessEntity", sqlTable);
@@ -42,6 +42,7 @@ namespace DataManager
             xmlContent = _xmlGenerator.generateXML("InformationAboutCurrentlyWorkingPersons", "Person", sqlTable);
             fileTransfer.CreateTempFile(xmlContent);
             fileTransfer.TranferFileToFTP(_sourceDirectory, "ReportOfCurrentlyWorkingPersons.xml");
+            ApplicationInsights.Logger.RecordStatus("Report process ended...");
         }
     }
 }

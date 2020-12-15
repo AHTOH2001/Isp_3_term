@@ -14,15 +14,17 @@ namespace DataManager
     {
         Thread watcherThread;
         Thread serviceThread;
+        Service service;
+        Watcher watcher;
         public void Start()
         {
             try
             {
-                ConfigurationManager.SystemConfiguration systemConfiguration = new SystemConfiguration();
-                FileManager.Watcher watcher = new Watcher(systemConfiguration);
+                SystemConfiguration systemConfiguration = new SystemConfiguration();
+                watcher = new Watcher(systemConfiguration);
                 watcherThread = new Thread(new ThreadStart(watcher.Start));
                 watcherThread.Start();
-                Service service = new Service(systemConfiguration);
+                service = new Service(systemConfiguration);
                 serviceThread = new Thread(new ThreadStart(service.Start));
                 serviceThread.Start();
             }
@@ -35,7 +37,9 @@ namespace DataManager
         }
         public void Stop()
         {
-
+            watcher.Stop();
+            service.Stop();
+            Thread.Sleep(1000);
         }
     }
 }

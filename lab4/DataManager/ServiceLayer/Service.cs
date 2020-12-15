@@ -23,14 +23,16 @@ namespace DataManager
         }
         public void Start()//Should rename
         {
+            var fileOptions = _systemConfiguration.GetConfigurationClass(new WatcherOptions());
+            Logger.LogFilePath = fileOptions.GetOption<string>("LogFilePath");
+
             Logger.RecordStatus("The service starts...");
             var serverOptions = _systemConfiguration.GetConfigurationClass(new ServerOptions());
 
             var connectionString = (string)serverOptions.GetField("connectionString").GetValue(null);
-            DataAccess dataAccess = new DataAccess(connectionString);            
+            DataAccess dataAccess = new DataAccess(connectionString);
 
-            var fileOptions = _systemConfiguration.GetConfigurationClass(new WatcherOptions());
-            Logger.LogFilePath = fileOptions.GetOption<string>("LogFilePath");
+            Logger.DataAccess = dataAccess;
 
             sourceDirectory = fileOptions.GetOption<string>("SourceDirectory");
             XMLGenerator xmlGenerator = new XMLGenerator();
@@ -41,7 +43,7 @@ namespace DataManager
             var minutes = reporterOptions.GetOption<int>("FrequencyOfReportMinutes");
             var seconds = reporterOptions.GetOption<int>("FrequencyOfReportSeconds");
             while (_enabled)
-            {                
+            {
                 Thread.Sleep(new TimeSpan(hours, minutes, seconds));
                 reporter.CreateNewReport();
             }

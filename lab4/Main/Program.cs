@@ -5,6 +5,7 @@ namespace Main
 {
     class Program
     {
+        //Main for test but can be used win service
         static void Main(string[] args)
         {
             DataManagerClass dataManager = new DataManagerClass();

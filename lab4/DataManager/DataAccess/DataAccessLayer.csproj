@@ -51,11 +51,5 @@
   <ItemGroup>
     <None Include="packages.config" />
   </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\..\ConfigurationManager\ConfigurationManager.csproj">
-      <Project>{737daeeb-f50b-40c5-b3c3-4610d089cc8c}</Project>
-      <Name>ConfigurationManager</Name>
-    </ProjectReference>
-  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

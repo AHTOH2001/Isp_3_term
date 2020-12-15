@@ -1,5 +1,7 @@
 ﻿using System;
+using System.Data.SqlClient;
 using System.IO;
+using DataManager;
 
 namespace ApplicationInsights
 {
@@ -7,51 +9,67 @@ namespace ApplicationInsights
     {
 
         private static object _obj = new object();
-        public static string LogFilePath;
+        public static string LogFilePath { private get; set; }
+        public static DataAccess DataAccess { private get; set; }
 
         public static void RecordEntry(string fileEvent, string filePath)
         {
             lock (_obj)
             {
-                var message = String.Format("{0} file {1} has been {2}",
-                    DateTime.Now.ToString("dd/MM/yyyy HH:mm:ss"), filePath, fileEvent);
-                Console.WriteLine(message);
+                var message = String.Format("file {0} has been {1}", filePath, fileEvent);
+                var date = DateTime.Now.ToString("dd/MM/yyyy HH:mm:ss");
+                var fullMessage = string.Format("{0} {1}", date, message);
+                Console.WriteLine(fullMessage);
                 if (!(LogFilePath == null))
                     using (StreamWriter writer = new StreamWriter(LogFilePath, true))
                     {
-                        writer.WriteLine(message);
+                        writer.WriteLine(fullMessage);
                         writer.Flush();
                     }
+                if (!(DataAccess == null))
+                {
+                    DataAccess.ExecuteStoredProcedure("AddLogEntry", new SqlParameter("@datetime", date), new SqlParameter("@message", message));
+                }
             }
         }
         public static void RecordStatus(string status)
         {
             lock (_obj)
             {
-                var message = String.Format("{0} status: {1}",
-                        DateTime.Now.ToString("dd/MM/yyyy HH:mm:ss"), status);
-                Console.WriteLine(message);
+                var message = String.Format("status: {0}", status);
+                var date = DateTime.Now.ToString("dd/MM/yyyy HH:mm:ss");
+                var fullMessage = string.Format("{0} {1}", date, message);
+                Console.WriteLine(fullMessage);
                 if (!(LogFilePath == null))
                     using (StreamWriter writer = new StreamWriter(LogFilePath, true))
                     {
-                        writer.WriteLine(message);
+                        writer.WriteLine(fullMessage);
                         writer.Flush();
                     }
+                if (!(DataAccess == null))
+                {
+                    DataAccess.ExecuteStoredProcedure("AddLogEntry", new SqlParameter("@datetime", date), new SqlParameter("@message", message));
+                }
             }
         }
         public static void RecordError(string errorMessage, object sender)
         {
             lock (_obj)
             {
-                var message = String.Format("{0} error: {1} thrown exception:\n{2}",
-                        DateTime.Now.ToString("dd/MM/yyyy HH:mm:ss"), sender.ToString(), errorMessage);
-                Console.WriteLine(message);
+                var message = String.Format("error: {0} thrown exception:\n{1}", sender.ToString(), errorMessage);
+                var date = DateTime.Now.ToString("dd/MM/yyyy HH:mm:ss");
+                var fullMessage = string.Format("{0} {1}", date, message);
+                Console.WriteLine(fullMessage);
                 if (!(LogFilePath == null))
                     using (StreamWriter writer = new StreamWriter(LogFilePath, true))
                     {
-                        writer.WriteLine(message);
+                        writer.WriteLine(fullMessage);
                         writer.Flush();
                     }
+                if (!(DataAccess == null))
+                {
+                    DataAccess.ExecuteStoredProcedure("AddLogEntry", new SqlParameter("@datetime", date), new SqlParameter("@message", message));
+                }
             }
         }
     }
