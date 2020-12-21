@@ -1,30 +1,540 @@
-﻿15.12.2020 14:42:22 status: The watcher starts...
-15.12.2020 14:42:22 status: The watcher started...
-15.12.2020 14:42:23 status: The service started...
-15.12.2020 14:42:28 status: Report process started...
-15.12.2020 14:42:28 file D:\Ucheba\Labs\3 sem\Isp\lab4\SourceDirectory\ReportOfEmployeeDepartmentHistory.xml has been created
-15.12.2020 14:42:29 file D:\Ucheba\Labs\3 sem\Isp\lab4\SourceDirectory\ReportOfEmployeeOrganisationLevel.xml has been created
-15.12.2020 14:42:29 file D:\Ucheba\Labs\3 sem\Isp\lab4\SourceDirectory\ReportOfEmployeePayments.xml has been created
-15.12.2020 14:42:29 file D:\Ucheba\Labs\3 sem\Isp\lab4\SourceDirectory\ReportOfCurrentlyWorkingPersons.xml has been created
-15.12.2020 14:42:29 status: Report process ended...
-15.12.2020 14:43:09 status: The watcher starts...
-15.12.2020 14:43:09 status: The watcher started...
-15.12.2020 14:43:21 file D:\Ucheba\Labs\3 sem\Isp\lab4\SourceDirectory\Новый текстовый документ.txt has been created
-15.12.2020 14:44:59 status: The watcher starts...
-15.12.2020 14:44:59 status: The watcher started...
-15.12.2020 14:53:20 status: The service starts...
-15.12.2020 14:53:20 status: The watcher starts...
-15.12.2020 14:53:20 status: The watcher started...
-15.12.2020 14:53:20 status: The service started...
-15.12.2020 14:53:25 status: Report process started...
-15.12.2020 14:53:25 file D:\Ucheba\Labs\3 sem\Isp\lab4\SourceDirectory\ReportOfEmployeeDepartmentHistory.xml has been created
-15.12.2020 14:53:25 file D:\Ucheba\Labs\3 sem\Isp\lab4\SourceDirectory\ReportOfEmployeeOrganisationLevel.xml has been created
-15.12.2020 14:53:25 file D:\Ucheba\Labs\3 sem\Isp\lab4\SourceDirectory\ReportOfEmployeePayments.xml has been created
-15.12.2020 14:53:26 file D:\Ucheba\Labs\3 sem\Isp\lab4\SourceDirectory\ReportOfCurrentlyWorkingPersons.xml has been created
-15.12.2020 14:53:26 status: Report process ended...
-15.12.2020 14:53:31 status: Report process started...
-15.12.2020 14:53:31 file D:\Ucheba\Labs\3 sem\Isp\lab4\SourceDirectory\ReportOfEmployeeDepartmentHistory.xml has been created
-15.12.2020 14:53:31 file D:\Ucheba\Labs\3 sem\Isp\lab4\SourceDirectory\ReportOfEmployeeOrganisationLevel.xml has been created
-15.12.2020 14:53:31 file D:\Ucheba\Labs\3 sem\Isp\lab4\SourceDirectory\ReportOfEmployeePayments.xml has been created
-15.12.2020 14:53:31 file D:\Ucheba\Labs\3 sem\Isp\lab4\SourceDirectory\ReportOfCurrentlyWorkingPersons.xml has been created
-15.12.2020 14:53:31 status: Report process ended...
+﻿15.12.2020 19:47:08 status: The service starts...
+15.12.2020 19:47:08 status: The watcher starts...
+15.12.2020 19:47:08 status: The watcher started...
+15.12.2020 19:47:08 status: The service started...
+15.12.2020 19:47:08 status: Report process started...
+15.12.2020 19:47:08 file D:\Ucheba\Labs\3 sem\Isp\lab4\SourceDirectory\ReportOfEmployeeDepartmentHistory.xml has been created
+15.12.2020 19:47:09 file D:\Ucheba\Labs\3 sem\Isp\lab4\SourceDirectory\ReportOfEmployeeOrganisationLevel.xml has been created
+15.12.2020 19:47:09 file D:\Ucheba\Labs\3 sem\Isp\lab4\SourceDirectory\ReportOfEmployeePayments.xml has been created
+15.12.2020 19:47:09 file D:\Ucheba\Labs\3 sem\Isp\lab4\SourceDirectory\ReportOfCurrentlyWorkingPersons.xml has been created
+15.12.2020 19:47:09 status: Report process ended...
+15.12.2020 19:47:19 status: Report process started...
+15.12.2020 19:47:19 file D:\Ucheba\Labs\3 sem\Isp\lab4\SourceDirectory\ReportOfEmployeeDepartmentHistory.xml has been created
+15.12.2020 19:47:20 file D:\Ucheba\Labs\3 sem\Isp\lab4\SourceDirectory\ReportOfEmployeeOrganisationLevel.xml has been created
+15.12.2020 19:47:20 file D:\Ucheba\Labs\3 sem\Isp\lab4\SourceDirectory\ReportOfEmployeePayments.xml has been created
+15.12.2020 19:47:20 file D:\Ucheba\Labs\3 sem\Isp\lab4\SourceDirectory\ReportOfCurrentlyWorkingPersons.xml has been created
+15.12.2020 19:47:20 status: Report process ended...
+15.12.2020 19:47:56 status: The service starts...
+15.12.2020 19:47:56 status: The watcher starts...
+15.12.2020 19:47:56 file D:\Ucheba\Labs\3 sem\Isp\lab4\TargetDirectory\archive\2020\12\15\19.47\ReportOfCurrentlyWorkingPersons №2.xml has been added to archieve
+15.12.2020 19:47:56 status: The watcher started...
+15.12.2020 19:47:56 status: The service started...
+15.12.2020 19:47:56 status: Report process started...
+15.12.2020 19:47:57 file D:\Ucheba\Labs\3 sem\Isp\lab4\SourceDirectory\ReportOfEmployeeDepartmentHistory.xml has been created
+15.12.2020 19:47:57 file D:\Ucheba\Labs\3 sem\Isp\lab4\SourceDirectory\ReportOfEmployeeDepartmentHistory.xml has been encrypted
+15.12.2020 19:47:57 file D:\Ucheba\Labs\3 sem\Isp\lab4\SourceDirectory\ReportOfEmployeeDepartmentHistory.xml has been compressed, source size: 95292  compressed size: 40960
+15.12.2020 19:47:57 file D:\Ucheba\Labs\3 sem\Isp\lab4\TargetDirectory\ReportOfEmployeeDepartmentHistory.gz has been moved
+15.12.2020 19:47:57 file D:\Ucheba\Labs\3 sem\Isp\lab4\TargetDirectory\ReportOfEmployeeDepartmentHistory.xml has been decompressed
+15.12.2020 19:47:57 file D:\Ucheba\Labs\3 sem\Isp\lab4\TargetDirectory\ReportOfEmployeeDepartmentHistory.xml has been decrypted
+15.12.2020 19:47:57 file D:\Ucheba\Labs\3 sem\Isp\lab4\SourceDirectory\ReportOfEmployeeOrganisationLevel.xml has been created
+15.12.2020 19:47:57 file D:\Ucheba\Labs\3 sem\Isp\lab4\TargetDirectory\archive\2020\12\15\19.47\ReportOfEmployeeDepartmentHistory №3.xml has been added to archieve
+15.12.2020 19:47:57 file D:\Ucheba\Labs\3 sem\Isp\lab4\SourceDirectory\ReportOfEmployeeOrganisationLevel.xml has been encrypted
+15.12.2020 19:47:57 file D:\Ucheba\Labs\3 sem\Isp\lab4\SourceDirectory\ReportOfEmployeeOrganisationLevel.xml has been compressed, source size: 24713  compressed size: 8192
+15.12.2020 19:47:57 file D:\Ucheba\Labs\3 sem\Isp\lab4\TargetDirectory\ReportOfEmployeeOrganisationLevel.gz has been moved
+15.12.2020 19:47:57 file D:\Ucheba\Labs\3 sem\Isp\lab4\TargetDirectory\ReportOfEmployeeOrganisationLevel.xml has been decompressed
+15.12.2020 19:47:57 file D:\Ucheba\Labs\3 sem\Isp\lab4\TargetDirectory\ReportOfEmployeeOrganisationLevel.xml has been decrypted
+15.12.2020 19:47:57 file D:\Ucheba\Labs\3 sem\Isp\lab4\SourceDirectory\ReportOfEmployeePayments.xml has been created
+15.12.2020 19:47:57 file D:\Ucheba\Labs\3 sem\Isp\lab4\TargetDirectory\archive\2020\12\15\19.47\ReportOfEmployeeOrganisationLevel №3.xml has been added to archieve
+15.12.2020 19:47:57 file D:\Ucheba\Labs\3 sem\Isp\lab4\SourceDirectory\ReportOfEmployeePayments.xml has been encrypted
+15.12.2020 19:47:57 file D:\Ucheba\Labs\3 sem\Isp\lab4\SourceDirectory\ReportOfEmployeePayments.xml has been compressed, source size: 6312  compressed size: 10
+15.12.2020 19:47:57 file D:\Ucheba\Labs\3 sem\Isp\lab4\TargetDirectory\ReportOfEmployeePayments.gz has been moved
+15.12.2020 19:47:57 file D:\Ucheba\Labs\3 sem\Isp\lab4\TargetDirectory\ReportOfEmployeePayments.xml has been decompressed
+15.12.2020 19:47:57 file D:\Ucheba\Labs\3 sem\Isp\lab4\TargetDirectory\ReportOfEmployeePayments.xml has been decrypted
+15.12.2020 19:47:57 file D:\Ucheba\Labs\3 sem\Isp\lab4\SourceDirectory\ReportOfCurrentlyWorkingPersons.xml has been created
+15.12.2020 19:47:57 file D:\Ucheba\Labs\3 sem\Isp\lab4\TargetDirectory\archive\2020\12\15\19.47\ReportOfEmployeePayments №3.xml has been added to archieve
+15.12.2020 19:47:57 file D:\Ucheba\Labs\3 sem\Isp\lab4\SourceDirectory\ReportOfCurrentlyWorkingPersons.xml has been encrypted
+15.12.2020 19:47:57 file D:\Ucheba\Labs\3 sem\Isp\lab4\SourceDirectory\ReportOfCurrentlyWorkingPersons.xml has been compressed, source size: 230781  compressed size: 175544
+15.12.2020 19:47:57 file D:\Ucheba\Labs\3 sem\Isp\lab4\TargetDirectory\ReportOfCurrentlyWorkingPersons.gz has been moved
+15.12.2020 19:47:57 file D:\Ucheba\Labs\3 sem\Isp\lab4\TargetDirectory\ReportOfCurrentlyWorkingPersons.xml has been decompressed
+15.12.2020 19:47:57 file D:\Ucheba\Labs\3 sem\Isp\lab4\TargetDirectory\ReportOfCurrentlyWorkingPersons.xml has been decrypted
+15.12.2020 19:47:57 status: Report process ended...
+15.12.2020 19:48:07 status: Report process started...
+15.12.2020 19:48:08 file D:\Ucheba\Labs\3 sem\Isp\lab4\SourceDirectory\ReportOfEmployeeDepartmentHistory.xml has been created
+15.12.2020 19:48:08 file D:\Ucheba\Labs\3 sem\Isp\lab4\TargetDirectory\archive\2020\12\15\19.47\ReportOfCurrentlyWorkingPersons №3.xml has been added to archieve
+15.12.2020 19:48:08 file D:\Ucheba\Labs\3 sem\Isp\lab4\SourceDirectory\ReportOfEmployeeDepartmentHistory.xml has been encrypted
+15.12.2020 19:48:08 file D:\Ucheba\Labs\3 sem\Isp\lab4\SourceDirectory\ReportOfEmployeeDepartmentHistory.xml has been compressed, source size: 95292  compressed size: 40960
+15.12.2020 19:48:08 file D:\Ucheba\Labs\3 sem\Isp\lab4\TargetDirectory\ReportOfEmployeeDepartmentHistory.gz has been moved
+15.12.2020 19:48:08 file D:\Ucheba\Labs\3 sem\Isp\lab4\TargetDirectory\ReportOfEmployeeDepartmentHistory.xml has been decompressed
+15.12.2020 19:48:08 file D:\Ucheba\Labs\3 sem\Isp\lab4\TargetDirectory\ReportOfEmployeeDepartmentHistory.xml has been decrypted
+15.12.2020 19:48:08 file D:\Ucheba\Labs\3 sem\Isp\lab4\SourceDirectory\ReportOfEmployeeOrganisationLevel.xml has been created
+15.12.2020 19:48:08 file D:\Ucheba\Labs\3 sem\Isp\lab4\TargetDirectory\archive\2020\12\15\19.48\ReportOfEmployeeDepartmentHistory.xml has been added to archieve
+15.12.2020 19:48:08 file D:\Ucheba\Labs\3 sem\Isp\lab4\SourceDirectory\ReportOfEmployeeOrganisationLevel.xml has been encrypted
+15.12.2020 19:48:08 file D:\Ucheba\Labs\3 sem\Isp\lab4\SourceDirectory\ReportOfEmployeeOrganisationLevel.xml has been compressed, source size: 24713  compressed size: 8192
+15.12.2020 19:48:08 file D:\Ucheba\Labs\3 sem\Isp\lab4\TargetDirectory\ReportOfEmployeeOrganisationLevel.gz has been moved
+15.12.2020 19:48:08 file D:\Ucheba\Labs\3 sem\Isp\lab4\TargetDirectory\ReportOfEmployeeOrganisationLevel.xml has been decompressed
+15.12.2020 19:48:08 file D:\Ucheba\Labs\3 sem\Isp\lab4\TargetDirectory\ReportOfEmployeeOrganisationLevel.xml has been decrypted
+15.12.2020 19:48:08 file D:\Ucheba\Labs\3 sem\Isp\lab4\SourceDirectory\ReportOfEmployeePayments.xml has been created
+15.12.2020 19:48:08 file D:\Ucheba\Labs\3 sem\Isp\lab4\TargetDirectory\archive\2020\12\15\19.48\ReportOfEmployeeOrganisationLevel.xml has been added to archieve
+15.12.2020 19:48:08 file D:\Ucheba\Labs\3 sem\Isp\lab4\SourceDirectory\ReportOfEmployeePayments.xml has been encrypted
+15.12.2020 19:48:08 file D:\Ucheba\Labs\3 sem\Isp\lab4\SourceDirectory\ReportOfEmployeePayments.xml has been compressed, source size: 6312  compressed size: 10
+15.12.2020 19:48:08 file D:\Ucheba\Labs\3 sem\Isp\lab4\TargetDirectory\ReportOfEmployeePayments.gz has been moved
+15.12.2020 19:48:08 file D:\Ucheba\Labs\3 sem\Isp\lab4\TargetDirectory\ReportOfEmployeePayments.xml has been decompressed
+15.12.2020 19:48:08 file D:\Ucheba\Labs\3 sem\Isp\lab4\TargetDirectory\ReportOfEmployeePayments.xml has been decrypted
+15.12.2020 19:48:08 file D:\Ucheba\Labs\3 sem\Isp\lab4\SourceDirectory\ReportOfCurrentlyWorkingPersons.xml has been created
+15.12.2020 19:48:08 file D:\Ucheba\Labs\3 sem\Isp\lab4\TargetDirectory\archive\2020\12\15\19.48\ReportOfEmployeePayments.xml has been added to archieve
+15.12.2020 19:48:08 file D:\Ucheba\Labs\3 sem\Isp\lab4\SourceDirectory\ReportOfCurrentlyWorkingPersons.xml has been encrypted
+15.12.2020 19:48:08 file D:\Ucheba\Labs\3 sem\Isp\lab4\SourceDirectory\ReportOfCurrentlyWorkingPersons.xml has been compressed, source size: 230781  compressed size: 175544
+15.12.2020 19:48:08 file D:\Ucheba\Labs\3 sem\Isp\lab4\TargetDirectory\ReportOfCurrentlyWorkingPersons.gz has been moved
+15.12.2020 19:48:08 file D:\Ucheba\Labs\3 sem\Isp\lab4\TargetDirectory\ReportOfCurrentlyWorkingPersons.xml has been decompressed
+15.12.2020 19:48:08 file D:\Ucheba\Labs\3 sem\Isp\lab4\TargetDirectory\ReportOfCurrentlyWorkingPersons.xml has been decrypted
+15.12.2020 19:48:08 status: Report process ended...
+19.12.2020 16:48:20 status: The service starts...
+19.12.2020 16:48:20 status: The watcher starts...
+19.12.2020 16:48:20 file D:\Ucheba\Labs\3 sem\Isp\lab4\TargetDirectory\archive\2020\12\15\19.48\ReportOfCurrentlyWorkingPersons.xml has been added to archieve
+19.12.2020 16:48:20 status: The watcher started...
+19.12.2020 16:48:21 status: The service started...
+19.12.2020 17:10:11 status: The service starts...
+19.12.2020 17:10:11 status: The watcher starts...
+19.12.2020 17:10:11 status: The watcher started...
+19.12.2020 17:10:11 status: The service started...
+19.12.2020 17:10:11 status: Report process started...
+19.12.2020 17:10:11 file D:\Ucheba\Labs\3 sem\Isp\lab4\SourceDirectory\ReportOfEmployeeDepartmentHistory.xml has been created
+19.12.2020 17:10:11 file D:\Ucheba\Labs\3 sem\Isp\lab4\SourceDirectory\ReportOfEmployeeDepartmentHistory.xml has been encrypted
+19.12.2020 17:10:11 file D:\Ucheba\Labs\3 sem\Isp\lab4\SourceDirectory\ReportOfEmployeeDepartmentHistory.xml has been compressed, source size: 95292  compressed size: 40960
+19.12.2020 17:10:11 file D:\Ucheba\Labs\3 sem\Isp\lab4\TargetDirectory\ReportOfEmployeeDepartmentHistory.gz has been moved
+19.12.2020 17:10:11 file D:\Ucheba\Labs\3 sem\Isp\lab4\TargetDirectory\ReportOfEmployeeDepartmentHistory.xml has been decompressed
+19.12.2020 17:10:11 file D:\Ucheba\Labs\3 sem\Isp\lab4\TargetDirectory\ReportOfEmployeeDepartmentHistory.xml has been decrypted
+19.12.2020 17:10:13 file D:\Ucheba\Labs\3 sem\Isp\lab4\SourceDirectory\ReportOfEmployeeOrganisationLevel.xml has been created
+19.12.2020 17:10:13 file D:\Ucheba\Labs\3 sem\Isp\lab4\TargetDirectory\archive\2020\12\19\17.10\ReportOfEmployeeDepartmentHistory.xml has been added to archieve
+19.12.2020 17:10:13 file D:\Ucheba\Labs\3 sem\Isp\lab4\SourceDirectory\ReportOfEmployeeOrganisationLevel.xml has been encrypted
+19.12.2020 17:10:13 file D:\Ucheba\Labs\3 sem\Isp\lab4\SourceDirectory\ReportOfEmployeeOrganisationLevel.xml has been compressed, source size: 24713  compressed size: 8192
+19.12.2020 17:10:13 file D:\Ucheba\Labs\3 sem\Isp\lab4\TargetDirectory\ReportOfEmployeeOrganisationLevel.gz has been moved
+19.12.2020 17:10:13 file D:\Ucheba\Labs\3 sem\Isp\lab4\TargetDirectory\ReportOfEmployeeOrganisationLevel.xml has been decompressed
+19.12.2020 17:10:13 error: FileManager.Watcher thrown exception:
+There is already an open DataReader associated with this Command which must be closed first.
+19.12.2020 17:10:20 status: Report process ended...
+19.12.2020 17:11:08 status: The service starts...
+19.12.2020 17:11:08 status: The watcher starts...
+19.12.2020 17:11:08 file D:\Ucheba\Labs\3 sem\Isp\lab4\TargetDirectory\archive\2020\12\19\17.10\ReportOfEmployeeOrganisationLevel.gz has been added to archieve
+19.12.2020 17:11:08 file D:\Ucheba\Labs\3 sem\Isp\lab4\TargetDirectory\archive\2020\12\19\17.10\ReportOfEmployeeOrganisationLevel.xml has been added to archieve
+19.12.2020 17:11:08 status: The watcher started...
+19.12.2020 17:11:09 status: The service started...
+19.12.2020 17:11:09 status: Report process started...
+19.12.2020 17:11:16 file D:\Ucheba\Labs\3 sem\Isp\lab4\SourceDirectory\ReportOfEmployeeDepartmentHistory.xml has been created
+19.12.2020 17:11:16 file D:\Ucheba\Labs\3 sem\Isp\lab4\SourceDirectory\ReportOfEmployeeDepartmentHistory.xml has been encrypted
+19.12.2020 17:11:16 file D:\Ucheba\Labs\3 sem\Isp\lab4\SourceDirectory\ReportOfEmployeeDepartmentHistory.xml has been compressed, source size: 95292  compressed size: 40960
+19.12.2020 17:11:16 file D:\Ucheba\Labs\3 sem\Isp\lab4\TargetDirectory\ReportOfEmployeeDepartmentHistory.gz has been moved
+19.12.2020 17:11:16 file D:\Ucheba\Labs\3 sem\Isp\lab4\TargetDirectory\ReportOfEmployeeDepartmentHistory.xml has been decompressed
+19.12.2020 17:11:16 file D:\Ucheba\Labs\3 sem\Isp\lab4\TargetDirectory\ReportOfEmployeeDepartmentHistory.xml has been decrypted
+19.12.2020 17:11:17 file D:\Ucheba\Labs\3 sem\Isp\lab4\SourceDirectory\ReportOfEmployeeOrganisationLevel.xml has been created
+19.12.2020 17:11:17 file D:\Ucheba\Labs\3 sem\Isp\lab4\TargetDirectory\archive\2020\12\19\17.11\ReportOfEmployeeDepartmentHistory.xml has been added to archieve
+19.12.2020 17:11:17 file D:\Ucheba\Labs\3 sem\Isp\lab4\SourceDirectory\ReportOfEmployeeOrganisationLevel.xml has been encrypted
+19.12.2020 17:11:17 file D:\Ucheba\Labs\3 sem\Isp\lab4\SourceDirectory\ReportOfEmployeeOrganisationLevel.xml has been compressed, source size: 24713  compressed size: 8192
+19.12.2020 17:11:17 file D:\Ucheba\Labs\3 sem\Isp\lab4\TargetDirectory\ReportOfEmployeeOrganisationLevel.gz has been moved
+19.12.2020 17:11:17 file D:\Ucheba\Labs\3 sem\Isp\lab4\TargetDirectory\ReportOfEmployeeOrganisationLevel.xml has been decompressed
+19.12.2020 17:11:17 file D:\Ucheba\Labs\3 sem\Isp\lab4\TargetDirectory\ReportOfEmployeeOrganisationLevel.xml has been decrypted
+19.12.2020 17:11:45 status: The service starts...
+19.12.2020 17:11:45 status: The watcher starts...
+19.12.2020 17:11:45 file D:\Ucheba\Labs\3 sem\Isp\lab4\TargetDirectory\archive\2020\12\19\17.11\ReportOfEmployeeOrganisationLevel.xml has been added to archieve
+19.12.2020 17:11:45 status: The watcher started...
+19.12.2020 17:11:46 status: The service started...
+19.12.2020 17:11:46 status: Report process started...
+19.12.2020 17:11:46 file D:\Ucheba\Labs\3 sem\Isp\lab4\SourceDirectory\ReportOfEmployeeDepartmentHistory.xml has been created
+19.12.2020 17:11:46 file D:\Ucheba\Labs\3 sem\Isp\lab4\SourceDirectory\ReportOfEmployeeDepartmentHistory.xml has been encrypted
+19.12.2020 17:11:46 file D:\Ucheba\Labs\3 sem\Isp\lab4\SourceDirectory\ReportOfEmployeeDepartmentHistory.xml has been compressed, source size: 95292  compressed size: 40960
+19.12.2020 17:11:46 file D:\Ucheba\Labs\3 sem\Isp\lab4\TargetDirectory\ReportOfEmployeeDepartmentHistory.gz has been moved
+19.12.2020 17:11:46 error: FileManager.Watcher thrown exception:
+There is already an open DataReader associated with this Command which must be closed first.
+19.12.2020 17:13:54 status: The service starts...
+19.12.2020 17:13:54 status: The watcher starts...
+19.12.2020 17:13:54 file D:\Ucheba\Labs\3 sem\Isp\lab4\TargetDirectory\archive\2020\12\19\17.11\ReportOfEmployeeDepartmentHistory.gz has been added to archieve
+19.12.2020 17:13:55 status: The watcher started...
+19.12.2020 17:13:55 status: The service started...
+19.12.2020 17:14:10 status: Report process started...
+19.12.2020 17:14:34 file D:\Ucheba\Labs\3 sem\Isp\lab4\SourceDirectory\ReportOfEmployeeDepartmentHistory.xml has been created
+19.12.2020 18:04:04 status: The service starts...
+19.12.2020 18:04:04 status: The watcher starts...
+19.12.2020 18:04:04 status: The watcher started...
+19.12.2020 18:04:04 status: The service started...
+19.12.2020 18:04:05 status: Report process started...
+19.12.2020 18:04:09 file D:\Ucheba\Labs\3 sem\Isp\lab4\SourceDirectory\ReportOfEmployeeOrganisationLevel.xml has been created
+19.12.2020 18:04:09 file D:\Ucheba\Labs\3 sem\Isp\lab4\SourceDirectory\ReportOfEmployeeOrganisationLevel.xml has been encrypted
+19.12.2020 18:04:09 file D:\Ucheba\Labs\3 sem\Isp\lab4\SourceDirectory\ReportOfEmployeeOrganisationLevel.xml has been compressed, source size: 24713  compressed size: 8192
+19.12.2020 18:04:09 file D:\Ucheba\Labs\3 sem\Isp\lab4\TargetDirectory\ReportOfEmployeeOrganisationLevel.gz has been moved
+19.12.2020 18:04:09 file D:\Ucheba\Labs\3 sem\Isp\lab4\TargetDirectory\ReportOfEmployeeOrganisationLevel.xml has been decompressed
+19.12.2020 18:04:09 file D:\Ucheba\Labs\3 sem\Isp\lab4\TargetDirectory\ReportOfEmployeeOrganisationLevel.xml has been decrypted
+19.12.2020 18:04:10 status: Report process ended...
+19.12.2020 18:04:20 status: Report process started...
+19.12.2020 18:04:21 file D:\Ucheba\Labs\3 sem\Isp\lab4\SourceDirectory\ReportOfEmployeeOrganisationLevel.xml has been created
+19.12.2020 18:04:21 file D:\Ucheba\Labs\3 sem\Isp\lab4\TargetDirectory\archive\2020\12\19\18.04\ReportOfEmployeeOrganisationLevel.xml has been added to archieve
+19.12.2020 18:04:21 file D:\Ucheba\Labs\3 sem\Isp\lab4\SourceDirectory\ReportOfEmployeeOrganisationLevel.xml has been encrypted
+19.12.2020 18:04:21 file D:\Ucheba\Labs\3 sem\Isp\lab4\SourceDirectory\ReportOfEmployeeOrganisationLevel.xml has been compressed, source size: 24713  compressed size: 8192
+19.12.2020 18:04:21 file D:\Ucheba\Labs\3 sem\Isp\lab4\TargetDirectory\ReportOfEmployeeOrganisationLevel.gz has been moved
+19.12.2020 18:04:21 file D:\Ucheba\Labs\3 sem\Isp\lab4\TargetDirectory\ReportOfEmployeeOrganisationLevel.xml has been decompressed
+19.12.2020 18:04:21 file D:\Ucheba\Labs\3 sem\Isp\lab4\TargetDirectory\ReportOfEmployeeOrganisationLevel.xml has been decrypted
+19.12.2020 18:05:04 status: The service starts...
+19.12.2020 18:05:04 status: The watcher starts...
+19.12.2020 18:05:05 file D:\Ucheba\Labs\3 sem\Isp\lab4\TargetDirectory\archive\2020\12\19\18.04\ReportOfEmployeeOrganisationLevel №2.xml has been added to archieve
+19.12.2020 18:05:05 status: The watcher started...
+19.12.2020 18:05:05 status: The service started...
+19.12.2020 18:05:13 status: Report process started...
+19.12.2020 18:05:16 file D:\Ucheba\Labs\3 sem\Isp\lab4\SourceDirectory\ReportOfEmployeeOrganisationLevel.xml has been created
+19.12.2020 18:05:16 file D:\Ucheba\Labs\3 sem\Isp\lab4\SourceDirectory\ReportOfEmployeeOrganisationLevel.xml has been encrypted
+19.12.2020 18:05:16 file D:\Ucheba\Labs\3 sem\Isp\lab4\SourceDirectory\ReportOfEmployeeOrganisationLevel.xml has been compressed, source size: 24713  compressed size: 8192
+19.12.2020 18:05:16 file D:\Ucheba\Labs\3 sem\Isp\lab4\TargetDirectory\ReportOfEmployeeOrganisationLevel.gz has been moved
+19.12.2020 18:05:16 file D:\Ucheba\Labs\3 sem\Isp\lab4\TargetDirectory\ReportOfEmployeeOrganisationLevel.xml has been decompressed
+19.12.2020 18:05:16 file D:\Ucheba\Labs\3 sem\Isp\lab4\TargetDirectory\ReportOfEmployeeOrganisationLevel.xml has been decrypted
+19.12.2020 18:05:16 status: Report process ended...
+19.12.2020 18:07:06 status: Report process started...
+19.12.2020 18:07:22 file D:\Ucheba\Labs\3 sem\Isp\lab4\SourceDirectory\ReportOfEmployeeOrganisationLevel.xml has been created
+19.12.2020 18:07:24 file D:\Ucheba\Labs\3 sem\Isp\lab4\TargetDirectory\archive\2020\12\19\18.05\ReportOfEmployeeOrganisationLevel.xml has been added to archieve
+19.12.2020 18:07:26 file D:\Ucheba\Labs\3 sem\Isp\lab4\SourceDirectory\ReportOfEmployeeOrganisationLevel.xml has been encrypted
+19.12.2020 18:07:26 file D:\Ucheba\Labs\3 sem\Isp\lab4\SourceDirectory\ReportOfEmployeeOrganisationLevel.xml has been encrypted
+19.12.2020 18:07:27 file D:\Ucheba\Labs\3 sem\Isp\lab4\SourceDirectory\ReportOfEmployeeOrganisationLevel.xml has been compressed, source size: 24713  compressed size: 8192
+19.12.2020 18:07:27 status: Report process ended...
+19.12.2020 18:07:28 file D:\Ucheba\Labs\3 sem\Isp\lab4\TargetDirectory\ReportOfEmployeeOrganisationLevel.gz has been moved
+19.12.2020 18:07:28 file D:\Ucheba\Labs\3 sem\Isp\lab4\TargetDirectory\ReportOfEmployeeOrganisationLevel.xml has been decompressed
+19.12.2020 18:07:29 file D:\Ucheba\Labs\3 sem\Isp\lab4\TargetDirectory\ReportOfEmployeeOrganisationLevel.xml has been decrypted
+19.12.2020 18:07:38 status: Report process started...
+19.12.2020 18:08:32 status: The service starts...
+19.12.2020 18:08:32 status: The watcher starts...
+19.12.2020 18:08:32 file D:\Ucheba\Labs\3 sem\Isp\lab4\TargetDirectory\archive\2020\12\19\18.07\ReportOfEmployeeOrganisationLevel.xml has been added to archieve
+19.12.2020 18:08:32 status: The watcher started...
+19.12.2020 18:08:32 status: The service started...
+19.12.2020 18:08:32 status: Report process started...
+19.12.2020 18:08:34 file D:\Ucheba\Labs\3 sem\Isp\lab4\SourceDirectory\ReportOfEmployeeOrganisationLevel.xml has been created
+19.12.2020 18:08:34 file D:\Ucheba\Labs\3 sem\Isp\lab4\SourceDirectory\ReportOfEmployeeOrganisationLevel.xml has been encrypted
+19.12.2020 18:08:34 file D:\Ucheba\Labs\3 sem\Isp\lab4\SourceDirectory\ReportOfEmployeeOrganisationLevel.xml has been compressed, source size: 24713  compressed size: 8192
+19.12.2020 18:08:34 error: FileManager.Watcher thrown exception:
+There is already an open DataReader associated with this Command which must be closed first.
+19.12.2020 18:13:37 status: The service starts...
+19.12.2020 18:13:37 status: The watcher starts...
+19.12.2020 18:13:37 status: The watcher started...
+19.12.2020 18:13:37 status: The service started...
+19.12.2020 18:13:38 status: Report process started...
+19.12.2020 18:13:39 status: Report process ended...
+19.12.2020 18:14:10 status: The service starts...
+19.12.2020 18:14:10 status: The watcher starts...
+19.12.2020 18:14:10 status: The watcher started...
+19.12.2020 18:14:10 status: The service started...
+19.12.2020 18:14:10 status: Report process started...
+19.12.2020 18:14:10 file D:\Ucheba\Labs\3 sem\Isp\lab4\SourceDirectory\ReportOfEmployeeDepartmentHistory.xml has been deleted
+19.12.2020 18:14:11 file D:\Ucheba\Labs\3 sem\Isp\lab4\SourceDirectory\ReportOfEmployeeDepartmentHistory.xml has been created
+19.12.2020 18:14:11 file D:\Ucheba\Labs\3 sem\Isp\lab4\SourceDirectory\ReportOfEmployeeDepartmentHistory.xml has been encrypted
+19.12.2020 18:14:11 file D:\Ucheba\Labs\3 sem\Isp\lab4\SourceDirectory\ReportOfEmployeeDepartmentHistory.xml has been compressed, source size: 95292  compressed size: 40960
+19.12.2020 18:14:11 file D:\Ucheba\Labs\3 sem\Isp\lab4\TargetDirectory\ReportOfEmployeeDepartmentHistory.gz has been moved
+19.12.2020 18:14:11 file D:\Ucheba\Labs\3 sem\Isp\lab4\TargetDirectory\ReportOfEmployeeDepartmentHistory.xml has been decompressed
+19.12.2020 18:14:11 file D:\Ucheba\Labs\3 sem\Isp\lab4\TargetDirectory\ReportOfEmployeeDepartmentHistory.xml has been decrypted
+19.12.2020 18:14:12 file D:\Ucheba\Labs\3 sem\Isp\lab4\SourceDirectory\ReportOfEmployeeOrganisationLevel.xml has been deleted
+19.12.2020 18:14:12 file D:\Ucheba\Labs\3 sem\Isp\lab4\SourceDirectory\ReportOfEmployeeOrganisationLevel.xml has been created
+19.12.2020 18:14:12 file D:\Ucheba\Labs\3 sem\Isp\lab4\TargetDirectory\archive\2020\12\19\18.14\ReportOfEmployeeDepartmentHistory.xml has been added to archieve
+19.12.2020 18:14:12 file D:\Ucheba\Labs\3 sem\Isp\lab4\SourceDirectory\ReportOfEmployeeOrganisationLevel.xml has been encrypted
+19.12.2020 18:14:12 file D:\Ucheba\Labs\3 sem\Isp\lab4\SourceDirectory\ReportOfEmployeeOrganisationLevel.xml has been compressed, source size: 24713  compressed size: 8192
+19.12.2020 18:14:12 file D:\Ucheba\Labs\3 sem\Isp\lab4\TargetDirectory\ReportOfEmployeeOrganisationLevel.gz has been moved
+19.12.2020 18:14:12 file D:\Ucheba\Labs\3 sem\Isp\lab4\TargetDirectory\ReportOfEmployeeOrganisationLevel.xml has been decompressed
+19.12.2020 18:14:12 file D:\Ucheba\Labs\3 sem\Isp\lab4\TargetDirectory\ReportOfEmployeeOrganisationLevel.xml has been decrypted
+19.12.2020 18:14:12 file D:\Ucheba\Labs\3 sem\Isp\lab4\SourceDirectory\ReportOfEmployeePayments.xml has been deleted
+19.12.2020 18:14:12 file D:\Ucheba\Labs\3 sem\Isp\lab4\SourceDirectory\ReportOfEmployeePayments.xml has been created
+19.12.2020 18:14:12 file D:\Ucheba\Labs\3 sem\Isp\lab4\TargetDirectory\archive\2020\12\19\18.14\ReportOfEmployeeOrganisationLevel.xml has been added to archieve
+19.12.2020 18:14:12 file D:\Ucheba\Labs\3 sem\Isp\lab4\SourceDirectory\ReportOfEmployeePayments.xml has been encrypted
+19.12.2020 18:14:12 file D:\Ucheba\Labs\3 sem\Isp\lab4\SourceDirectory\ReportOfEmployeePayments.xml has been compressed, source size: 6312  compressed size: 10
+19.12.2020 18:14:12 file D:\Ucheba\Labs\3 sem\Isp\lab4\TargetDirectory\ReportOfEmployeePayments.gz has been moved
+19.12.2020 18:14:12 file D:\Ucheba\Labs\3 sem\Isp\lab4\TargetDirectory\ReportOfEmployeePayments.xml has been decompressed
+19.12.2020 18:14:12 file D:\Ucheba\Labs\3 sem\Isp\lab4\TargetDirectory\ReportOfEmployeePayments.xml has been decrypted
+19.12.2020 18:14:12 file D:\Ucheba\Labs\3 sem\Isp\lab4\SourceDirectory\ReportOfCurrentlyWorkingPersons.xml has been deleted
+19.12.2020 18:14:12 file D:\Ucheba\Labs\3 sem\Isp\lab4\SourceDirectory\ReportOfCurrentlyWorkingPersons.xml has been created
+19.12.2020 18:14:12 file D:\Ucheba\Labs\3 sem\Isp\lab4\TargetDirectory\archive\2020\12\19\18.14\ReportOfEmployeePayments.xml has been added to archieve
+19.12.2020 18:14:12 file D:\Ucheba\Labs\3 sem\Isp\lab4\SourceDirectory\ReportOfCurrentlyWorkingPersons.xml has been encrypted
+19.12.2020 18:14:12 file D:\Ucheba\Labs\3 sem\Isp\lab4\SourceDirectory\ReportOfCurrentlyWorkingPersons.xml has been compressed, source size: 230781  compressed size: 175544
+19.12.2020 18:14:12 file D:\Ucheba\Labs\3 sem\Isp\lab4\TargetDirectory\ReportOfCurrentlyWorkingPersons.gz has been moved
+19.12.2020 18:14:12 file D:\Ucheba\Labs\3 sem\Isp\lab4\TargetDirectory\ReportOfCurrentlyWorkingPersons.xml has been decompressed
+19.12.2020 18:14:12 file D:\Ucheba\Labs\3 sem\Isp\lab4\TargetDirectory\ReportOfCurrentlyWorkingPersons.xml has been decrypted
+19.12.2020 18:14:12 status: Report process ended...
+19.12.2020 18:14:40 status: The service starts...
+19.12.2020 18:14:40 status: The watcher starts...
+19.12.2020 18:14:40 status: The watcher started...
+19.12.2020 18:14:40 status: The service started...
+19.12.2020 18:14:40 status: Report process started...
+19.12.2020 18:14:40 file D:\Ucheba\Labs\3 sem\Isp\lab4\SourceDirectory\ReportOfEmployeeDepartmentHistory.xml has been created
+19.12.2020 18:14:40 file D:\Ucheba\Labs\3 sem\Isp\lab4\SourceDirectory\ReportOfEmployeeOrganisationLevel.xml has been created
+19.12.2020 18:14:40 file D:\Ucheba\Labs\3 sem\Isp\lab4\SourceDirectory\ReportOfEmployeePayments.xml has been created
+19.12.2020 18:14:41 file D:\Ucheba\Labs\3 sem\Isp\lab4\SourceDirectory\ReportOfCurrentlyWorkingPersons.xml has been created
+19.12.2020 18:14:41 status: Report process ended...
+19.12.2020 18:14:47 status: The service starts...
+19.12.2020 18:14:47 status: The watcher starts...
+19.12.2020 18:14:47 file D:\Ucheba\Labs\3 sem\Isp\lab4\TargetDirectory\archive\2020\12\19\18.14\ReportOfCurrentlyWorkingPersons №2.xml has been added to archieve
+19.12.2020 18:14:47 status: The watcher started...
+19.12.2020 18:14:47 status: The service started...
+19.12.2020 18:14:47 status: Report process started...
+19.12.2020 18:14:47 file D:\Ucheba\Labs\3 sem\Isp\lab4\SourceDirectory\ReportOfEmployeeDepartmentHistory.xml has been created
+19.12.2020 18:14:47 file D:\Ucheba\Labs\3 sem\Isp\lab4\SourceDirectory\ReportOfEmployeeDepartmentHistory.xml has been encrypted
+19.12.2020 18:14:47 file D:\Ucheba\Labs\3 sem\Isp\lab4\SourceDirectory\ReportOfEmployeeDepartmentHistory.xml has been compressed, source size: 95292  compressed size: 40960
+19.12.2020 18:14:47 file D:\Ucheba\Labs\3 sem\Isp\lab4\TargetDirectory\ReportOfEmployeeDepartmentHistory.gz has been moved
+19.12.2020 18:14:47 file D:\Ucheba\Labs\3 sem\Isp\lab4\TargetDirectory\ReportOfEmployeeDepartmentHistory.xml has been decompressed
+19.12.2020 18:14:47 file D:\Ucheba\Labs\3 sem\Isp\lab4\TargetDirectory\ReportOfEmployeeDepartmentHistory.xml has been decrypted
+19.12.2020 18:14:48 file D:\Ucheba\Labs\3 sem\Isp\lab4\SourceDirectory\ReportOfEmployeeOrganisationLevel.xml has been created
+19.12.2020 18:14:48 file D:\Ucheba\Labs\3 sem\Isp\lab4\TargetDirectory\archive\2020\12\19\18.14\ReportOfEmployeeDepartmentHistory №3.xml has been added to archieve
+19.12.2020 18:14:48 file D:\Ucheba\Labs\3 sem\Isp\lab4\SourceDirectory\ReportOfEmployeeOrganisationLevel.xml has been encrypted
+19.12.2020 18:14:48 file D:\Ucheba\Labs\3 sem\Isp\lab4\SourceDirectory\ReportOfEmployeeOrganisationLevel.xml has been compressed, source size: 24713  compressed size: 8192
+19.12.2020 18:14:48 file D:\Ucheba\Labs\3 sem\Isp\lab4\TargetDirectory\ReportOfEmployeeOrganisationLevel.gz has been moved
+19.12.2020 18:14:48 file D:\Ucheba\Labs\3 sem\Isp\lab4\TargetDirectory\ReportOfEmployeeOrganisationLevel.xml has been decompressed
+19.12.2020 18:14:48 file D:\Ucheba\Labs\3 sem\Isp\lab4\TargetDirectory\ReportOfEmployeeOrganisationLevel.xml has been decrypted
+19.12.2020 18:14:48 file D:\Ucheba\Labs\3 sem\Isp\lab4\SourceDirectory\ReportOfEmployeePayments.xml has been created
+19.12.2020 18:14:48 file D:\Ucheba\Labs\3 sem\Isp\lab4\TargetDirectory\archive\2020\12\19\18.14\ReportOfEmployeeOrganisationLevel №3.xml has been added to archieve
+19.12.2020 18:14:48 file D:\Ucheba\Labs\3 sem\Isp\lab4\SourceDirectory\ReportOfEmployeePayments.xml has been encrypted
+19.12.2020 18:14:48 file D:\Ucheba\Labs\3 sem\Isp\lab4\SourceDirectory\ReportOfEmployeePayments.xml has been compressed, source size: 6312  compressed size: 10
+19.12.2020 18:14:48 file D:\Ucheba\Labs\3 sem\Isp\lab4\TargetDirectory\ReportOfEmployeePayments.gz has been moved
+19.12.2020 18:14:48 file D:\Ucheba\Labs\3 sem\Isp\lab4\TargetDirectory\ReportOfEmployeePayments.xml has been decompressed
+19.12.2020 18:14:48 file D:\Ucheba\Labs\3 sem\Isp\lab4\TargetDirectory\ReportOfEmployeePayments.xml has been decrypted
+19.12.2020 18:14:48 file D:\Ucheba\Labs\3 sem\Isp\lab4\SourceDirectory\ReportOfCurrentlyWorkingPersons.xml has been created
+19.12.2020 18:14:48 file D:\Ucheba\Labs\3 sem\Isp\lab4\TargetDirectory\archive\2020\12\19\18.14\ReportOfEmployeePayments №3.xml has been added to archieve
+19.12.2020 18:14:48 file D:\Ucheba\Labs\3 sem\Isp\lab4\SourceDirectory\ReportOfCurrentlyWorkingPersons.xml has been encrypted
+19.12.2020 18:14:48 file D:\Ucheba\Labs\3 sem\Isp\lab4\SourceDirectory\ReportOfCurrentlyWorkingPersons.xml has been compressed, source size: 230781  compressed size: 175544
+19.12.2020 18:14:48 file D:\Ucheba\Labs\3 sem\Isp\lab4\TargetDirectory\ReportOfCurrentlyWorkingPersons.gz has been moved
+19.12.2020 18:14:48 file D:\Ucheba\Labs\3 sem\Isp\lab4\TargetDirectory\ReportOfCurrentlyWorkingPersons.xml has been decompressed
+19.12.2020 18:14:48 file D:\Ucheba\Labs\3 sem\Isp\lab4\TargetDirectory\ReportOfCurrentlyWorkingPersons.xml has been decrypted
+19.12.2020 18:14:48 status: Report process ended...
+19.12.2020 18:14:57 status: The service starts...
+19.12.2020 18:14:57 status: The watcher starts...
+19.12.2020 18:14:57 file D:\Ucheba\Labs\3 sem\Isp\lab4\TargetDirectory\archive\2020\12\19\18.14\ReportOfCurrentlyWorkingPersons №3.xml has been added to archieve
+19.12.2020 18:14:57 status: The watcher started...
+19.12.2020 18:14:57 status: The service started...
+19.12.2020 18:14:57 status: Report process started...
+19.12.2020 18:14:57 file D:\Ucheba\Labs\3 sem\Isp\lab4\SourceDirectory\ReportOfEmployeeDepartmentHistory.xml has been created
+19.12.2020 18:14:57 file D:\Ucheba\Labs\3 sem\Isp\lab4\SourceDirectory\ReportOfEmployeeDepartmentHistory.xml has been encrypted
+19.12.2020 18:14:57 file D:\Ucheba\Labs\3 sem\Isp\lab4\SourceDirectory\ReportOfEmployeeDepartmentHistory.xml has been compressed, source size: 95292  compressed size: 40960
+19.12.2020 18:14:57 file D:\Ucheba\Labs\3 sem\Isp\lab4\TargetDirectory\ReportOfEmployeeDepartmentHistory.gz has been moved
+19.12.2020 18:14:57 file D:\Ucheba\Labs\3 sem\Isp\lab4\TargetDirectory\ReportOfEmployeeDepartmentHistory.xml has been decompressed
+19.12.2020 18:14:57 file D:\Ucheba\Labs\3 sem\Isp\lab4\TargetDirectory\ReportOfEmployeeDepartmentHistory.xml has been decrypted
+19.12.2020 18:14:57 file D:\Ucheba\Labs\3 sem\Isp\lab4\SourceDirectory\ReportOfEmployeeOrganisationLevel.xml has been created
+19.12.2020 18:14:57 file D:\Ucheba\Labs\3 sem\Isp\lab4\TargetDirectory\archive\2020\12\19\18.14\ReportOfEmployeeDepartmentHistory №4.xml has been added to archieve
+19.12.2020 18:14:57 file D:\Ucheba\Labs\3 sem\Isp\lab4\SourceDirectory\ReportOfEmployeeOrganisationLevel.xml has been encrypted
+19.12.2020 18:14:57 file D:\Ucheba\Labs\3 sem\Isp\lab4\SourceDirectory\ReportOfEmployeeOrganisationLevel.xml has been compressed, source size: 24713  compressed size: 8192
+19.12.2020 18:14:57 file D:\Ucheba\Labs\3 sem\Isp\lab4\TargetDirectory\ReportOfEmployeeOrganisationLevel.gz has been moved
+19.12.2020 18:14:57 file D:\Ucheba\Labs\3 sem\Isp\lab4\TargetDirectory\ReportOfEmployeeOrganisationLevel.xml has been decompressed
+19.12.2020 18:14:57 error: FileManager.Watcher thrown exception:
+There is already an open DataReader associated with this Command which must be closed first.
+19.12.2020 18:15:09 status: The service starts...
+19.12.2020 18:15:09 status: The watcher starts...
+19.12.2020 18:15:09 status: The watcher started...
+19.12.2020 18:15:09 status: The service started...
+19.12.2020 18:15:09 status: Report process started...
+19.12.2020 18:15:09 file D:\Ucheba\Labs\3 sem\Isp\lab4\SourceDirectory\ReportOfEmployeeDepartmentHistory.xml has been created
+19.12.2020 18:15:09 file D:\Ucheba\Labs\3 sem\Isp\lab4\SourceDirectory\ReportOfEmployeeOrganisationLevel.xml has been created
+19.12.2020 18:15:09 file D:\Ucheba\Labs\3 sem\Isp\lab4\SourceDirectory\ReportOfEmployeePayments.xml has been deleted
+19.12.2020 18:15:09 file D:\Ucheba\Labs\3 sem\Isp\lab4\SourceDirectory\ReportOfEmployeePayments.xml has been created
+19.12.2020 18:15:10 file D:\Ucheba\Labs\3 sem\Isp\lab4\SourceDirectory\ReportOfCurrentlyWorkingPersons.xml has been deleted
+19.12.2020 18:15:10 file D:\Ucheba\Labs\3 sem\Isp\lab4\SourceDirectory\ReportOfCurrentlyWorkingPersons.xml has been created
+19.12.2020 18:15:10 status: Report process ended...
+19.12.2020 18:15:20 status: Report process started...
+19.12.2020 18:15:20 file D:\Ucheba\Labs\3 sem\Isp\lab4\SourceDirectory\ReportOfEmployeeDepartmentHistory.xml has been created
+19.12.2020 18:15:20 file D:\Ucheba\Labs\3 sem\Isp\lab4\SourceDirectory\ReportOfEmployeeOrganisationLevel.xml has been created
+19.12.2020 18:15:20 file D:\Ucheba\Labs\3 sem\Isp\lab4\SourceDirectory\ReportOfEmployeePayments.xml has been created
+19.12.2020 18:15:20 file D:\Ucheba\Labs\3 sem\Isp\lab4\SourceDirectory\ReportOfCurrentlyWorkingPersons.xml has been created
+19.12.2020 18:15:20 status: Report process ended...
+19.12.2020 18:15:30 status: Report process started...
+19.12.2020 18:15:30 file D:\Ucheba\Labs\3 sem\Isp\lab4\SourceDirectory\ReportOfEmployeeDepartmentHistory.xml has been created
+19.12.2020 18:15:31 file D:\Ucheba\Labs\3 sem\Isp\lab4\SourceDirectory\ReportOfEmployeeOrganisationLevel.xml has been created
+19.12.2020 18:15:31 file D:\Ucheba\Labs\3 sem\Isp\lab4\SourceDirectory\ReportOfEmployeePayments.xml has been created
+19.12.2020 18:15:31 file D:\Ucheba\Labs\3 sem\Isp\lab4\SourceDirectory\ReportOfCurrentlyWorkingPersons.xml has been created
+19.12.2020 18:15:31 status: Report process ended...
+19.12.2020 18:16:20 status: The service starts...
+19.12.2020 18:16:20 status: The watcher starts...
+19.12.2020 18:16:20 status: The watcher started...
+19.12.2020 18:16:20 status: The service started...
+19.12.2020 18:16:20 status: Report process started...
+19.12.2020 18:16:21 file D:\Ucheba\Labs\3 sem\Isp\lab4\SourceDirectory\ReportOfEmployeeDepartmentHistory.xml has been created
+19.12.2020 18:16:21 file D:\Ucheba\Labs\3 sem\Isp\lab4\SourceDirectory\ReportOfEmployeeOrganisationLevel.xml has been created
+19.12.2020 18:16:21 file D:\Ucheba\Labs\3 sem\Isp\lab4\SourceDirectory\ReportOfEmployeePayments.xml has been created
+19.12.2020 18:16:22 file D:\Ucheba\Labs\3 sem\Isp\lab4\SourceDirectory\ReportOfCurrentlyWorkingPersons.xml has been created
+19.12.2020 18:16:22 status: Report process ended...
+19.12.2020 18:16:32 status: Report process started...
+19.12.2020 18:16:32 file D:\Ucheba\Labs\3 sem\Isp\lab4\SourceDirectory\ReportOfEmployeeDepartmentHistory.xml has been created
+19.12.2020 18:16:32 file D:\Ucheba\Labs\3 sem\Isp\lab4\SourceDirectory\ReportOfEmployeeOrganisationLevel.xml has been created
+19.12.2020 18:16:32 file D:\Ucheba\Labs\3 sem\Isp\lab4\SourceDirectory\ReportOfEmployeePayments.xml has been created
+19.12.2020 18:16:33 file D:\Ucheba\Labs\3 sem\Isp\lab4\SourceDirectory\ReportOfCurrentlyWorkingPersons.xml has been created
+19.12.2020 18:16:33 status: Report process ended...
+19.12.2020 18:16:54 status: The service starts...
+19.12.2020 18:16:54 status: The watcher starts...
+19.12.2020 18:16:54 file D:\Ucheba\Labs\3 sem\Isp\lab4\TargetDirectory\archive\2020\12\19\18.16\ReportOfCurrentlyWorkingPersons №2.xml has been added to archieve
+19.12.2020 18:16:54 status: The watcher started...
+19.12.2020 18:16:54 status: The service started...
+19.12.2020 18:16:54 status: Report process started...
+19.12.2020 18:16:54 file D:\Ucheba\Labs\3 sem\Isp\lab4\SourceDirectory\ReportOfEmployeeDepartmentHistory.xml has been created
+19.12.2020 18:16:54 file D:\Ucheba\Labs\3 sem\Isp\lab4\SourceDirectory\ReportOfEmployeeDepartmentHistory.xml has been encrypted
+19.12.2020 18:16:54 file D:\Ucheba\Labs\3 sem\Isp\lab4\SourceDirectory\ReportOfEmployeeDepartmentHistory.xml has been compressed, source size: 95292  compressed size: 40960
+19.12.2020 18:16:54 file D:\Ucheba\Labs\3 sem\Isp\lab4\TargetDirectory\ReportOfEmployeeDepartmentHistory.gz has been moved
+19.12.2020 18:16:54 file D:\Ucheba\Labs\3 sem\Isp\lab4\TargetDirectory\ReportOfEmployeeDepartmentHistory.xml has been decompressed
+19.12.2020 18:16:54 file D:\Ucheba\Labs\3 sem\Isp\lab4\TargetDirectory\ReportOfEmployeeDepartmentHistory.xml has been decrypted
+19.12.2020 18:16:55 file D:\Ucheba\Labs\3 sem\Isp\lab4\SourceDirectory\ReportOfEmployeeOrganisationLevel.xml has been created
+19.12.2020 18:16:55 file D:\Ucheba\Labs\3 sem\Isp\lab4\TargetDirectory\archive\2020\12\19\18.16\ReportOfEmployeeDepartmentHistory №3.xml has been added to archieve
+19.12.2020 18:16:55 file D:\Ucheba\Labs\3 sem\Isp\lab4\SourceDirectory\ReportOfEmployeeOrganisationLevel.xml has been encrypted
+19.12.2020 18:16:55 file D:\Ucheba\Labs\3 sem\Isp\lab4\SourceDirectory\ReportOfEmployeeOrganisationLevel.xml has been compressed, source size: 24713  compressed size: 8192
+19.12.2020 18:16:55 file D:\Ucheba\Labs\3 sem\Isp\lab4\TargetDirectory\ReportOfEmployeeOrganisationLevel.gz has been moved
+19.12.2020 18:16:55 file D:\Ucheba\Labs\3 sem\Isp\lab4\TargetDirectory\ReportOfEmployeeOrganisationLevel.xml has been decompressed
+19.12.2020 18:16:55 file D:\Ucheba\Labs\3 sem\Isp\lab4\TargetDirectory\ReportOfEmployeeOrganisationLevel.xml has been decrypted
+19.12.2020 18:16:55 file D:\Ucheba\Labs\3 sem\Isp\lab4\SourceDirectory\ReportOfEmployeePayments.xml has been created
+19.12.2020 18:16:55 file D:\Ucheba\Labs\3 sem\Isp\lab4\TargetDirectory\archive\2020\12\19\18.16\ReportOfEmployeeOrganisationLevel №3.xml has been added to archieve
+19.12.2020 18:16:55 file D:\Ucheba\Labs\3 sem\Isp\lab4\SourceDirectory\ReportOfEmployeePayments.xml has been encrypted
+19.12.2020 18:16:55 file D:\Ucheba\Labs\3 sem\Isp\lab4\SourceDirectory\ReportOfEmployeePayments.xml has been compressed, source size: 6312  compressed size: 10
+19.12.2020 18:16:55 file D:\Ucheba\Labs\3 sem\Isp\lab4\TargetDirectory\ReportOfEmployeePayments.gz has been moved
+19.12.2020 18:16:55 file D:\Ucheba\Labs\3 sem\Isp\lab4\TargetDirectory\ReportOfEmployeePayments.xml has been decompressed
+19.12.2020 18:16:55 file D:\Ucheba\Labs\3 sem\Isp\lab4\TargetDirectory\ReportOfEmployeePayments.xml has been decrypted
+19.12.2020 18:16:55 file D:\Ucheba\Labs\3 sem\Isp\lab4\SourceDirectory\ReportOfCurrentlyWorkingPersons.xml has been created
+19.12.2020 18:16:55 file D:\Ucheba\Labs\3 sem\Isp\lab4\TargetDirectory\archive\2020\12\19\18.16\ReportOfEmployeePayments №3.xml has been added to archieve
+19.12.2020 18:16:55 file D:\Ucheba\Labs\3 sem\Isp\lab4\SourceDirectory\ReportOfCurrentlyWorkingPersons.xml has been encrypted
+19.12.2020 18:16:55 file D:\Ucheba\Labs\3 sem\Isp\lab4\SourceDirectory\ReportOfCurrentlyWorkingPersons.xml has been compressed, source size: 230781  compressed size: 175544
+19.12.2020 18:16:55 file D:\Ucheba\Labs\3 sem\Isp\lab4\TargetDirectory\ReportOfCurrentlyWorkingPersons.gz has been moved
+19.12.2020 18:16:55 file D:\Ucheba\Labs\3 sem\Isp\lab4\TargetDirectory\ReportOfCurrentlyWorkingPersons.xml has been decompressed
+19.12.2020 18:16:55 file D:\Ucheba\Labs\3 sem\Isp\lab4\TargetDirectory\ReportOfCurrentlyWorkingPersons.xml has been decrypted
+19.12.2020 18:16:55 status: Report process ended...
+19.12.2020 18:17:05 status: Report process started...
+19.12.2020 18:17:05 file D:\Ucheba\Labs\3 sem\Isp\lab4\SourceDirectory\ReportOfEmployeeDepartmentHistory.xml has been created
+19.12.2020 18:17:05 file D:\Ucheba\Labs\3 sem\Isp\lab4\TargetDirectory\archive\2020\12\19\18.16\ReportOfCurrentlyWorkingPersons №3.xml has been added to archieve
+19.12.2020 18:17:05 file D:\Ucheba\Labs\3 sem\Isp\lab4\SourceDirectory\ReportOfEmployeeDepartmentHistory.xml has been encrypted
+19.12.2020 18:17:05 file D:\Ucheba\Labs\3 sem\Isp\lab4\SourceDirectory\ReportOfEmployeeDepartmentHistory.xml has been compressed, source size: 95292  compressed size: 40960
+19.12.2020 18:17:05 file D:\Ucheba\Labs\3 sem\Isp\lab4\TargetDirectory\ReportOfEmployeeDepartmentHistory.gz has been moved
+19.12.2020 18:17:05 file D:\Ucheba\Labs\3 sem\Isp\lab4\TargetDirectory\ReportOfEmployeeDepartmentHistory.xml has been decompressed
+19.12.2020 18:17:05 file D:\Ucheba\Labs\3 sem\Isp\lab4\TargetDirectory\ReportOfEmployeeDepartmentHistory.xml has been decrypted
+19.12.2020 18:17:06 file D:\Ucheba\Labs\3 sem\Isp\lab4\SourceDirectory\ReportOfEmployeeOrganisationLevel.xml has been created
+19.12.2020 18:17:06 file D:\Ucheba\Labs\3 sem\Isp\lab4\TargetDirectory\archive\2020\12\19\18.17\ReportOfEmployeeDepartmentHistory.xml has been added to archieve
+19.12.2020 18:17:06 file D:\Ucheba\Labs\3 sem\Isp\lab4\SourceDirectory\ReportOfEmployeeOrganisationLevel.xml has been encrypted
+19.12.2020 18:17:06 file D:\Ucheba\Labs\3 sem\Isp\lab4\SourceDirectory\ReportOfEmployeeOrganisationLevel.xml has been compressed, source size: 24713  compressed size: 8192
+19.12.2020 18:17:06 file D:\Ucheba\Labs\3 sem\Isp\lab4\TargetDirectory\ReportOfEmployeeOrganisationLevel.gz has been moved
+19.12.2020 18:17:06 file D:\Ucheba\Labs\3 sem\Isp\lab4\TargetDirectory\ReportOfEmployeeOrganisationLevel.xml has been decompressed
+19.12.2020 18:17:06 file D:\Ucheba\Labs\3 sem\Isp\lab4\TargetDirectory\ReportOfEmployeeOrganisationLevel.xml has been decrypted
+19.12.2020 18:17:06 file D:\Ucheba\Labs\3 sem\Isp\lab4\SourceDirectory\ReportOfEmployeePayments.xml has been created
+19.12.2020 18:17:06 file D:\Ucheba\Labs\3 sem\Isp\lab4\TargetDirectory\archive\2020\12\19\18.17\ReportOfEmployeeOrganisationLevel.xml has been added to archieve
+19.12.2020 18:17:06 file D:\Ucheba\Labs\3 sem\Isp\lab4\SourceDirectory\ReportOfEmployeePayments.xml has been encrypted
+19.12.2020 18:17:06 file D:\Ucheba\Labs\3 sem\Isp\lab4\SourceDirectory\ReportOfEmployeePayments.xml has been compressed, source size: 6312  compressed size: 10
+19.12.2020 18:17:06 file D:\Ucheba\Labs\3 sem\Isp\lab4\TargetDirectory\ReportOfEmployeePayments.gz has been moved
+19.12.2020 18:17:06 file D:\Ucheba\Labs\3 sem\Isp\lab4\TargetDirectory\ReportOfEmployeePayments.xml has been decompressed
+19.12.2020 18:17:06 file D:\Ucheba\Labs\3 sem\Isp\lab4\TargetDirectory\ReportOfEmployeePayments.xml has been decrypted
+19.12.2020 18:17:06 file D:\Ucheba\Labs\3 sem\Isp\lab4\SourceDirectory\ReportOfCurrentlyWorkingPersons.xml has been created
+19.12.2020 18:17:06 file D:\Ucheba\Labs\3 sem\Isp\lab4\TargetDirectory\archive\2020\12\19\18.17\ReportOfEmployeePayments.xml has been added to archieve
+19.12.2020 18:17:06 file D:\Ucheba\Labs\3 sem\Isp\lab4\SourceDirectory\ReportOfCurrentlyWorkingPersons.xml has been encrypted
+19.12.2020 18:17:06 file D:\Ucheba\Labs\3 sem\Isp\lab4\SourceDirectory\ReportOfCurrentlyWorkingPersons.xml has been compressed, source size: 230781  compressed size: 175544
+19.12.2020 18:17:06 file D:\Ucheba\Labs\3 sem\Isp\lab4\TargetDirectory\ReportOfCurrentlyWorkingPersons.gz has been moved
+19.12.2020 18:17:06 file D:\Ucheba\Labs\3 sem\Isp\lab4\TargetDirectory\ReportOfCurrentlyWorkingPersons.xml has been decompressed
+19.12.2020 18:17:06 file D:\Ucheba\Labs\3 sem\Isp\lab4\TargetDirectory\ReportOfCurrentlyWorkingPersons.xml has been decrypted
+19.12.2020 18:17:06 status: Report process ended...
+19.12.2020 18:17:16 status: Report process started...
+19.12.2020 18:17:17 file D:\Ucheba\Labs\3 sem\Isp\lab4\SourceDirectory\ReportOfEmployeeDepartmentHistory.xml has been created
+19.12.2020 18:17:17 file D:\Ucheba\Labs\3 sem\Isp\lab4\TargetDirectory\archive\2020\12\19\18.17\ReportOfCurrentlyWorkingPersons.xml has been added to archieve
+19.12.2020 18:17:17 file D:\Ucheba\Labs\3 sem\Isp\lab4\SourceDirectory\ReportOfEmployeeDepartmentHistory.xml has been encrypted
+19.12.2020 18:17:17 file D:\Ucheba\Labs\3 sem\Isp\lab4\SourceDirectory\ReportOfEmployeeDepartmentHistory.xml has been compressed, source size: 95292  compressed size: 40960
+19.12.2020 18:17:17 file D:\Ucheba\Labs\3 sem\Isp\lab4\TargetDirectory\ReportOfEmployeeDepartmentHistory.gz has been moved
+19.12.2020 18:17:17 file D:\Ucheba\Labs\3 sem\Isp\lab4\TargetDirectory\ReportOfEmployeeDepartmentHistory.xml has been decompressed
+19.12.2020 18:17:17 file D:\Ucheba\Labs\3 sem\Isp\lab4\TargetDirectory\ReportOfEmployeeDepartmentHistory.xml has been decrypted
+19.12.2020 18:17:17 file D:\Ucheba\Labs\3 sem\Isp\lab4\SourceDirectory\ReportOfEmployeeOrganisationLevel.xml has been created
+19.12.2020 18:17:17 file D:\Ucheba\Labs\3 sem\Isp\lab4\TargetDirectory\archive\2020\12\19\18.17\ReportOfEmployeeDepartmentHistory №2.xml has been added to archieve
+19.12.2020 18:17:17 file D:\Ucheba\Labs\3 sem\Isp\lab4\SourceDirectory\ReportOfEmployeeOrganisationLevel.xml has been encrypted
+19.12.2020 18:17:17 file D:\Ucheba\Labs\3 sem\Isp\lab4\SourceDirectory\ReportOfEmployeeOrganisationLevel.xml has been compressed, source size: 24713  compressed size: 8192
+19.12.2020 18:17:17 file D:\Ucheba\Labs\3 sem\Isp\lab4\TargetDirectory\ReportOfEmployeeOrganisationLevel.gz has been moved
+19.12.2020 18:17:17 file D:\Ucheba\Labs\3 sem\Isp\lab4\TargetDirectory\ReportOfEmployeeOrganisationLevel.xml has been decompressed
+19.12.2020 18:17:17 file D:\Ucheba\Labs\3 sem\Isp\lab4\TargetDirectory\ReportOfEmployeeOrganisationLevel.xml has been decrypted
+19.12.2020 18:17:17 file D:\Ucheba\Labs\3 sem\Isp\lab4\TargetDirectory\ReportOfEmployeeOrganisationLevel.xml has been decrypted
+19.12.2020 18:17:17 file D:\Ucheba\Labs\3 sem\Isp\lab4\SourceDirectory\ReportOfEmployeePayments.xml has been created
+19.12.2020 18:17:17 file D:\Ucheba\Labs\3 sem\Isp\lab4\TargetDirectory\archive\2020\12\19\18.17\ReportOfEmployeeOrganisationLevel №2.xml has been added to archieve
+19.12.2020 18:17:17 file D:\Ucheba\Labs\3 sem\Isp\lab4\SourceDirectory\ReportOfEmployeePayments.xml has been encrypted
+19.12.2020 18:17:17 file D:\Ucheba\Labs\3 sem\Isp\lab4\SourceDirectory\ReportOfEmployeePayments.xml has been compressed, source size: 6312  compressed size: 10
+19.12.2020 18:17:17 file D:\Ucheba\Labs\3 sem\Isp\lab4\TargetDirectory\ReportOfEmployeePayments.gz has been moved
+19.12.2020 18:17:17 file D:\Ucheba\Labs\3 sem\Isp\lab4\TargetDirectory\ReportOfEmployeePayments.xml has been decompressed
+19.12.2020 18:17:17 file D:\Ucheba\Labs\3 sem\Isp\lab4\TargetDirectory\ReportOfEmployeePayments.xml has been decrypted
+19.12.2020 18:17:17 file D:\Ucheba\Labs\3 sem\Isp\lab4\SourceDirectory\ReportOfCurrentlyWorkingPersons.xml has been created
+19.12.2020 18:17:17 file D:\Ucheba\Labs\3 sem\Isp\lab4\TargetDirectory\archive\2020\12\19\18.17\ReportOfEmployeePayments №2.xml has been added to archieve
+19.12.2020 18:17:17 file D:\Ucheba\Labs\3 sem\Isp\lab4\SourceDirectory\ReportOfCurrentlyWorkingPersons.xml has been encrypted
+19.12.2020 18:17:18 file D:\Ucheba\Labs\3 sem\Isp\lab4\SourceDirectory\ReportOfCurrentlyWorkingPersons.xml has been compressed, source size: 230781  compressed size: 175544
+19.12.2020 18:17:18 file D:\Ucheba\Labs\3 sem\Isp\lab4\TargetDirectory\ReportOfCurrentlyWorkingPersons.gz has been moved
+19.12.2020 18:17:18 file D:\Ucheba\Labs\3 sem\Isp\lab4\TargetDirectory\ReportOfCurrentlyWorkingPersons.xml has been decompressed
+19.12.2020 18:17:18 file D:\Ucheba\Labs\3 sem\Isp\lab4\TargetDirectory\ReportOfCurrentlyWorkingPersons.xml has been decrypted
+19.12.2020 18:17:18 status: Report process ended...
+19.12.2020 18:17:28 status: Report process started...
+19.12.2020 18:17:28 file D:\Ucheba\Labs\3 sem\Isp\lab4\SourceDirectory\ReportOfEmployeeDepartmentHistory.xml has been created
+19.12.2020 18:17:28 file D:\Ucheba\Labs\3 sem\Isp\lab4\TargetDirectory\archive\2020\12\19\18.17\ReportOfCurrentlyWorkingPersons №2.xml has been added to archieve
+19.12.2020 18:17:28 file D:\Ucheba\Labs\3 sem\Isp\lab4\SourceDirectory\ReportOfEmployeeDepartmentHistory.xml has been encrypted
+19.12.2020 18:17:28 file D:\Ucheba\Labs\3 sem\Isp\lab4\SourceDirectory\ReportOfEmployeeDepartmentHistory.xml has been compressed, source size: 95292  compressed size: 40960
+19.12.2020 18:17:28 file D:\Ucheba\Labs\3 sem\Isp\lab4\TargetDirectory\ReportOfEmployeeDepartmentHistory.gz has been moved
+19.12.2020 18:17:28 file D:\Ucheba\Labs\3 sem\Isp\lab4\TargetDirectory\ReportOfEmployeeDepartmentHistory.xml has been decompressed
+19.12.2020 18:17:28 file D:\Ucheba\Labs\3 sem\Isp\lab4\TargetDirectory\ReportOfEmployeeDepartmentHistory.xml has been decrypted
+19.12.2020 18:17:28 file D:\Ucheba\Labs\3 sem\Isp\lab4\SourceDirectory\ReportOfEmployeeOrganisationLevel.xml has been created
+19.12.2020 18:17:28 file D:\Ucheba\Labs\3 sem\Isp\lab4\TargetDirectory\archive\2020\12\19\18.17\ReportOfEmployeeDepartmentHistory №3.xml has been added to archieve
+19.12.2020 18:17:28 file D:\Ucheba\Labs\3 sem\Isp\lab4\SourceDirectory\ReportOfEmployeeOrganisationLevel.xml has been encrypted
+19.12.2020 18:17:28 file D:\Ucheba\Labs\3 sem\Isp\lab4\SourceDirectory\ReportOfEmployeeOrganisationLevel.xml has been compressed, source size: 24713  compressed size: 8192
+19.12.2020 18:17:28 file D:\Ucheba\Labs\3 sem\Isp\lab4\TargetDirectory\ReportOfEmployeeOrganisationLevel.gz has been moved
+19.12.2020 18:17:28 file D:\Ucheba\Labs\3 sem\Isp\lab4\TargetDirectory\ReportOfEmployeeOrganisationLevel.xml has been decompressed
+19.12.2020 18:17:28 file D:\Ucheba\Labs\3 sem\Isp\lab4\TargetDirectory\ReportOfEmployeeOrganisationLevel.xml has been decrypted
+19.12.2020 18:18:15 status: The service starts...
+19.12.2020 18:18:15 status: The watcher starts...
+19.12.2020 18:18:15 file D:\Ucheba\Labs\3 sem\Isp\lab4\TargetDirectory\archive\2020\12\19\18.17\ReportOfEmployeeOrganisationLevel №3.xml has been added to archieve
+19.12.2020 18:18:15 status: The watcher started...
+19.12.2020 18:18:16 status: The service started...
+19.12.2020 18:18:16 status: Report process started...
+19.12.2020 18:18:16 file D:\Ucheba\Labs\3 sem\Isp\lab4\SourceDirectory\ReportOfEmployeeDepartmentHistory.xml has been created
+19.12.2020 18:18:16 file D:\Ucheba\Labs\3 sem\Isp\lab4\SourceDirectory\ReportOfEmployeeDepartmentHistory.xml has been encrypted
+19.12.2020 18:18:16 file D:\Ucheba\Labs\3 sem\Isp\lab4\SourceDirectory\ReportOfEmployeeDepartmentHistory.xml has been compressed, source size: 95292  compressed size: 40960
+19.12.2020 18:18:16 file D:\Ucheba\Labs\3 sem\Isp\lab4\TargetDirectory\ReportOfEmployeeDepartmentHistory.gz has been moved
+19.12.2020 18:18:16 file D:\Ucheba\Labs\3 sem\Isp\lab4\TargetDirectory\ReportOfEmployeeDepartmentHistory.xml has been decompressed
+19.12.2020 18:18:16 file D:\Ucheba\Labs\3 sem\Isp\lab4\TargetDirectory\ReportOfEmployeeDepartmentHistory.xml has been decrypted
+19.12.2020 18:18:16 file D:\Ucheba\Labs\3 sem\Isp\lab4\SourceDirectory\ReportOfEmployeeOrganisationLevel.xml has been created
+19.12.2020 18:18:16 file D:\Ucheba\Labs\3 sem\Isp\lab4\TargetDirectory\archive\2020\12\19\18.18\ReportOfEmployeeDepartmentHistory.xml has been added to archieve
+19.12.2020 18:18:16 file D:\Ucheba\Labs\3 sem\Isp\lab4\SourceDirectory\ReportOfEmployeeOrganisationLevel.xml has been encrypted
+19.12.2020 18:18:16 file D:\Ucheba\Labs\3 sem\Isp\lab4\SourceDirectory\ReportOfEmployeeOrganisationLevel.xml has been compressed, source size: 24713  compressed size: 8192
+19.12.2020 18:18:16 file D:\Ucheba\Labs\3 sem\Isp\lab4\TargetDirectory\ReportOfEmployeeOrganisationLevel.gz has been moved
+19.12.2020 18:18:16 file D:\Ucheba\Labs\3 sem\Isp\lab4\TargetDirectory\ReportOfEmployeeOrganisationLevel.xml has been decompressed
+19.12.2020 18:18:16 file D:\Ucheba\Labs\3 sem\Isp\lab4\TargetDirectory\ReportOfEmployeeOrganisationLevel.xml has been decrypted
+19.12.2020 18:18:16 file D:\Ucheba\Labs\3 sem\Isp\lab4\SourceDirectory\ReportOfEmployeePayments.xml has been created
+19.12.2020 18:18:16 file D:\Ucheba\Labs\3 sem\Isp\lab4\TargetDirectory\archive\2020\12\19\18.18\ReportOfEmployeeOrganisationLevel.xml has been added to archieve
+19.12.2020 18:18:16 file D:\Ucheba\Labs\3 sem\Isp\lab4\SourceDirectory\ReportOfEmployeePayments.xml has been encrypted
+19.12.2020 18:18:16 file D:\Ucheba\Labs\3 sem\Isp\lab4\SourceDirectory\ReportOfEmployeePayments.xml has been compressed, source size: 6312  compressed size: 10
+19.12.2020 18:18:16 file D:\Ucheba\Labs\3 sem\Isp\lab4\TargetDirectory\ReportOfEmployeePayments.gz has been moved
+19.12.2020 18:18:16 file D:\Ucheba\Labs\3 sem\Isp\lab4\TargetDirectory\ReportOfEmployeePayments.xml has been decompressed
+19.12.2020 18:18:16 file D:\Ucheba\Labs\3 sem\Isp\lab4\TargetDirectory\ReportOfEmployeePayments.xml has been decrypted
+19.12.2020 18:18:17 file D:\Ucheba\Labs\3 sem\Isp\lab4\SourceDirectory\ReportOfCurrentlyWorkingPersons.xml has been created
+19.12.2020 18:18:17 file D:\Ucheba\Labs\3 sem\Isp\lab4\TargetDirectory\archive\2020\12\19\18.18\ReportOfEmployeePayments.xml has been added to archieve
+19.12.2020 18:18:17 file D:\Ucheba\Labs\3 sem\Isp\lab4\SourceDirectory\ReportOfCurrentlyWorkingPersons.xml has been encrypted
+19.12.2020 18:18:17 file D:\Ucheba\Labs\3 sem\Isp\lab4\SourceDirectory\ReportOfCurrentlyWorkingPersons.xml has been compressed, source size: 230781  compressed size: 175544
+19.12.2020 18:18:17 file D:\Ucheba\Labs\3 sem\Isp\lab4\TargetDirectory\ReportOfCurrentlyWorkingPersons.gz has been moved
+19.12.2020 18:18:17 file D:\Ucheba\Labs\3 sem\Isp\lab4\TargetDirectory\ReportOfCurrentlyWorkingPersons.xml has been decompressed
+19.12.2020 18:18:17 file D:\Ucheba\Labs\3 sem\Isp\lab4\TargetDirectory\ReportOfCurrentlyWorkingPersons.xml has been decrypted
+19.12.2020 18:18:17 status: Report process ended...
+19.12.2020 18:18:46 status: The service starts...
+19.12.2020 18:18:46 status: The watcher starts...
+19.12.2020 18:18:46 file D:\Ucheba\Labs\3 sem\Isp\lab4\TargetDirectory\archive\2020\12\19\18.18\ReportOfCurrentlyWorkingPersons.xml has been added to archieve
+19.12.2020 18:18:46 status: The watcher started...
+19.12.2020 18:18:46 status: The service started...
+19.12.2020 18:18:46 status: Report process started...
+19.12.2020 18:18:46 file D:\Ucheba\Labs\3 sem\Isp\lab4\SourceDirectory\ReportOfEmployeeDepartmentHistory.xml has been created
+19.12.2020 18:18:46 file D:\Ucheba\Labs\3 sem\Isp\lab4\SourceDirectory\ReportOfEmployeeDepartmentHistory.xml has been encrypted
+19.12.2020 18:18:46 file D:\Ucheba\Labs\3 sem\Isp\lab4\SourceDirectory\ReportOfEmployeeDepartmentHistory.xml has been compressed, source size: 95292  compressed size: 40960
+19.12.2020 18:18:47 file D:\Ucheba\Labs\3 sem\Isp\lab4\TargetDirectory\ReportOfEmployeeDepartmentHistory.gz has been moved
+19.12.2020 18:18:47 file D:\Ucheba\Labs\3 sem\Isp\lab4\TargetDirectory\ReportOfEmployeeDepartmentHistory.xml has been decompressed
+19.12.2020 18:18:47 file D:\Ucheba\Labs\3 sem\Isp\lab4\TargetDirectory\ReportOfEmployeeDepartmentHistory.xml has been decrypted
+19.12.2020 18:18:47 file D:\Ucheba\Labs\3 sem\Isp\lab4\SourceDirectory\ReportOfEmployeeOrganisationLevel.xml has been created
+19.12.2020 18:18:47 file D:\Ucheba\Labs\3 sem\Isp\lab4\TargetDirectory\archive\2020\12\19\18.18\ReportOfEmployeeDepartmentHistory №2.xml has been added to archieve
+19.12.2020 18:18:47 file D:\Ucheba\Labs\3 sem\Isp\lab4\SourceDirectory\ReportOfEmployeeOrganisationLevel.xml has been encrypted
+19.12.2020 18:18:47 file D:\Ucheba\Labs\3 sem\Isp\lab4\SourceDirectory\ReportOfEmployeeOrganisationLevel.xml has been compressed, source size: 24713  compressed size: 8192
+19.12.2020 18:18:47 file D:\Ucheba\Labs\3 sem\Isp\lab4\TargetDirectory\ReportOfEmployeeOrganisationLevel.gz has been moved
+19.12.2020 18:18:47 file D:\Ucheba\Labs\3 sem\Isp\lab4\TargetDirectory\ReportOfEmployeeOrganisationLevel.xml has been decompressed
+19.12.2020 18:18:47 file D:\Ucheba\Labs\3 sem\Isp\lab4\TargetDirectory\ReportOfEmployeeOrganisationLevel.xml has been decrypted
+19.12.2020 18:18:47 file D:\Ucheba\Labs\3 sem\Isp\lab4\SourceDirectory\ReportOfEmployeePayments.xml has been created
+19.12.2020 18:18:47 file D:\Ucheba\Labs\3 sem\Isp\lab4\TargetDirectory\archive\2020\12\19\18.18\ReportOfEmployeeOrganisationLevel №2.xml has been added to archieve
+19.12.2020 18:18:47 file D:\Ucheba\Labs\3 sem\Isp\lab4\SourceDirectory\ReportOfEmployeePayments.xml has been encrypted
+19.12.2020 18:18:47 file D:\Ucheba\Labs\3 sem\Isp\lab4\SourceDirectory\ReportOfEmployeePayments.xml has been compressed, source size: 6312  compressed size: 10
+19.12.2020 18:18:47 file D:\Ucheba\Labs\3 sem\Isp\lab4\TargetDirectory\ReportOfEmployeePayments.gz has been moved
+19.12.2020 18:18:47 file D:\Ucheba\Labs\3 sem\Isp\lab4\TargetDirectory\ReportOfEmployeePayments.xml has been decompressed
+19.12.2020 18:18:47 file D:\Ucheba\Labs\3 sem\Isp\lab4\TargetDirectory\ReportOfEmployeePayments.xml has been decrypted
+19.12.2020 18:18:47 file D:\Ucheba\Labs\3 sem\Isp\lab4\SourceDirectory\ReportOfCurrentlyWorkingPersons.xml has been created
+19.12.2020 18:18:47 file D:\Ucheba\Labs\3 sem\Isp\lab4\TargetDirectory\archive\2020\12\19\18.18\ReportOfEmployeePayments №2.xml has been added to archieve
+19.12.2020 18:18:47 file D:\Ucheba\Labs\3 sem\Isp\lab4\SourceDirectory\ReportOfCurrentlyWorkingPersons.xml has been encrypted
+19.12.2020 18:18:47 file D:\Ucheba\Labs\3 sem\Isp\lab4\SourceDirectory\ReportOfCurrentlyWorkingPersons.xml has been compressed, source size: 230781  compressed size: 175544
+19.12.2020 18:18:47 file D:\Ucheba\Labs\3 sem\Isp\lab4\TargetDirectory\ReportOfCurrentlyWorkingPersons.gz has been moved
+19.12.2020 18:18:47 file D:\Ucheba\Labs\3 sem\Isp\lab4\TargetDirectory\ReportOfCurrentlyWorkingPersons.xml has been decompressed
+19.12.2020 18:18:47 file D:\Ucheba\Labs\3 sem\Isp\lab4\TargetDirectory\ReportOfCurrentlyWorkingPersons.xml has been decrypted
+19.12.2020 18:18:48 status: Report process ended...
+19.12.2020 18:28:33 status: The service starts...
+19.12.2020 18:28:33 status: The watcher starts...
+19.12.2020 18:28:33 status: The watcher started...
+19.12.2020 18:28:33 status: The service started...
+19.12.2020 18:28:33 status: Report process started...
+19.12.2020 18:28:33 file D:\Ucheba\Labs\3 sem\Isp\lab4\SourceDirectory\ReportOfEmployeeDepartmentHistory.xml has been created
+19.12.2020 18:28:34 file D:\Ucheba\Labs\3 sem\Isp\lab4\SourceDirectory\ReportOfEmployeeOrganisationLevel.xml has been created
+19.12.2020 18:28:34 file D:\Ucheba\Labs\3 sem\Isp\lab4\SourceDirectory\ReportOfEmployeePayments.xml has been created
+19.12.2020 18:28:35 file D:\Ucheba\Labs\3 sem\Isp\lab4\SourceDirectory\ReportOfCurrentlyWorkingPersons.xml has been created
+19.12.2020 18:28:35 status: Report process ended...
+19.12.2020 18:28:45 status: Report process started...
+19.12.2020 18:28:45 file D:\Ucheba\Labs\3 sem\Isp\lab4\SourceDirectory\ReportOfEmployeeDepartmentHistory.xml has been created
+19.12.2020 18:28:45 file D:\Ucheba\Labs\3 sem\Isp\lab4\SourceDirectory\ReportOfEmployeeOrganisationLevel.xml has been created
+19.12.2020 18:28:45 file D:\Ucheba\Labs\3 sem\Isp\lab4\SourceDirectory\ReportOfEmployeePayments.xml has been created
+19.12.2020 18:28:46 file D:\Ucheba\Labs\3 sem\Isp\lab4\SourceDirectory\ReportOfCurrentlyWorkingPersons.xml has been created
+19.12.2020 18:28:46 status: Report process ended...

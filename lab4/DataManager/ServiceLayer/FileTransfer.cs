@@ -23,9 +23,9 @@ namespace DataManager
         {
             try
             {
-                //FileInfo targetFile = new FileInfo(Path.Combine(ftpFolderPath, fileName));
-                //if (targetFile.Exists)
-                //    targetFile.Delete();
+                FileInfo targetFile = new FileInfo(Path.Combine(ftpFolderPath, fileName));
+                if (targetFile.Exists)
+                    targetFile.Delete();
                 file.CopyTo(Path.Combine(ftpFolderPath, fileName));
             }
             catch (Exception e)

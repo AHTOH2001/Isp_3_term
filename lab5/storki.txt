@@ -1,0 +1,135 @@
+USE [AdventureWorks2012]
+GO
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE PROCEDURE [dbo].[GetEmployeeDepartmentHistory] 		
+AS
+BEGIN	
+	SET NOCOUNT ON;
+
+    SELECT BusinessEntityID, StartDate, EndDate, Department.Name as Department, Shift.Name as Shift
+	FROM HumanResources.EmployeeDepartmentHistory
+	INNER JOIN HumanResources.Department ON Department.DepartmentID = EmployeeDepartmentHistory.DepartmentID
+	INNER JOIN HumanResources.Shift ON Shift.ShiftID = EmployeeDepartmentHistory.ShiftID
+END
+
+
+----------------
+
+
+USE [AdventureWorks2012]
+GO
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE PROCEDURE [dbo].[GetEmployeeWithSpecificOrganisationLevel]
+	@MinOrganisationLevel [int],
+    @MaxOrganisationLevel [int]
+AS
+BEGIN	
+	SET NOCOUNT ON;    
+
+SELECT [Employee].[BusinessEntityID]  
+	  ,[FirstName]
+	  ,[LastName]
+      ,[OrganizationLevel]
+      ,[JobTitle]
+      ,[BirthDate]
+      ,[MaritalStatus]
+      ,[Gender]
+      ,[HireDate]
+      ,[SalariedFlag]
+      ,[VacationHours]
+      ,[SickLeaveHours]            
+  FROM [AdventureWorks2012].[HumanResources].[Employee]
+  INNER JOIN [Person].[Person] ON Person.BusinessEntityID = Employee.BusinessEntityID
+  WHERE OrganizationLevel between @MinOrganisationLevel and @MaxOrganisationLevel
+  ORDER BY OrganizationLevel, [Employee].[BusinessEntityID]
+END
+
+
+---------------
+
+
+USE [AdventureWorks2012]
+GO
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE PROCEDURE [dbo].[GetEmployeeWithSpecificPayment] 
+	@paymentMoreThan [int]
+AS
+BEGIN	
+	SET NOCOUNT ON;
+	SELECT [EmployeePayHistory].[BusinessEntityID]
+	  ,[FirstName]
+	  ,[LastName]      
+      ,[Rate]
+      ,[PayFrequency]     
+  FROM [AdventureWorks2012].[HumanResources].[EmployeePayHistory]
+  INNER JOIN [Person].[Person] ON Person.BusinessEntityID = EmployeePayHistory.BusinessEntityID
+  WHERE @paymentMoreThan < [Rate] * [PayFrequency]
+  ORDER BY [Rate] * [PayFrequency], [BusinessEntityID]
+END
+
+
+
+-----------
+
+
+USE [AdventureWorks2012]
+GO
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE PROCEDURE [dbo].[GetInformationAboutPersons]	
+AS
+BEGIN	
+	SET NOCOUNT ON;
+SELECT Person.[BusinessEntityID]	  
+      ,[PersonType]      	  
+      ,[Title]
+      ,[FirstName]
+      ,[MiddleName]
+      ,[LastName]
+      ,[Suffix]            
+	  ,[PhoneNumber]
+	  ,[EmailAddress]
+      ,[Demographics]            
+  FROM [AdventureWorks2012].[Person].[Person]
+  INNER JOIN [Person].[PersonPhone] ON [Person].BusinessEntityID = [PersonPhone].BusinessEntityID
+  INNER JOIN [Person].[EmailAddress] ON [Person].BusinessEntityID = [EmailAddress].BusinessEntityID
+  INNER JOIN [HumanResources].[EmployeeDepartmentHistory] ON [Person].BusinessEntityID = [HumanResources].[EmployeeDepartmentHistory].BusinessEntityID
+  WHERE EmployeeDepartmentHistory.EndDate IS NULL
+END
+
+
+
+------------
+
+
+
+USE [AdventureWorks2012]
+GO
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE PROCEDURE [dbo].[AddLogEntry]
+	@datetime datetime,
+	@message varchar(255)
+AS
+BEGIN	
+	SET NOCOUNT ON;
+    
+	insert into dbo.MyLogs values (@datetime, @message)
+END
+
+
+
+

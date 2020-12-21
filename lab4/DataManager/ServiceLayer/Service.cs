@@ -15,13 +15,12 @@ namespace DataManager
     {
         private SystemConfiguration _systemConfiguration;
         private bool _enabled = true;
-        private string sourceDirectory;
-        private string targetDirectory;
+        private string sourceDirectory;        
         public Service(SystemConfiguration systemConfiguration)
         {
             _systemConfiguration = systemConfiguration;
         }
-        public void Start()//Should rename
+        public void Start()
         {
             var fileOptions = _systemConfiguration.GetConfigurationClass(new WatcherOptions());
             Logger.LogFilePath = fileOptions.GetOption<string>("LogFilePath");
@@ -44,8 +43,8 @@ namespace DataManager
             var seconds = reporterOptions.GetOption<int>("FrequencyOfReportSeconds");
             while (_enabled)
             {
-                Thread.Sleep(new TimeSpan(hours, minutes, seconds));
                 reporter.CreateNewReport();
+                Thread.Sleep(new TimeSpan(hours, minutes, seconds));                
             }
         }
 
